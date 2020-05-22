@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+}
+input{
+    display: block;
+}
+section{
+    max-width: 800px;
+    margin: 0 auto;
+    border-bottom:  3px solid #828282;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+h1{
+    text-align: center;
+    padding: 80px 0px 10px;
+    margin-bottom: 50px;
+    border-bottom: 3px solid #828282;
+}
+p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+form{
+    width: 375px;
+    margin: 0 auto;
+}
+.err_msg{
+    color: red;
+}
+
+input[type="text"],
+input[type="password"]{
+    border: 1px solid #828282;
+    background-color: #fff;
+    margin-top: 14px;
+
+    margin: 10px auto;
+    width: 375px;
+    height: 70px;
+}
+input[type="submit"]{
+    border: 1px solid #828282;
+    background-color: #fff;
+    margin-top: 14px;
+
+    margin: 0 auto;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: black;
+    color: #fff;
+    transition: 0.3s;
+}
+input[placeholder],input[value]{
+    font-size: 14px;
+}
+input[type="file"]{
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.image{
+    text-align: center;
+    margin-top: 50px;
+}
+img{
+    max-width: 800px;
+
+
+
+}
