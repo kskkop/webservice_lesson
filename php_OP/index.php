@@ -131,7 +131,7 @@ if(!empty($_POST)){//フォームに送信されて$_POSTに値が入ってい�
             
         <form method="post">
             <span class="err_msg"><?php if(!empty($err_msg['name'])) echo $err_msg['name'];?></span>
-            <input type="text" name="name" placeholder="お名前" value="<?php if(!empty($_POST['name'])) echo $_POST['name'];?>">
+            <input type="text" name="name" placeholder="お名前" value="<?php if(!empty($_POST['name'])) echo $_POST['name'];?>"><!--value 入力された値を保存する-->
 
             <span class="err_msg"><?php if(!empty($err_msg['email'])) echo $err_msg['email'];?></span>
             <input type="text" name="email" placeholder="email" value="<?php if(!empty($_POST['email'])) echo $_POST['email']; ?>">
