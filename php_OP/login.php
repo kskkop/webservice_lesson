@@ -25,7 +25,7 @@ if(!empty($_POST)){//フォームに送信されて$_POSTに値が入ってい�
     }
     if(empty($err_msg)){
 
-        $email = htmlspecialchars($_POST['email'],ENT_QUOTES);
+        $email = htmlspecialchars($_POST['email'],ENT_QUOTES);//htmlspecialchars(エンティティ化対象文字列,フラグ)ENT_QUOTES→'文字列'と"文字列"を共に変換する。
         $pass = htmlspecialchars($_POST['pass'],ENT_QUOTES);
 
         if(!preg_match(EMAIL_VALID,$email)){//preg_match(チェックしたい形式,その形式に合っているかチェックしたい値)合っていればtrue
@@ -101,7 +101,7 @@ if(!empty($_POST)){//フォームに送信されて$_POSTに値が入ってい�
             
         <form method="post">
 
-            <span class="err_msg"><?php if(!empty($err_msg['email'])) echo $err_msg['email'];?></span>
+            <span class="err_msg"><?php if(!empty($err_msg['email'])) echo $err_msg['email'];?></span><!--$err_msg['email']が空でない場合 エラーメッセージ-->
             <input type="text" name="email" placeholder="email" value="<?php if(!empty($_POST['email'])) echo $_POST['email']; ?>">
 
             <span class="err_msg"><?php if(!empty($err_msg['pass'])) echo $err_msg['pass']?></span>

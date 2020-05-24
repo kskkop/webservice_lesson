@@ -17,7 +17,7 @@ if(!empty($_POST)){//フォームに送信されて$_POSTに値が入ってい�
 
     if(empty($_POST['name'])){//連想配列をemptyで空かどうか調べる
 
-        $err_msg['name'] = MSG01;
+        $err_msg['name'] = MSG01;//$err_msg[]に値をいれる
 
     }
     if(empty($_POST['email'])){
