@@ -14,8 +14,8 @@ if(!empty($_FILES)){
 
     include('upload.php');
  }
- var_dump($file['name']);
- var_dump($_FILES['image']);
+ //var_dump($file['name']);
+ //var_dump($_FILES);
 ?>
 <!DOCTYPE html>
 <html lang="ja">

@@ -24,9 +24,12 @@ if(!empty($_POST)){//フォームに送信されて$_POSTに値が入ってい�
 
     }
     if(empty($err_msg)){
-
-        $email = htmlspecialchars($_POST['email'],ENT_QUOTES);//htmlspecialchars(エンティティ化対象文字列,フラグ)ENT_QUOTES→'文字列'と"文字列"を共に変換する。
-        $pass = htmlspecialchars($_POST['pass'],ENT_QUOTES);
+        //htmlspecialcharsを関数化
+        function h($s){
+            return htmlspecialchars($s,ENT_QUOTES);
+        }
+        $email = h($_POST['email']);//htmlspecialchars(エンティティ化対象文字列,フラグ)ENT_QUOTES→'文字列'と"文字列"を共に変換する。
+        $pass = h($_POST['pass']);
 
         if(!preg_match(EMAIL_VALID,$email)){//preg_match(チェックしたい形式,その形式に合っているかチェックしたい値)合っていればtrue
 

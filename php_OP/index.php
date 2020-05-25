@@ -36,18 +36,25 @@ if(!empty($_POST)){//フォームに送信されて$_POSTに値が入ってい�
 
     }
     if(empty($err_msg)){//全ての項目が入力されている場合
+        //htmlspecialcharsを関数化
+        function h($s){
+            return htmlspecialchars($s, ENT_QUOTES);
+        }
         //htmlspecialchars は、フォームから送られてきた値や、データベースから取り出した値をブラウザ上に表示する際に使用します。主に、悪意のあるコードの埋め込みを防ぐ目的で使われます。(エスケープと呼ばれます)
-        $name = htmlspecialchars($_POST['name'],ENT_QUOTES);//サニタイズ
-        $email = htmlspecialchars($_POST['email'],ENT_QUOTES);
-        $pass = htmlspecialchars($_POST['pass'],ENT_QUOTES);
-        $pass_re = htmlspecialchars($_POST['pass_re'],ENT_QUOTES);
+        $name = h($_POST['name']);//サニタイズ
+        $email = h($_POST['email']);
+        $pass = h($_POST['pass']);
+        $pass_re = h($_POST['pass_re']);
 
+        function no_pm($valid,$user_info){
+            return !preg_match($valid,$user_info);
+        }
         if(mb_strlen($name) >= 20){//$nameが20文字以上の場合
 
             $err_msg['name'] = MSG02;
 
         }
-        if(!preg_match(EMAIL_VALID,$email)){//$emailがemailの形式でない場合
+        if(no_pm(EMAIL_VALID,$email)){//$emailがemailの形式でない場合
 
             $err_msg['email'] = MSG03;
 
@@ -59,7 +66,7 @@ if(!empty($_POST)){//フォームに送信されて$_POSTに値が入ってい�
         }
         if(empty($err_msg)){//この段階でエラーメッセージがない場合
             
-            if(!preg_match(HANKAKU,$pass)){//パスワードが半角の形式でない場合
+            if(no_pm(HANKAKU,$pass)){//パスワードが半角の形式でない場合
 
                 $err_msg['pass'] = MSG05;
 
