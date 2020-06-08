@@ -1,115 +1,15 @@
 <?php
-//ログを取るか
-ini_set('log_errors','on');
-//ログの出力ファイルを指定
-ini_set('error_log','php_log');
 
-//エラーメッセージを定数に格納
-define('MSG01','入力必須です');
-define('MSG02','Emailの形式で入力してください');
-define('MSG03','パスワードの(再入力)が合っていません');
-define('MSG04','半角英数字のみご利用いただけます');
-define('MSG05','6文字以内で入力してください');
-define('MSG06','255文字以内で入力してください');
-define('MSG07','エラーが発生しました。しばらく経ってからやり直してください');
-define('MSG08','そのEmailは既に登録されています');
-define('EMAIL','/^([a-zA-Z0-9])+([a-zA-Z0-9\._-])*@([a-zA-Z0-9_-])+([a-zA-Z0-9\._-]+)+$/');
-define('HANKAKU','/^[a-zA-Z0-9]+$/');
+require('function.php');
 
-//配列$err_msgを用意
-$err_msg = array();
+debug('「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「');
+debug('「新規登録ページ');
+debug('「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「');
+debugLogStart();//画面表示時などのsessionなどのログを出す
 
-
-//バリデーション関数 未入力チェック
-function validRequired($str,$key){//$str,$keyはローカル関数
-    if(empty($str)){//$str(フォームに入力された値)が空の場合
-        global $err_msg;//global 関数内から外部のglobal変数を使う
-        $err_msg[$key] = MSG01;//$key('email','pass'など)
-    }
-}
-function validEmail($str,$key){//Email形式チェック
-    if(!preg_match(EMAIL,$str)){
-        global $err_msg;
-        $err_msg[$key] = MSG02;
-    }
-}
-//バリデーション Email重複チェック
-function validEmailDup($email){
-    global $err_msg;
-    //例外処理
-    try{
-        //DBへ接続
-        $dbh = dbConnect();
-        //SQL文実行
-        $sql = 'SELECT count(*) FROM users WHERE email = :email';
-        $data = array(':email' => $email);
-        //クエリ実行
-        $stmt = queryPost($dbh,$sql,$data);
-        //クエリ結果の値を取得
-        $result = $stmt->fetch(PDO::FETCH_ASSOC);
-        //array_shift関数は配列の先頭を取り出す関数です。クエリ結果は配列形式で入っているので、array_shiftで一つだけ取り出して判定します
-        if(!empty(array_shift($result))){
-            $err_msg['email'] = MSG08;
-        }
-    }catch(Exception $e){
-        error_log('エラー発生:' . $e->getMessage());
-        $err_msg['common'] = MSG07;
-    }
-}
-function validMatch($str1,$str2,$key){//同値チェック
-    if($str1 !== $str2){
-        global $err_msg;
-        $err_msg[$key] = MSG03;
-    }
-}
-function validMinLen($str, $key,$min = 6){//パスワード最小文字数チェック
-    if(mb_strlen($str) < $min){
-        global $err_msg;
-        $err_msg[$key] = MSG05;
-    }
-}
-function validMaxLen($str, $key, $max = 255){//パスワード最大文字数チェック 255文字はデータベースへ接続する前のチェック
-    if(mb_strlen($str) > $max){
-        global $err_msg;
-        $err_msg[$key] = MSG06;
-    }
-}
-function validHalf($str,$key){//半角チェック
-    if(!preg_match(HANKAKU,$str)){
-        global $err_msg;
-        $err_msg[$key] = MSG04;
-    }
-}
-//DB接続関数
-function dbConnect(){
-    //DBへ接続準備
-    $dsn = 'mysql:dbname=freemarket;host=localhost;charset=utf8';
-    $user = 'root';
-    $password = 'root';
-    $option =array(
-        //
-        PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
-        //デフォルトフェッチモードを連想配列に設定
-        PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
-        // バッファードクエリを使う(一度に結果セットをすべて取得し、サーバー負荷を軽減)
-        // SELECTで得た結果に対してもrowCountメソッドを使えるようにする
-        PDO::MYSQL_ATTR_USE_BUFFERED_QUERY => true,
-    );
-    //PDOオブジェクト生成(DB接続)
-    $dbh = new PDO($dsn,$user,$password,$option);
-    return $dbh;
-}
-//SQL実行関数
-function queryPost($dbh,$sql,$data){
-    //クエリー作成
-    $stmt = $dbh->prepare($sql);
-    //プレースホルダーに値をセットし、SQL文を実行
-    $stmt->execute($data);
-    return $stmt;
-}
 //post送信されていた場合
 if(!empty($_POST)){
-    
+    debug('post送信');
     //変数にユーザー情報を代入
     $email = $_POST['email'];
     $pass = $_POST['pass'];
@@ -122,7 +22,7 @@ if(!empty($_POST)){
 
     //バリデーションエラーがない場合（未入力チェックエラーがない場合）
     if(empty($err_msg)){
-
+        debug('未入力チェックOK');
         //emailの形式チェック
         validEmail($email,'email');
         //emailの最大文字数チェック
@@ -143,12 +43,13 @@ if(!empty($_POST)){
         validMinLen($pass,'pass_re');
 
         if(empty($err_msg)){
-
+            debug('文字数、形式、emailOK');
             //パスワードとパスワード再入力が合っているかどうかチェック
             validMatch($pass,$pass_re,'pass_re');
 
             if(empty($err_msg)){
-
+                debug('バリデーションOK');
+                debug('例外処理へ');
                 //例外処理
                 try{
                     //DBへ接続するときは例外処理を行う
@@ -160,9 +61,28 @@ if(!empty($_POST)){
                     ':login_time' => date('Y-m-d H:i:s'),
                     ':create_date' => date('Y-m-d H:i:s'));
                     //クエリ実行
-                    queryPost($dbh,$sql,$data);
+                    $stmt = queryPost($dbh,$sql,$data);
 
-                    header("Location:mypage.html");
+                    //クエリ成功の場合
+                    if($stmt){
+                        debug('クエリ成功');
+                        $sesLimit = 60*60;
+                        //最終ログイン日時を現在日時に
+                        $_SESSION['login_date'] = time();
+                        $_SESSION['login_limit'] = $sesLimit;
+                        //ユーザーIDを格納
+                        //$_SESSION['user_id']は$result['id']
+                        //lastInsertID 直前にINSERTしたレコードのIDを取得できる
+                        $_SESSION['user_id'] = $dbh->lastInsertId();
+
+                        debug('$dbhの中身'.print_r($dbh));
+                        debug('$dbh->の中身'.print_r($dbh->lastInsertId()));
+                        debug('セッション変数の中身:'.print_r($_SESSION,true));
+                        header("Location:mypage.php");//マイページへ
+                    }else{
+                        error_log('クエリに失敗しました。');
+                        $err_msg['common'] = MSG07;
+                    }
                 }catch(Exception $e) {
                     error_log('エラー発生:' . $e->getMessage());//ログにエラーメッセージ
                     $err_msg['common'] = MSG07;//画面にもエラーメッセージ

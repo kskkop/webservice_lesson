@@ -1,30 +1,33 @@
-<!DOCTYPE html>
-<html lang="ja">
+<?php
+//共通変数・関数ファイル読み込み
+require('function.php');
 
-  <head>
-    <meta charset="utf-8">
-    <title>マイページ | WEBUKATU MARKET</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <style>
-      #main{
-        border: none !important;
-      }
-    </style>
-  </head>
+debug('「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「');
+debug('「　マイページ　');
+debug('「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「');
+debugLogStart();//画面表示時などのsessionなどのログを出す
+
+require('auth.php');//ログイン認証
+
+
+?>
+<?php
+$siteTitle ='マイページ';
+require('head.php');
+?>
+
+<body class="page-mypage page-2colum page-logined">
+  <style>
+  #main{
+    border: none !important;
+  }
+  </style>
+
   <body class="page-mypage page-2colum page-logined">
     <!-- メニュー -->
-    <header>
-      <div class="site-width">
-        <h1><a href="index.html">WEBUKATU MARKET</a></h1>
-        <nav id="top-nav">
-          <ul>
-            <li><a href="mypage.html">マイページ</a></li>
-            <li><a href="">ログアウト</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+    <?php
+      require('header.php');
+    ?>
 
     <!-- メインコンテンツ -->
     <div id="contents" class="site-width">
@@ -155,28 +158,17 @@
       
       <!-- サイドバー -->
       <section id="sidebar">
-        <a href="registProduct.html">商品を出品する</a>
-        <a href="tranSale.html">販売履歴を見る</a>
-        <a href="profEdit.html">プロフィール編集</a>
-        <a href="passEdit.html">パスワード変更</a>
-        <a href="withdraw.html">退会</a>
+        <a href="registProduct.php">商品を出品する</a>
+        <a href="tranSale.php">販売履歴を見る</a>
+        <a href="profEdit.php">プロフィール編集</a>
+        <a href="passEdit.php">パスワード変更</a>
+        <a href="withdraw.php">退会</a>
       </section>
     </div>
 
     <!-- footer -->
-    <footer id="footer">
-      Copyright <a href="http://webukatu.com/">ウェブカツ!!WEBサービス部</a>. All Rights Reserved.
-    </footer>
-
-    <script src="js/vendor/jquery-2.2.2.min.js"></script>
-    <script>
-      $(function(){
-        var $ftr = $('#footer');
-        if( window.innerHeight > $ftr.offset().top + $ftr.outerHeight() ){
-          $ftr.attr({'style': 'position:fixed; top:' + (window.innerHeight - $ftr.outerHeight()) +'px;' });
-        }
-      });
-    </script>
-
+<?php
+require('footer.php');
+?>
   </body>
 </html>

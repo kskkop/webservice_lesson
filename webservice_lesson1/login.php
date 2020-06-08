@@ -46,7 +46,7 @@ if(!empty($_POST)){
             //DBへ接続
             $dbh = dbConnect();
             //SQL文作成
-            $sql = 'SELECT password,id FROM users WHERE email = :email';
+            $sql = 'SELECT password,id FROM users WHERE email = :email AND delete_flg = 0';
             $data = array(':email'=> $email);
             //クエリ実行
             $stmt = queryPost($dbh,$sql,$data);
@@ -80,7 +80,7 @@ if(!empty($_POST)){
 
                 debug('セッション変数の中身'.print_r($_SESSION),true);
                 debug('マイページへ遷移します.');
-                header("Location:mypage.html");//マイページへ
+                header("Location:mypage.php");//マイページへ
             }else{//パスワードが合っていない場合
                 debug('パスワードがアンマッチです');
                 $err_msg['common'] = MSG09;
@@ -94,31 +94,17 @@ if(!empty($_POST)){
 }
 debug('画面表示処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<');
 ?>
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <title>Document</title>
-</head>
+<?php
+$siteTitle = 'ログイン';
+require('head.php');
+?>
 
 <body class="page-login page-1colum">
     
     <!--メニュー-->
-    <header>
-       <div class="site-width">
-         <h1><a href="index.html">WEBUKATU MARKET</a></h1>
-           <nav id="top-nav">
-                <ul>
-                   <li><a href="signup.html" class="btn btn-primary">ユーザー登録</a></li>
-                   <li><a href="">ログイン</a></li>
-                </ul>
-           </nav>
-       </div>
-    </header>
+    <?php
+    require('header.php');
+    ?>
 
     <!--メインコンテンツ-->
     <div id="contents" class="site-width">
@@ -128,7 +114,7 @@ debug('画面表示処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
     <div class="form-container">
         <form action="" method="post" class="form">
-            <h2 class="ログイン">ログイン</h2>
+            <h2 class="title">ログイン</h2>
             <div class="area-msg">
                 <?php
                 if(!empty($err_msg['common'])) echo $err_msg['common'];
