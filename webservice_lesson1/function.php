@@ -62,12 +62,21 @@ define('MSG09', 'メールアドレスまたはパスワードが違います');
 define('MSG10', '電話番号の形式が違います');
 define('MSG11','郵便番号の形式が違います');
 define('MSG12','半角数字で入力してください。');
+define('MSG13','年齢は99歳までです');
+define('MSG14','古いパスワードが違います');
+define('MSG15','古いパスワードと同じです');
+define('SUC01','パスワードを変更しました');
+define('SUC02','プロフィールを変更しました');
+
+//================================
+// グローバル変数
+//================================
+//エラーメッセージ格納用の配列
+$err_msg = array();
 
 //================================
 // バリデーション関数
 //================================
-//エラーメッセージ格納用の配列
-$err_msg = array();
 
 //バリデーション関数（未入力チェック）
 function validRequired($str, $key){
@@ -123,7 +132,7 @@ function validMinLen($str, $key, $min = 6){
   }
 }
 //バリデーション関数（最大文字数チェック）
-function validMaxLen($str, $key, $max = 256){
+function validMaxLen($str, $key, $max = 255){
   if(mb_strlen($str) > $max){
     global $err_msg;
     $err_msg[$key] = MSG06;
@@ -136,22 +145,46 @@ function validHalf($str, $key){
     $err_msg[$key] = MSG04;
   }
 }
+//電話番号
 function validTel($str,$key){
-  if(!preg_match("/0\d{1,4}\d{1,4}\d{4}/",$str)){
+  if(!preg_match("/^(0{1}\d{9,10})$/",$str)){
     global $err_msg;
     $err_msg[$key] = MSG10;
   }
 }
+//郵便番号
 function validZip($str, $key){
   if(!preg_match("/^\d{7}$/", $str)){
     global $err_msg;
     $err_msg[$key] = MSG11;
   }
 }
+//年齢は二桁まで
+function validAge($str,$key){
+  if(mb_strlen($str) > 2){
+    global $err_msg;
+    $err_msg[$key] = MSG13;
+  }
+}
+//半角数字
 function validNumber($str,$key){
   if(!preg_match("/^[0-9]+$/",$str)){
     global $err_msg;
     $err_msg[$key] = MSG12;
+  }
+}
+function validPass($str,$key){
+  //半角英数字チェック
+  validHalf($str, $key);
+  //最大文字数チェック
+  validMaxLen($str,$key);
+  //最小文字数チェック
+  validMinLen($str,$key);
+}
+function getErrMsg($key){
+  global $err_msg;
+  if(!empty($err_msg[$key])){
+    return $err_msg[$key];
   }
 }
 
@@ -235,6 +268,14 @@ function getFormData($str){
     if(isset($_POST[$str])){//issetは0が入っているとtrue空の配列もtrue
       return $_POST[$str];
     }
+  }
+}
+//sessionを一回だけ取得できる
+function getSessionFlash($key){
+  if(!empty($_SESSION[$key])){
+    $data = $_SESSION[$key];
+    $_SESSION[$key] = '';
+    return $data;
   }
 }
 ?>

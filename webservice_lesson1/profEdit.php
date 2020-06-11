@@ -26,10 +26,10 @@ if(!empty($_POST)){
 
     //変数にユーザー情報を代入
     $username = $_POST['username'];
-    $tel = $_POST['tel'];
+    $tel = (!empty($_POST['tel'])) ? $_POST['tel'] : 0;//三項演算子 [条件式] ? [真の場合] : [偽の場合];
     $zip = (!empty($_POST['zip'])) ? $_POST['zip'] : 0;//後続のバリデーションに引っかかるため、からで送信されてきたら0を入れる
     $addr = $_POST['addr'];
-    $age = $_POST['age'];
+    $age = (!empty($_POST['age'])) ? $_POST['age'] : 0;
     $email = $_POST['email'];
 
     //DBの情報と入力情報が異なる場合にバリデーションを行う
@@ -37,7 +37,7 @@ if(!empty($_POST)){
         //名前の最大文字数チェック
         validMaxLen($username,'username');
     }
-    if(!empty($_POST['tel']) && $dbFormData['tel'] !== $tel){
+    if((int)$dbFormData['tel'] !== $tel){
         //電話番号の形式チェック
         validTel($tel,'tel');
     }
@@ -52,11 +52,11 @@ if(!empty($_POST)){
         //郵便番号形式チェック
         validZip($zip,'zip');
     }
-    if(!empty($_POST['age']) && $dbFormData['age'] !== $age){
-        //年齢の最大文字数チェック
-        validMaxLen($age,'age');
+    if((int)$dbFormData['age'] !== $age){
         //年齢の半角数字チェック
         validNumber($age,'age');
+        //年齢の最大文字数チェック
+        validAge($age,'age');
     }
     if($dbFormData['email'] !== $email){
         //最大文字数チェック
@@ -84,6 +84,9 @@ if(!empty($_POST)){
             $data = array(':u_name' => $username,':tel' => $tel,':zip' => $zip,':addr' => $addr,':age' => $age,':email' => $email,':u_id' => $dbFormData['id']);//, ':tel' => $tel, ':zip' => $zip, ':addr' => $addr, ':age' => $age, ':email' => $email, 
             debug('$dataに情報を入れる');
             debug(':u_nameの中身'.$data[':u_name']);
+            debug('$dbFormDataの中身'.$dbFormData['age']);
+            debug('$ageの中身'.$age);
+    
             //クエリ実行
             $stmt = queryPost($dbh,$sql,$data);
             //クエリ成功の場合
@@ -140,7 +143,7 @@ require("head.php");
 
                     <label class="<?php if(!empty($err_msg['tel'])) echo 'err'; ?>">
                         TEL<span style="font-size:12px;margin-left:5px;">※ハイフンなしでご入力ください</span>
-                        <input type="text" name="tel" value="<?php echo getFormData('tel'); ?>">
+                        <input type="text" name="tel" value="<?php if(!empty(getFormData('tel'))){echo getFormData('tel');}?>">
                     </label>
 
                     <div class="area-msg">
@@ -173,7 +176,7 @@ require("head.php");
 
                     <label class="<?php if(!empty($err_msg['age'])) echo 'err'; ?>">
                         年齢
-                        <input type="number" name="age" value="<?php echo getFormData('age'); ?>">
+                        <input type="number" name="age" value="<?php if(!empty(getFormData('age'))) echo getFormData('age'); ?>">
                     </label>
 
                     <div class="area-msg">
