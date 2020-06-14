@@ -67,7 +67,7 @@ if (!empty($_POST)) {
 
                 //クエリ成功の場合
                 if ($stmt) {
-                    debug('クエリ成功');
+                    //debug('クエリ成功');
                     $_SESSION['msg_success'] = SUC01;
 
                     //メール送信
@@ -90,9 +90,9 @@ EOT;
                     sendMail($from, $to, $subject, $comment);
 
                     header("Location:mypage.php"); //マイページへ
-                } else {
+                /*} else {
                     debug('クエリに失敗しました');
-                    $err_msg['common'] = MSG07;
+                    $err_msg['common'] = MSG07;*/
                 }
             } catch (Exception $e) {
                 error_log('エラー発生:' . $e->getMessage());

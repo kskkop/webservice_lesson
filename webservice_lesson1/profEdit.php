@@ -91,12 +91,12 @@ if(!empty($_POST)){
             $stmt = queryPost($dbh,$sql,$data);
             //クエリ成功の場合
             if($data){
-                debug('クエリ成功。');
+                //debug('クエリ成功。');
                 debug('マイページへ遷移します。');
                 header("Location:mypage.php");//マイページへ
-            }else{
+            /*}else{
                 debug('クエリに失敗しました。');
-                $err_msg['common'] = MSG08;
+                $err_msg['common'] = MSG08;*/
             }
         }catch(Exception $e){
             error_log('エラー発生:'.$e->getMessage());

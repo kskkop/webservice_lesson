@@ -65,7 +65,7 @@ if(!empty($_POST)){
 
                     //クエリ成功の場合
                     if($stmt){
-                        debug('クエリ成功');
+                        //debug('クエリ成功');
                         $sesLimit = 60*60;
                         //最終ログイン日時を現在日時に
                         $_SESSION['login_date'] = time();
@@ -79,9 +79,9 @@ if(!empty($_POST)){
                         debug('$dbh->の中身'.print_r($dbh->lastInsertId()));
                         debug('セッション変数の中身:'.print_r($_SESSION,true));
                         header("Location:mypage.php");//マイページへ
-                    }else{
+                    /*}else{
                         error_log('クエリに失敗しました。');
-                        $err_msg['common'] = MSG07;
+                        $err_msg['common'] = MSG07;*/
                     }
                 }catch(Exception $e) {
                     error_log('エラー発生:' . $e->getMessage());//ログにエラーメッセージ
