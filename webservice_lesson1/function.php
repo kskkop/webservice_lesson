@@ -65,9 +65,13 @@ define('MSG12','半角数字で入力してください。');
 define('MSG13','年齢は99歳までです');
 define('MSG14','古いパスワードが違います');
 define('MSG15','古いパスワードと同じです');
+define('MSG16','文字で入力してください');
+define('MSG17','正しくありません');
+define('MSG18','有効期限が切れています');
 define('SUC01','パスワードを変更しました');
 define('SUC02','プロフィールを変更しました');
-
+define('SUC03','メールを送信しました');
+define('SUC04','登録しました。');
 //================================
 // グローバル変数
 //================================
@@ -80,9 +84,9 @@ $err_msg = array();
 
 //バリデーション関数（未入力チェック）
 function validRequired($str, $key){
-  if(empty($str)){
+  if(($str === '')){//金額フォームなどを考えると数値の0はOKにし、空文字はダメにする
     global $err_msg;
-    $err_msg[$key] = MSG01;
+    $err_msg[$key] = MSG12;
   }
 }
 //バリデーション関数（Email形式チェック）
@@ -173,6 +177,13 @@ function validNumber($str,$key){
     $err_msg[$key] = MSG12;
   }
 }
+//固定長チェック
+function validLength($str,$key,$len = 8){
+  if(mb_strlen($str) !== $len){
+    global $err_msg;
+    $err_msg[$key] = $len . MSG16;
+  }
+}
 function validPass($str,$key){
   //半角英数字チェック
   validHalf($str, $key);
@@ -180,6 +191,13 @@ function validPass($str,$key){
   validMaxLen($str,$key);
   //最小文字数チェック
   validMinLen($str,$key);
+}
+//selectboxチェック
+function validSelect($str,$key){
+  if(!preg_match("/^[0-9]+$/",$str)){
+    global $err_msg;
+    $err_msg[$key] = MSG17;
+  }
 }
 function getErrMsg($key){
   global $err_msg;
@@ -210,13 +228,25 @@ function dbConnect(){
   $dbh = new PDO($dsn,$user,$password,$options);
   return $dbh;
 }
-//SQL実行関数
+/*//SQL実行関数
 function queryPost($dbh,$sql,$data){
   //クエリー作成
   $stmt = $dbh->prepare($sql);
   //プレースホルダーに値をセットし、SQL文を実行
   $stmt->execute($data);
   return $stmt;
+}*/
+function queryPost($dbh,$sql,$data){
+  //クエリー作成
+  $stmt = $dbh->prepare($sql);
+  //プレースホルダーに値をセットし、SQL文を実行
+  if(!$stmt->execute($data)){
+    debug('クエリに失敗しました。');
+    $err_msg['common'] = MSG07;
+    return 0;
+    debug('クエリ成功。');
+    return $stmt;
+  }
 }
 function getUser($u_id){
   debug('ユーザー情報を取得します。');
@@ -225,16 +255,22 @@ function getUser($u_id){
     $dbh = dbConnect();
     //DBへ接続
     //SQL文作成
-    $sql = 'SELECT * FROM users WHERE id = :u_id';
+    $sql = 'SELECT * FROM users WHERE id = :u_id AND delete_flg = 0';
     $data = array(':u_id' => $u_id);
     //クエリ実行
      $stmt = queryPost($dbh,$sql,$data);
-     
+     /*
      if($stmt){
        debug('getUserクエリ成功。');
      }else{
        debug('クエリ失敗しました。');
      }
+     */
+    if($stmt){
+      return $stmt->fetch(PDO::FETCH_ASSOC);
+    }else{
+      return false;
+    }
 
   }catch(Exception $e) {
     error_log('エラー発生' . $e->getMessage());
@@ -242,6 +278,73 @@ function getUser($u_id){
   //クエリ結果のデータを返却
   return $stmt->fetch(PDO::FETCH_ASSOC);
 }
+function getProduct($u_id,$p_id){
+  debug('商品情報を取得します。');
+  debug('ユーザーID:'.$u_id);
+  debug('商品ID:'.$p_id);
+  //例外処理
+  try{
+    //DBへ接続
+    $dbh = dbConnect();
+    //SQL文作成
+    $sql = 'SELECT * FROM product WHERE user_id = :u_id AND id = :p_id AND delete_flg = 0';
+    $data = array(':u_id' => $u_id, ':p_id' => $p_id);
+    //クエリ実行
+    $stmt = queryPost($dbh,$sql,$data);
+    
+    if($stmt){
+      //クエリ結果のデータを1レコード返却
+      return $stmt->fetch(PDO::FETCH_ASSOC);
+    }else{
+      return false;
+    }
+  } catch(Exception $e){
+    error_log('エラー発生:'.$e->getMessage());
+  }
+}
+function getCategory(){
+  debug('カテゴリー情報を取得します。');
+  //例外処理
+  try{
+    //DBへ接続
+    $dbh = dbConnect();
+    $sql = 'SELECT * FROM category';
+    $data = array();
+    //クエリ実行
+    $stmt = queryPost($dbh,$sql,$data);
+
+    if($stmt){
+      //クエリ結果の全データを返却
+      return $stmt->fetchAll();
+    }else{
+      return false;
+    }
+  }catch (Exception $e){
+    error_log('エラー発生'.$e->getMessage());
+  }
+}
+//==================================
+//メール送信
+//==================================
+function sendMail($from,$to,$subject,$comment){
+  if(!empty($to) && !empty($subject) && !empty($comment)){
+    //文字化けしないように設定(お決まりパターン)
+    mb_language("Japanese");//現在使っている言語を設定する
+    mb_internal_encoding("UTF-8");//内部の日本語をどうエンコーディング (機械がわかる言葉へ変換するかを設定)
+
+    //メールを送信(送信結果はtrueかfalseで返ってくる)
+    $result = mb_send_mail($to,$subject,$comment,"From: ".$from);
+    //送信結果を判定
+    if($result){
+      debug('メールを送信しました');
+    }else{
+      debug('エラー発生 メールの送信に失敗しました。');
+    }
+  }
+}
+//==================================
+//その他
+//==================================
 //フォーム入力保持
 function getFormData($str){
   global $dbFormData;
@@ -251,22 +354,22 @@ function getFormData($str){
     if(!empty($err_msg[$str])){
       //POSTにデータがある場合
       if(isset($_POST[$str])){//金額や郵便番号などのフォームで数字や数値の0が入っている場合もあるのでissetを使うこと
-        return $_POST[$str];
+       return $_POST[$str];
       }else{
         //ない場合(フォームにエラーがある＝POSTされているはずなので,まずあり得ないが)DBの情報を表示
-        return $dbFormData[$str];
+       return $dbFormData[$str];
       }
     }else{
       //POSTにデータがあり、DBの情報と違う場合(このフォームも変更していてエラーはないが他のフォームで引っかかっている状態)
       if(isset($_POST[$str]) && $_POST[$str] !== $dbFormData[$str]){
-        return $_POST[$str];
+       return $_POST[$str];
       }else{//そもそも変更していない
-        return $dbFormData[$str];
+       return $dbFormData[$str];
       }
     }
   }else{//ユーザーデータがない場合
     if(isset($_POST[$str])){//issetは0が入っているとtrue空の配列もtrue
-      return $_POST[$str];
+     return $_POST[$str];
     }
   }
 }
@@ -277,5 +380,15 @@ function getSessionFlash($key){
     $_SESSION[$key] = '';
     return $data;
   }
+}
+
+//認証キーを生成
+function makeRandKey($length = 8){
+  static $chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJLKMNOPQRSTUVWXYZ0123456789';
+  $str = '';
+  for ($i = 0; $i < $length; ++$i){
+    $str .= $chars[mt_rand(0,61)];//結合代入演算子('.=')ランダムの数字をどんどん足していく
+  }
+  return $str;
 }
 ?>
