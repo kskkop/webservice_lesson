@@ -48,7 +48,7 @@ require('head.php');
           </div>
         </div>
         <div class="panel-list">
-          <a href="productDetail.html" class="panel">
+          <a href="productDetail.php" class="panel">
             <div class="panel-head">
               <img src="img/sample01.jpg" alt="商品タイトル">
             </div>

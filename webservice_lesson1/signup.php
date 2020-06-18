@@ -109,11 +109,11 @@ if(!empty($_POST)){
     <!--メニュー-->
     <header>
         <div class="site-width">
-            <h1><a href="index.html">WEBUKATU MARKET</a></h1>
+            <h1><a href="index.php">WEBUKATU MARKET</a></h1>
             <nav id="top-nav">
                 <ul>
-                    <li><a href="signup.html" class="btn btn-primary">ユーザー登録</a></li>
-                    <li><a href="login.html">ログイン</a></li>
+                    <li><a href="signup.php" class="btn btn-primary">ユーザー登録</a></li>
+                    <li><a href="login.php">ログイン</a></li>
                 </ul>
             </nav>
         </div>

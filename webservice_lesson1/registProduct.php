@@ -1,6 +1,7 @@
 <?php
 //共通変数・関数ファイルを読み込み
-require('function.php');
+require('test.php');
+
 
 debug('「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「');
 debug('「　商品出品登録ページ　');
@@ -9,7 +10,6 @@ debugLogStart();
 
 //ログイン認証
 require('auth.php');
-
 //=============================
 //画面処理
 //=============================
@@ -18,12 +18,12 @@ $p_id = (!empty($_GET['p_id'])) ? $_GET['p_id'] : '';
 //DBから商品データを取得
 $dbFormData = (!empty($p_id)) ? getProduct($_SESSION['user_id'], $p_id) : '';
 //新規登録画面から編集画面か判別用フラグ
-$edit_flg = (!empty($dbFormData)) ? false : true;
+$edit_flg = (empty($dbFormData)) ? false : true;
 //DBからカテゴリーデータを取得
 $dbCategoryData = getCategory();
 debug('商品ID：' . $p_id);
 debug('フォーム用DBデータ：' . print_r($dbFormData, true));
-debug('カテゴリーデータ:' . print_r($dbFormData, true));
+debug('カテゴリーデータ:' . print_r($dbCategoryData, true));
 
 //パラメータ改竄チェック
 //============================
@@ -46,7 +46,7 @@ if (!empty($_POST)) {
     $price = (!empty($_POST['price'])) ? $_POST['price'] : 0; //0や空文字の場合は０を入れる。デフォルトのフォームには０が入っている
     $comment = $_POST['comment'];
     //画像をアップロードし、パスを格納
-    $pic = (!empty($_FILES['pic1']['name'])) ? uploadImg($_FILES['pic1'], 'pic1') : '';
+    $pic1 = (!empty($_FILES['pic1']['name'])) ? uploadImg($_FILES['pic1'], 'pic1') : '';
     //画像をPOSTしてない（登録していない）がすでにDBに登録されている場合、DBのパスを入れる（POSTには反映されないので）
     $pic1 = (empty($pic1) && !empty($dbFormData['pic1'])) ? $dbFormData['pic1'] : $pic1;
     $pic2 = (!empty($_FILES['pic2']['name'])) ? uploadImg($_FILES['pic2'], 'pic2') : '';
@@ -109,9 +109,9 @@ if (!empty($_POST)) {
                 $sql = 'UPDATE product SET :name, category_id = :category, price = :price, comment = :comment, pic1 = :pic1, pic2 = :pic2, pic3 = :pic3 WHERE user_id = :u_id AND id = :p_id';
                 $data = array(':name' => $name, ':category' => $category, ':price' => $price, ':comment' => $comment, ':pic1' => $pic1, 'pic2' => $pic2, ':pic3' => $pic3, ':u_id' => $_SESSION['u_id'], ':p_id' => $p_id);
             } else {
-                debug('新規登録です。');
+                debug('DB新規登録です。');
                 $sql = 'INSERT INTO product (name, category, price, comment, pic1, pic2, pic3, user_id, create_date) VALUES (:name, :category, :price, :comment, :pic1, :pic2, :pic3, :u_id, :date)';
-                $data = array(':name' => $name, ':category' => $category, ':price' => $price, ':comment' => $comment, ':pic1' => $pic1, 'pic2' => $pic2, ':pic3' => $pic3, ':u_id' => $_SESSION['u_id'], ':date' => date('Y-m-d H:i:s'));
+                $data = array(':name' => $name, ':category' => $category, ':price' => $price, ':comment' => $comment, ':pic1' => $pic1, 'pic2' => $pic2, ':pic3' => $pic3, ':u_id' => $_SESSION['user_id'], ':date' => date('Y-m-d H:i:s'));
             }
             debug('SQL:' . $sql);
             debug('流し込みデータ：' . print_r($data, true));
@@ -176,10 +176,12 @@ require('head.php');
                             <?php
                             foreach ($dbCategoryData as $key => $val) {
                             ?>
-                                <option value="<?php echo $val['id'] ?>">
+                                <option value="<?php echo $val['id'] ?>"
                                     <?php if (getFormData('category_id') == $val['id']) {
                                         echo 'selected';
-                                    } ?></option>
+                                    } ?>>
+                                    <?php echo $val['name']; ?>
+                                    </option>
                             <?php
                             }
                             ?>
@@ -190,7 +192,7 @@ require('head.php');
                         if (!empty($err_msg['category_id'])) echo $err_msg['category_id'];
                         ?>
                     </div>
-                    <label class="<?php if (!empty($err_msg['common'])) echo 'err' ?>">
+                    <label class="<?php if (!empty($err_msg['comment'])) echo 'err'; ?>">
                         詳細
                         <textarea name="comment" id="js-count" cols="30" rows="10" style="height:150px;"><?php echo getFormData('comment'); ?></textarea>
                     </label>
@@ -214,8 +216,8 @@ require('head.php');
                     <div style="overflow:hidden;">
                         <div class="imgDrop-container">
                             画像１
-                            <label class="area-drop"> <?php if (!empty($err_msg['prc1'])) echo 'err'; ?>
-                                <input type="hidden" name="MAX_FILE_SIZE" value="3145728">
+                            <label class="area-drop <?php if (!empty($err_msg['pic1'])) echo 'err'; ?>">
+                                <input type="hidden" name="MAX_FILE_SIZE" value="3145728"><!--ファイル最大サイズの指定-->
                                 <input type="file" name="pic1" class="input-file">
                                 <img src="<?php echo getFormData('pic1'); ?>" alt="" class="prev-img" style="<?php if (empty(getFormData('pic1'))) echo 'display:none;'; ?>">
                                 ドラッグ&ドロップ
@@ -228,12 +230,13 @@ require('head.php');
                         </div>
                         <div class="imgDrop-container">
                             画像2
-                            <label class="area-drop"><?php if(!empty($err_msg['pic2'])) echo 'err';?>
+                            <label class="area-drop <?php if (!empty($err_msg['pic2'])) echo 'err'; ?>">
                                 <input type="hidden" name="MAX_FILE_SIZE" value="3145728">
                                 <input type="file" name="pic2" class="input-file">
-                                <img src="<?php echo getFormData('pic2'); ?>" alt="" class="prev-img" style="<?php if(empty(getFormData('pic2'))) echo 'display:none;' ?>">
+                                <img src="<?php echo getFormData('pic2'); ?>" alt="" class="prev-img" style="<?php if(empty(getFormData('pic2'))) echo 'display:none;'; ?>">
                                 ドラッグ＆ドロップ
                             </label>
+
                             <div class="area-msg">
                                 <?php
                                 if(!empty($err_msg['pic2'])) echo $err_msg['pic2'];
@@ -242,9 +245,9 @@ require('head.php');
                         </div>
                         <div class="imgDrop-container">
                             画像3
-                            <label class="area-drop"><?php if(!empty($err_msg['pic2'])) echo 'err';?>
+                            <label class="area-drop <?php if(!empty($err_msg['pic3'])) echo 'err';?>">
                                 <input type="hidden" name="MAX_FILE_SIZE" value="3145728">
-                                <input type="file" name="pi32" class="input-file">
+                                <input type="file" name="pic3" class="input-file">
                                 <img src="<?php echo getFormData('pic3'); ?>" alt="" class="prev-img" style="<?php if(empty(getFormData('pic3'))) echo 'display:none;' ?>">
                                 ドラッグ＆ドロップ
                             </label>

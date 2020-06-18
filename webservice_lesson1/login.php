@@ -50,8 +50,9 @@ if(!empty($_POST)){
             $data = array(':email'=> $email);
             //クエリ実行
             $stmt = queryPost($dbh,$sql,$data);
+            debug('$stmtのなかみ'.print_r($stmt,true));
             //クエリ結果の値を取得
-            $result = $stmt ->fetch(PDO::FETCH_ASSOC);
+            $result = $stmt->fetch(PDO::FETCH_ASSOC);
 
             debug('クエリ結果の中身:'.print_r($result,true));
 

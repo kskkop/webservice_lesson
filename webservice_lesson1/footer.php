@@ -2,7 +2,7 @@
     Copyright <a href="http://webukatu.com/">ウェブカツ!!WEBサービス部"</a>.ALL Rights Reserved.
 </footer>
 
-<script src="js/vendor/jquery-2.2.2.min.js"></script>
+<script src="js/vendor/jquery-3.4.1.min.js"></script>
 <script>
     $(function() {
         var $ftr = $('#footer');
@@ -12,24 +12,24 @@
             });
         }
         //メッセージ表示
-        let $jsShowMsg = $('#js-show-msg'); //DOMを格納する変数には$をつける
-        let msg = $jsShowMsg.text();
+        var $jsShowMsg = $('#js-show-msg'); //DOMを格納する変数には$をつける
+        var msg = $jsShowMsg.text();
         if (msg.replace(/^[\s　]+|[\s　]+$/g, "").length) {
-            $jsShowMsg.slideToggle('show'); //slideToggle 要素をつけ外し
-            setTimeout(function() {
-                $jsShowMsg.slideToggle('slow');
-            }, 5000); //5秒後にslideToggle(外し)
+            $jsShowMsg.slideToggle('slow'); //slideToggle 要素をつけ外し
+            setTimeout(function() {$jsShowMsg.slideToggle('slow');}, 5000); //5秒後にslideToggle(外し)
         }
 
 
         //画像ライブプレビュー
-        let $dropArea = $('.area-drop');
-        let $fileInput = $('.input-file');
-        $dropArea.on('click', function(e) {
-            e.stopPropagation();
+        var $dropArea = $('.area-drop');
+        var $fileInput = $('.input-file');
+        $dropArea.on('dragover', function(e) {//第一引数にイベント名
+            e.stopPropagation();//
             e.preventDefault();
             $(this).css('border','3px #ccc dashed');
+
         });
+        
         $dropArea.on('dragleave',function(e){
             e.stopPropagation();
             e.preventDefault();
@@ -37,22 +37,26 @@
         });
         $fileInput.on('change',function(e){
             $dropArea.css('border','none');
-            let file = this.files[0],           //2.files配列にファイルが入っている
+            var file = this.files[0],           //2.files配列にファイルが入っている this ドラッグ＆ドロップしたもの
                 $img = $(this).siblings('.prev-img'),//3. jQueryのsiblingsメソッドで兄弟のimgを取得
                 fileReader = new FileReader();   //4.ファイルを読み込むFileReaderオブジェクト
 
             //5. 読み込みが完了した際のイベントパンドラ。imgのsrcにデータをセット
-            fileReader.onload = function(event){
+            fileReader.onload = function(event){//
                 //読み込んだデータをimgに設定
-                $img.attr('src',event.target.result).show();
+                $img.attr('src',event.target.result).show();//src属性に画像を設定している
             };
 
             //6.画像読み込み
-            fileReader.readAsDataURL($file);
+            fileReader.readAsDataURL(file);//readAsDataURL(); 画像ファイル自体をDataURLというものに変換している
+                                           //DataURLは画像自体を通常imgタグのsrc属性にはサーバーに置いてある画像ファイルのパスを指定することで
+                                           //読み込まれて表示されているがData URLを使えば画像ファイル自体を文字列にしてしまい、そのままsrc属性にセットして表示できる
+                                           //DataURLとは画像を文字列として扱えるものでimgタグのsrcに画像のパスを入れるかわりに
+                                           //画像自体を文字列にして入れてしまうことで表示させるもの
         });
 
         //テキストエリアカウント
-        let $countUp = $('#js-count'),
+        var $countUp = $('#js-count'),
             $countView =$('#js-count-view');
         $countUp.on('keyup',function(e){
             $countView.html($(this).val().length);

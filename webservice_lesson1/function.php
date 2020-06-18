@@ -84,7 +84,7 @@ $err_msg = array();
 
 //バリデーション関数（未入力チェック）
 function validRequired($str, $key){
-  if(($str === '')){//金額フォームなどを考えると数値の0はOKにし、空文字はダメにする
+  if($str === ''){//金額フォームなどを考えると数値の0はOKにし、空文字はダメにする
     global $err_msg;
     $err_msg[$key] = MSG12;
   }
@@ -244,9 +244,9 @@ function queryPost($dbh,$sql,$data){
     debug('クエリに失敗しました。');
     $err_msg['common'] = MSG07;
     return 0;
+  }
     debug('クエリ成功。');
     return $stmt;
-  }
 }
 function getUser($u_id){
   debug('ユーザー情報を取得します。');
@@ -390,5 +390,61 @@ function makeRandKey($length = 8){
     $str .= $chars[mt_rand(0,61)];//結合代入演算子('.=')ランダムの数字をどんどん足していく
   }
   return $str;
+}
+
+//画像処理
+function uploadImg($file,$key){
+  debug('画像アップロード処理開始');
+  debug('FILE情報：'.print_r($file,true));
+
+  if(isset($file['error']) && is_int($file['error'])){//is_int数値かどうか$file['error']は数値
+    try{
+      //バリデーション
+      //$file['error'] の値を確認。配列内には「UPLOAD_ERR_OK」などの定数が入っている。
+      //「UPLOAD_ERR_OK」などの定数はphpでファイルアップロード時に自動的に定義される。定数には値として0や1などの数値が入っている。
+      switch($file['error']){
+        case UPLOAD_ERR_OK: //OK
+        break;
+        case UPLOAD_ERR_NO_FILE:   //ファイル未選択の場合
+          throw new RuntimeException('ファイルが選択されていません');//DB接続できなかった場合やファイルアップロードできなかった場合など
+                                                                //コードを実行されて初めてエラーになるかどうかわかるもの
+                                                                //成功になるものもあるし、エラーになるものもある
+        case UPLOAD_ERR_INI_SIZE:   // php.ini定義の最大サイズが超過した場合メモリや画像のサイズ
+        case UPLOAD_ERR_FORM_SIZE:  //フォーム定義の最大サイズ超過した場合
+          throw new RuntimeException('ファイルサイズが大きすぎます');
+        default://その他の場合
+          throw new RuntimeException('その他のエラーが発生しました');
+      }
+      //$file['mime']の値はブラウザ側で偽装可能なので、MIMEタイプを事前でチェックする
+      //exif_imagetype関数は「IMAGETYPE_GIF」「IMAGETYPE_JPEG」などの定数を返す
+      $type = @exif_imagetype($file['tmp_name']);
+      if(!in_array($type,[IMAGETYPE_GIF,IMAGETYPE_JPEG,IMAGETYPE_PNG],true)){//第三引数にはtrueを設定すると厳密にチェックしてくれるので必ずつける
+                                                                             //in_array 配列に値があるかどうかチェックする
+                                                                             //$typeがgif,jpeg,pngかどうか見ている
+        throw new RuntimeException('画像形式が未対応です');
+      }
+
+      //ファイルデータからsha--1ハッシュをとってファイル名を決定し、ファイルを保存する
+      //ハッシュ化しておかないとアップロードされたファイル名そのままで保存してしまうと同じファイル名がアップロードされる可能性があり、
+      //DBにパスを保存した場合、どっちの画の像パスなのか判断つかなくなってしまう
+      //image_type_to_extension関数はファイルの拡張子を取得するもの
+      $path = 'uploads/'.sha1_file($file['tmp_name']).image_type_to_extension($type);//image_type_to__extension() 拡張子をつける
+
+      if(!move_uploaded_file($file['tmp_name'],$path)){//ファイルを移動する
+        throw new RuntimeException('ファイル保存時にエラー発生しました。');
+      }
+      //保存したファイルパスのパーミッション(権限)を変更する
+      chmod($path,0644);
+
+      debug('ファイルは正常にアップロードされました');
+      debug('ファイルパス：'.$path);
+      return $path;
+
+    }catch(RuntimeException $e){//エラーになった場合ここで捕まえる
+      debug($e->getMessage());
+      global $err_msg;
+      $err_msg[$key] = $e->getMessage();
+    }
+  }
 }
 ?>
