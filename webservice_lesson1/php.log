@@ -17743,3 +17743,230 @@ Stack trace:
 [18-Jun-2020 13:02:41 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595077351
 [18-Jun-2020 13:02:41 UTC] デバッグ:ログイン済みユーザーです。
 [18-Jun-2020 13:02:41 UTC] デバッグ:ログイン有効期限以内です。
+[19-Jun-2020 13:11:02 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Jun-2020 13:11:02 UTC] デバッグ:「ログインページ
+[19-Jun-2020 13:11:02 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Jun-2020 13:11:02 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[19-Jun-2020 13:11:02 UTC] デバッグ:セッションID：7ij7acgdg0178igjmsmf7tgnbc
+[19-Jun-2020 13:11:02 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592485361
+    [login_limit] => 2592000
+    [user_id] => 18
+)
+
+[19-Jun-2020 13:11:02 UTC] デバッグ:現在日時タイムスタンプ：1592572262
+[19-Jun-2020 13:11:02 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595077361
+[19-Jun-2020 13:11:02 UTC] デバッグ:ログイン済みユーザーです。
+[19-Jun-2020 13:11:02 UTC] デバッグ:ログイン有効期限以内です。
+[19-Jun-2020 13:11:02 UTC] デバッグ:マイページへ遷移します。
+[19-Jun-2020 13:11:02 UTC] デバッグ:画面表示処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[19-Jun-2020 13:11:02 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Jun-2020 13:11:02 UTC] デバッグ:「　マイページ　
+[19-Jun-2020 13:11:02 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Jun-2020 13:11:02 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[19-Jun-2020 13:11:02 UTC] デバッグ:セッションID：dl4h61uip75uaqtfln62j5pdt5
+[19-Jun-2020 13:11:02 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592572262
+    [login_limit] => 2592000
+    [user_id] => 18
+)
+
+[19-Jun-2020 13:11:02 UTC] デバッグ:現在日時タイムスタンプ：1592572262
+[19-Jun-2020 13:11:02 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595164262
+[19-Jun-2020 13:11:02 UTC] デバッグ:ログイン済みユーザーです。
+[19-Jun-2020 13:11:02 UTC] デバッグ:ログイン有効期限以内です。
+[19-Jun-2020 15:11:12 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Jun-2020 15:11:12 UTC] デバッグ:「　トップページ　
+[19-Jun-2020 15:11:12 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Jun-2020 15:11:12 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[19-Jun-2020 15:11:12 UTC] デバッグ:セッションID：6b6sp0feo4vro8qqi9246s3vfl
+[19-Jun-2020 15:11:12 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592572262
+    [login_limit] => 2592000
+    [user_id] => 18
+)
+
+[19-Jun-2020 15:11:12 UTC] デバッグ:現在日時タイムスタンプ：1592579472
+[19-Jun-2020 15:11:12 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595164262
+[19-Jun-2020 15:11:12 UTC] デバッグ:商品情報を取得します。
+[19-Jun-2020 15:11:12 UTC] デバッグ:クエリ成功。
+[19-Jun-2020 15:11:12 UTC] PHP Notice:  Undefined index: totl in /Applications/MAMP/htdocs/webservice_lesson1/function.php on line 318
+[19-Jun-2020 15:11:12 UTC] デバッグ:クエリに失敗しました。
+[19-Jun-2020 15:11:12 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => LIMIT20OFFSET0
+)
+
+[19-Jun-2020 15:11:12 UTC] デバッグ:カテゴリー情報を取得します。
+[19-Jun-2020 15:11:12 UTC] デバッグ:クエリ成功。
+[19-Jun-2020 15:11:12 UTC] デバッグ:現在のページ：1
+[19-Jun-2020 15:11:12 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[19-Jun-2020 15:11:12 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 91
+[19-Jun-2020 15:11:12 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 94
+[19-Jun-2020 15:11:12 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 99
+[19-Jun-2020 15:11:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 99
+[19-Jun-2020 15:11:12 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 118
+[19-Jun-2020 15:11:12 UTC] PHP Notice:  Undefined variable: totlaPageNum in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 132
+[19-Jun-2020 15:11:48 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Jun-2020 15:11:48 UTC] デバッグ:「　トップページ　
+[19-Jun-2020 15:11:48 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Jun-2020 15:11:48 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[19-Jun-2020 15:11:48 UTC] デバッグ:セッションID：m159gsuejr850t1t5ls8ac0jfr
+[19-Jun-2020 15:11:48 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592572262
+    [login_limit] => 2592000
+    [user_id] => 18
+)
+
+[19-Jun-2020 15:11:48 UTC] デバッグ:現在日時タイムスタンプ：1592579508
+[19-Jun-2020 15:11:48 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595164262
+[19-Jun-2020 15:11:48 UTC] デバッグ:商品情報を取得します。
+[19-Jun-2020 15:11:48 UTC] デバッグ:クエリ成功。
+[19-Jun-2020 15:11:48 UTC] デバッグ:クエリに失敗しました。
+[19-Jun-2020 15:11:48 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => LIMIT20OFFSET0
+)
+
+[19-Jun-2020 15:11:48 UTC] デバッグ:カテゴリー情報を取得します。
+[19-Jun-2020 15:11:48 UTC] デバッグ:クエリ成功。
+[19-Jun-2020 15:11:48 UTC] デバッグ:現在のページ：1
+[19-Jun-2020 15:11:48 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[19-Jun-2020 15:11:48 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 91
+[19-Jun-2020 15:11:48 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 94
+[19-Jun-2020 15:11:48 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 99
+[19-Jun-2020 15:11:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 99
+[19-Jun-2020 15:11:48 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 118
+[19-Jun-2020 15:11:48 UTC] PHP Notice:  Undefined variable: totlaPageNum in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 132
+[19-Jun-2020 15:16:37 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Jun-2020 15:16:37 UTC] デバッグ:「　トップページ　
+[19-Jun-2020 15:16:37 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Jun-2020 15:16:37 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[19-Jun-2020 15:16:37 UTC] デバッグ:セッションID：406l59d565ggjq1h8n70qa442n
+[19-Jun-2020 15:16:37 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592572262
+    [login_limit] => 2592000
+    [user_id] => 18
+)
+
+[19-Jun-2020 15:16:37 UTC] デバッグ:現在日時タイムスタンプ：1592579797
+[19-Jun-2020 15:16:37 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595164262
+[19-Jun-2020 15:16:37 UTC] デバッグ:商品情報を取得します。
+[19-Jun-2020 15:16:37 UTC] デバッグ:クエリ成功。
+[19-Jun-2020 15:16:37 UTC] デバッグ:クエリに失敗しました。
+[19-Jun-2020 15:16:37 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => LIMIT20OFFSET0
+)
+
+[19-Jun-2020 15:16:37 UTC] デバッグ:カテゴリー情報を取得します。
+[19-Jun-2020 15:16:37 UTC] デバッグ:クエリ成功。
+[19-Jun-2020 15:16:37 UTC] デバッグ:現在のページ：1
+[19-Jun-2020 15:16:37 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[19-Jun-2020 15:16:37 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 91
+[19-Jun-2020 15:16:37 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 94
+[19-Jun-2020 15:16:37 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 99
+[19-Jun-2020 15:16:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 99
+[19-Jun-2020 15:16:37 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 117
+[19-Jun-2020 15:16:37 UTC] PHP Notice:  Undefined variable: totlaPageNum in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 131
+[19-Jun-2020 15:16:39 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Jun-2020 15:16:39 UTC] デバッグ:「　トップページ　
+[19-Jun-2020 15:16:39 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Jun-2020 15:16:39 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[19-Jun-2020 15:16:39 UTC] デバッグ:セッションID：ugnb6i158ktndo7191mi8tmojf
+[19-Jun-2020 15:16:39 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592572262
+    [login_limit] => 2592000
+    [user_id] => 18
+)
+
+[19-Jun-2020 15:16:39 UTC] デバッグ:現在日時タイムスタンプ：1592579799
+[19-Jun-2020 15:16:39 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595164262
+[19-Jun-2020 15:16:39 UTC] デバッグ:商品情報を取得します。
+[19-Jun-2020 15:16:39 UTC] デバッグ:クエリ成功。
+[19-Jun-2020 15:16:39 UTC] デバッグ:クエリに失敗しました。
+[19-Jun-2020 15:16:39 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => LIMIT20OFFSET0
+)
+
+[19-Jun-2020 15:16:39 UTC] デバッグ:カテゴリー情報を取得します。
+[19-Jun-2020 15:16:39 UTC] デバッグ:クエリ成功。
+[19-Jun-2020 15:16:39 UTC] デバッグ:現在のページ：1
+[19-Jun-2020 15:16:39 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[19-Jun-2020 15:16:39 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 91
+[19-Jun-2020 15:16:39 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 94
+[19-Jun-2020 15:16:39 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 99
+[19-Jun-2020 15:16:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 99
+[19-Jun-2020 15:16:39 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 117
+[19-Jun-2020 15:16:39 UTC] PHP Notice:  Undefined variable: totlaPageNum in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 131
+[19-Jun-2020 15:19:29 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Jun-2020 15:19:29 UTC] デバッグ:「　トップページ　
+[19-Jun-2020 15:19:29 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Jun-2020 15:19:29 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[19-Jun-2020 15:19:29 UTC] デバッグ:セッションID：4dtu093v8eaa50546226hmqnlt
+[19-Jun-2020 15:19:29 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592572262
+    [login_limit] => 2592000
+    [user_id] => 18
+)
+
+[19-Jun-2020 15:19:29 UTC] デバッグ:現在日時タイムスタンプ：1592579969
+[19-Jun-2020 15:19:29 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595164262
+[19-Jun-2020 15:19:29 UTC] デバッグ:商品情報を取得します。
+[19-Jun-2020 15:19:29 UTC] デバッグ:クエリ成功。
+[19-Jun-2020 15:19:29 UTC] デバッグ:クエリに失敗しました。
+[19-Jun-2020 15:19:29 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => LIMIT20OFFSET0
+)
+
+[19-Jun-2020 15:19:29 UTC] デバッグ:カテゴリー情報を取得します。
+[19-Jun-2020 15:19:29 UTC] デバッグ:クエリ成功。
+[19-Jun-2020 15:19:29 UTC] デバッグ:現在のページ：1
+[19-Jun-2020 15:19:29 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[19-Jun-2020 15:19:29 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 91
+[19-Jun-2020 15:19:29 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 94
+[19-Jun-2020 15:19:29 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 99
+[19-Jun-2020 15:19:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 99
+[19-Jun-2020 15:19:29 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 117
+[19-Jun-2020 15:19:29 UTC] PHP Notice:  Undefined variable: totlaPageNum in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 131
+[19-Jun-2020 15:19:30 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Jun-2020 15:19:30 UTC] デバッグ:「　トップページ　
+[19-Jun-2020 15:19:30 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[19-Jun-2020 15:19:30 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[19-Jun-2020 15:19:30 UTC] デバッグ:セッションID：80bgaeq02e037se7m5rqj9b5g2
+[19-Jun-2020 15:19:30 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592572262
+    [login_limit] => 2592000
+    [user_id] => 18
+)
+
+[19-Jun-2020 15:19:30 UTC] デバッグ:現在日時タイムスタンプ：1592579970
+[19-Jun-2020 15:19:30 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595164262
+[19-Jun-2020 15:19:30 UTC] デバッグ:商品情報を取得します。
+[19-Jun-2020 15:19:30 UTC] デバッグ:クエリ成功。
+[19-Jun-2020 15:19:30 UTC] デバッグ:クエリに失敗しました。
+[19-Jun-2020 15:19:30 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => LIMIT20OFFSET0
+)
+
+[19-Jun-2020 15:19:30 UTC] デバッグ:カテゴリー情報を取得します。
+[19-Jun-2020 15:19:30 UTC] デバッグ:クエリ成功。
+[19-Jun-2020 15:19:30 UTC] デバッグ:現在のページ：1
+[19-Jun-2020 15:19:30 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[19-Jun-2020 15:19:30 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 91
+[19-Jun-2020 15:19:30 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 94
+[19-Jun-2020 15:19:30 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 99
+[19-Jun-2020 15:19:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 99
+[19-Jun-2020 15:19:30 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 117
+[19-Jun-2020 15:19:30 UTC] PHP Notice:  Undefined variable: totlaPageNum in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 131
