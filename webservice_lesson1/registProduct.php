@@ -107,18 +107,18 @@ if (!empty($_POST)) {
             if ($edit_flg) {
                 debug('DB更新です');
                 $sql = 'UPDATE product SET :name, category_id = :category, price = :price, comment = :comment, pic1 = :pic1, pic2 = :pic2, pic3 = :pic3 WHERE user_id = :u_id AND id = :p_id';
-                $data = array(':name' => $name, ':category' => $category, ':price' => $price, ':comment' => $comment, ':pic1' => $pic1, 'pic2' => $pic2, ':pic3' => $pic3, ':u_id' => $_SESSION['u_id'], ':p_id' => $p_id);
+                $data = array(':name' => $name, ':category' => $category, ':price' => $price, ':comment' => $comment, ':pic1' => $pic1, 'pic2' => $pic2, ':pic3' => $pic3, ':u_id' => $_SESSION['user_id'], ':p_id' => $p_id);
             } else {
                 debug('DB新規登録です。');
-                $sql = 'INSERT INTO product (name, category, price, comment, pic1, pic2, pic3, user_id, create_date) VALUES (:name, :category, :price, :comment, :pic1, :pic2, :pic3, :u_id, :date)';
-                $data = array(':name' => $name, ':category' => $category, ':price' => $price, ':comment' => $comment, ':pic1' => $pic1, 'pic2' => $pic2, ':pic3' => $pic3, ':u_id' => $_SESSION['user_id'], ':date' => date('Y-m-d H:i:s'));
+                $sql = 'INSERT INTO product (name, category_id, price, comment, pic1, pic2, pic3, user_id, create_date) VALUES (:name, :category, :price, :comment, :pic1, :pic2, :pic3, :u_id, :date)';
+                $data = array(':name' => $name, ':category' => $category, ':price' => $price, ':comment' => $comment, ':pic1' => $pic1, ':pic2' => $pic2, ':pic3' => $pic3, ':u_id' => $_SESSION['user_id'], ':date' => date('Y-m-d H:i:s'));
             }
             debug('SQL:' . $sql);
             debug('流し込みデータ：' . print_r($data, true));
             //クエリ実行
             $stmt = queryPost($dbh, $sql, $data);
 
-            //クエリ実行の場合
+            //クエリ成功の場合
             if ($stmt) {
                 $_SESSION['msg_success'] = SUC04;
                 debug('マイページへ遷移します。');
@@ -170,14 +170,14 @@ require('head.php');
                     <label class="<?php if (!empty($err_msg['category_id'])) echo 'err'; ?>">
                         カテゴリ<span class="label-require">必須</span>
                         <select name="category_id" id="">
-                            <option value="0" <?php if (getFormData('category_id') === 0) {
+                            <option value="0" <?php if (getFormData('category_id') == 0){
                                                     echo 'selected';
                                                 } ?>>選択してください</option>
                             <?php
                             foreach ($dbCategoryData as $key => $val) {
                             ?>
                                 <option value="<?php echo $val['id'] ?>"
-                                    <?php if (getFormData('category_id') == $val['id']) {
+                                    <?php if (getFormData('category_id') == $val['id']){
                                         echo 'selected';
                                     } ?>>
                                     <?php echo $val['name']; ?>

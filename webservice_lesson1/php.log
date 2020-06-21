@@ -17970,3 +17970,3237 @@ Stack trace:
 [19-Jun-2020 15:19:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 99
 [19-Jun-2020 15:19:30 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 117
 [19-Jun-2020 15:19:30 UTC] PHP Notice:  Undefined variable: totlaPageNum in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 131
+[21-Jun-2020 02:13:25 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 02:13:25 UTC] デバッグ:「　マイページ　
+[21-Jun-2020 02:13:25 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 02:13:25 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 02:13:25 UTC] デバッグ:セッションID：hl4ba0f56bipvhk2706fdmk5li
+[21-Jun-2020 02:13:25 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592572262
+    [login_limit] => 2592000
+    [user_id] => 18
+)
+
+[21-Jun-2020 02:13:25 UTC] デバッグ:現在日時タイムスタンプ：1592705605
+[21-Jun-2020 02:13:25 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595164262
+[21-Jun-2020 02:13:25 UTC] デバッグ:ログイン済みユーザーです。
+[21-Jun-2020 02:13:25 UTC] デバッグ:ログイン有効期限以内です。
+[21-Jun-2020 02:13:27 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 02:13:27 UTC] デバッグ:「　テスト　
+[21-Jun-2020 02:13:27 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 02:13:27 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 02:13:27 UTC] デバッグ:セッションID：iepr61sfvp6amspuhdcltsopqn
+[21-Jun-2020 02:13:27 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592705605
+    [login_limit] => 2592000
+    [user_id] => 18
+)
+
+[21-Jun-2020 02:13:27 UTC] デバッグ:現在日時タイムスタンプ：1592705607
+[21-Jun-2020 02:13:27 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595297605
+[21-Jun-2020 02:13:27 UTC] デバッグ:========================1回目のループ処理==================
+[21-Jun-2020 02:13:27 UTC] デバッグ:$key：pic1
+[21-Jun-2020 02:13:27 UTC] デバッグ:$val：Array
+(
+    [name] => abc
+    [type] => png
+    [tmp_name] => 
+    [error] => 4
+    [size] => 0
+)
+
+[21-Jun-2020 02:13:27 UTC] デバッグ:========================2回目のループ処理==================
+[21-Jun-2020 02:13:27 UTC] デバッグ:$key：pic2
+[21-Jun-2020 02:13:27 UTC] デバッグ:$val：Array
+(
+    [name] => efg
+    [type] => jpeg
+    [tmp_name] => 
+    [error] => 4
+    [size] => 0
+)
+
+[21-Jun-2020 02:13:27 UTC] デバッグ:========================3回目のループ処理==================
+[21-Jun-2020 02:13:27 UTC] デバッグ:$key：pic3
+[21-Jun-2020 02:13:27 UTC] デバッグ:$val：Array
+(
+    [name] => hij
+    [type] => 
+    [tmp_name] => 
+    [error] => 4
+    [size] => 0
+)
+
+[21-Jun-2020 02:13:27 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 02:13:27 UTC] デバッグ:「　商品出品登録ページ　
+[21-Jun-2020 02:13:27 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 02:13:27 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 02:13:27 UTC] デバッグ:セッションID：iepr61sfvp6amspuhdcltsopqn
+[21-Jun-2020 02:13:27 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592705605
+    [login_limit] => 2592000
+    [user_id] => 18
+)
+
+[21-Jun-2020 02:13:27 UTC] デバッグ:現在日時タイムスタンプ：1592705607
+[21-Jun-2020 02:13:27 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595297605
+[21-Jun-2020 02:13:27 UTC] デバッグ:ログイン済みユーザーです。
+[21-Jun-2020 02:13:27 UTC] デバッグ:ログイン有効期限以内です。
+[21-Jun-2020 02:13:27 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 02:13:27 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 02:13:27 UTC] デバッグ:商品ID：
+[21-Jun-2020 02:13:27 UTC] デバッグ:フォーム用DBデータ：
+[21-Jun-2020 02:13:27 UTC] デバッグ:カテゴリーデータ:Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => スマホ
+            [delete_flg] => 0
+            [create_date] => 2020-06-17 22:42:48
+            [update_date] => 2020-06-17 22:43:41
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => パソコン
+            [delete_flg] => 0
+            [create_date] => 2020-06-17 22:43:52
+            [update_date] => 2020-06-17 22:44:07
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => 自転車
+            [delete_flg] => 0
+            [create_date] => 2020-06-17 22:44:14
+            [update_date] => 2020-06-17 22:44:25
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => ゴルフ用品
+            [delete_flg] => 0
+            [create_date] => 2020-06-17 22:44:28
+            [update_date] => 2020-06-17 22:44:42
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => フィットネス用品
+            [delete_flg] => 0
+            [create_date] => 2020-06-17 22:44:45
+            [update_date] => 2020-06-17 22:45:04
+        )
+
+)
+
+[21-Jun-2020 02:13:27 UTC] デバッグ:画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 02:13:53 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 02:13:53 UTC] デバッグ:「　テスト　
+[21-Jun-2020 02:13:53 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 02:13:53 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 02:13:53 UTC] デバッグ:セッションID：pns7v57i6h2sias4v7429mgog7
+[21-Jun-2020 02:13:53 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592705607
+    [login_limit] => 2592000
+    [user_id] => 18
+)
+
+[21-Jun-2020 02:13:53 UTC] デバッグ:現在日時タイムスタンプ：1592705633
+[21-Jun-2020 02:13:53 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595297607
+[21-Jun-2020 02:13:53 UTC] デバッグ:========================1回目のループ処理==================
+[21-Jun-2020 02:13:53 UTC] デバッグ:$key：pic1
+[21-Jun-2020 02:13:53 UTC] デバッグ:$val：Array
+(
+    [name] => abc
+    [type] => png
+    [tmp_name] => 
+    [error] => 4
+    [size] => 0
+)
+
+[21-Jun-2020 02:13:53 UTC] デバッグ:========================2回目のループ処理==================
+[21-Jun-2020 02:13:53 UTC] デバッグ:$key：pic2
+[21-Jun-2020 02:13:53 UTC] デバッグ:$val：Array
+(
+    [name] => efg
+    [type] => jpeg
+    [tmp_name] => 
+    [error] => 4
+    [size] => 0
+)
+
+[21-Jun-2020 02:13:53 UTC] デバッグ:========================3回目のループ処理==================
+[21-Jun-2020 02:13:53 UTC] デバッグ:$key：pic3
+[21-Jun-2020 02:13:53 UTC] デバッグ:$val：Array
+(
+    [name] => hij
+    [type] => 
+    [tmp_name] => 
+    [error] => 4
+    [size] => 0
+)
+
+[21-Jun-2020 02:13:53 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 02:13:53 UTC] デバッグ:「　商品出品登録ページ　
+[21-Jun-2020 02:13:53 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 02:13:53 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 02:13:53 UTC] デバッグ:セッションID：pns7v57i6h2sias4v7429mgog7
+[21-Jun-2020 02:13:53 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592705607
+    [login_limit] => 2592000
+    [user_id] => 18
+)
+
+[21-Jun-2020 02:13:53 UTC] デバッグ:現在日時タイムスタンプ：1592705633
+[21-Jun-2020 02:13:53 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595297607
+[21-Jun-2020 02:13:53 UTC] デバッグ:ログイン済みユーザーです。
+[21-Jun-2020 02:13:53 UTC] デバッグ:ログイン有効期限以内です。
+[21-Jun-2020 02:13:53 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 02:13:53 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 02:13:53 UTC] デバッグ:商品ID：
+[21-Jun-2020 02:13:53 UTC] デバッグ:フォーム用DBデータ：
+[21-Jun-2020 02:13:53 UTC] デバッグ:カテゴリーデータ:Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => スマホ
+            [delete_flg] => 0
+            [create_date] => 2020-06-17 22:42:48
+            [update_date] => 2020-06-17 22:43:41
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => パソコン
+            [delete_flg] => 0
+            [create_date] => 2020-06-17 22:43:52
+            [update_date] => 2020-06-17 22:44:07
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => 自転車
+            [delete_flg] => 0
+            [create_date] => 2020-06-17 22:44:14
+            [update_date] => 2020-06-17 22:44:25
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => ゴルフ用品
+            [delete_flg] => 0
+            [create_date] => 2020-06-17 22:44:28
+            [update_date] => 2020-06-17 22:44:42
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => フィットネス用品
+            [delete_flg] => 0
+            [create_date] => 2020-06-17 22:44:45
+            [update_date] => 2020-06-17 22:45:04
+        )
+
+)
+
+[21-Jun-2020 02:13:53 UTC] デバッグ:POST送信があります
+[21-Jun-2020 02:13:53 UTC] デバッグ:POST情報:Array
+(
+    [name] => aaa
+    [category_id] => 1
+    [comment] => 
+    [price] => 4000
+    [MAX_FILE_SIZE] => 3145728
+)
+
+[21-Jun-2020 02:13:53 UTC] デバッグ:FILE情報：Array
+(
+    [pic1] => Array
+        (
+            [name] => 58cda573d0a3d52677007fbfec9f9b9d_m.jpg
+            [type] => image/jpeg
+            [tmp_name] => /Applications/MAMP/tmp/php/phpCtNHoS
+            [error] => 0
+            [size] => 846479
+        )
+
+    [pic2] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+    [pic3] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[21-Jun-2020 02:13:53 UTC] デバッグ:画像アップロード処理開始
+[21-Jun-2020 02:13:53 UTC] デバッグ:FILE情報：Array
+(
+    [name] => 58cda573d0a3d52677007fbfec9f9b9d_m.jpg
+    [type] => image/jpeg
+    [tmp_name] => /Applications/MAMP/tmp/php/phpCtNHoS
+    [error] => 0
+    [size] => 846479
+)
+
+[21-Jun-2020 02:13:53 UTC] デバッグ:ファイルは正常にアップロードされました
+[21-Jun-2020 02:13:53 UTC] デバッグ:ファイルパス：uploads/4b09d249fbec4600de9455834ad2a59c5c38c371.jpeg
+[21-Jun-2020 02:13:53 UTC] デバッグ:バリデーションOKです。
+[21-Jun-2020 02:13:53 UTC] デバッグ:DB新規登録です。
+[21-Jun-2020 02:13:53 UTC] デバッグ:SQL:INSERT INTO product (name, category, price, comment, pic1, pic2, pic3, user_id, create_date) VALUES (:name, :category, :price, :comment, :pic1, :pic2, :pic3, :u_id, :date)
+[21-Jun-2020 02:13:53 UTC] デバッグ:流し込みデータ：Array
+(
+    [:name] => aaa
+    [:category] => 1
+    [:price] => 4000
+    [:comment] => 
+    [:pic1] => uploads/4b09d249fbec4600de9455834ad2a59c5c38c371.jpeg
+    [pic2] => 
+    [:pic3] => 
+    [:u_id] => 18
+    [:date] => 2020-06-21 02:13:53
+)
+
+[21-Jun-2020 02:13:53 UTC] デバッグ:クエリに失敗しました。
+[21-Jun-2020 02:13:53 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => INSERT INTO product (name, category, price, comment, pic1, pic2, pic3, user_id, create_date) VALUES (:name, :category, :price, :comment, :pic1, :pic2, :pic3, :u_id, :date)
+)
+
+[21-Jun-2020 02:13:53 UTC] デバッグ:画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 02:19:22 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 02:19:22 UTC] デバッグ:「　テスト　
+[21-Jun-2020 02:19:22 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 02:19:22 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 02:19:22 UTC] デバッグ:セッションID：c0uhcdagmaimhtlof2arobj2cf
+[21-Jun-2020 02:19:22 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592705633
+    [login_limit] => 2592000
+    [user_id] => 18
+)
+
+[21-Jun-2020 02:19:22 UTC] デバッグ:現在日時タイムスタンプ：1592705962
+[21-Jun-2020 02:19:22 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595297633
+[21-Jun-2020 02:19:22 UTC] デバッグ:========================1回目のループ処理==================
+[21-Jun-2020 02:19:22 UTC] デバッグ:$key：pic1
+[21-Jun-2020 02:19:22 UTC] デバッグ:$val：Array
+(
+    [name] => abc
+    [type] => png
+    [tmp_name] => 
+    [error] => 4
+    [size] => 0
+)
+
+[21-Jun-2020 02:19:22 UTC] デバッグ:========================2回目のループ処理==================
+[21-Jun-2020 02:19:22 UTC] デバッグ:$key：pic2
+[21-Jun-2020 02:19:22 UTC] デバッグ:$val：Array
+(
+    [name] => efg
+    [type] => jpeg
+    [tmp_name] => 
+    [error] => 4
+    [size] => 0
+)
+
+[21-Jun-2020 02:19:22 UTC] デバッグ:========================3回目のループ処理==================
+[21-Jun-2020 02:19:22 UTC] デバッグ:$key：pic3
+[21-Jun-2020 02:19:22 UTC] デバッグ:$val：Array
+(
+    [name] => hij
+    [type] => 
+    [tmp_name] => 
+    [error] => 4
+    [size] => 0
+)
+
+[21-Jun-2020 02:19:22 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 02:19:22 UTC] デバッグ:「　商品出品登録ページ　
+[21-Jun-2020 02:19:22 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 02:19:22 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 02:19:22 UTC] デバッグ:セッションID：c0uhcdagmaimhtlof2arobj2cf
+[21-Jun-2020 02:19:22 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592705633
+    [login_limit] => 2592000
+    [user_id] => 18
+)
+
+[21-Jun-2020 02:19:22 UTC] デバッグ:現在日時タイムスタンプ：1592705962
+[21-Jun-2020 02:19:22 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595297633
+[21-Jun-2020 02:19:22 UTC] デバッグ:ログイン済みユーザーです。
+[21-Jun-2020 02:19:22 UTC] デバッグ:ログイン有効期限以内です。
+[21-Jun-2020 02:19:22 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 02:19:22 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 02:19:22 UTC] デバッグ:商品ID：
+[21-Jun-2020 02:19:22 UTC] デバッグ:フォーム用DBデータ：
+[21-Jun-2020 02:19:22 UTC] デバッグ:カテゴリーデータ:Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => スマホ
+            [delete_flg] => 0
+            [create_date] => 2020-06-17 22:42:48
+            [update_date] => 2020-06-17 22:43:41
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => パソコン
+            [delete_flg] => 0
+            [create_date] => 2020-06-17 22:43:52
+            [update_date] => 2020-06-17 22:44:07
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => 自転車
+            [delete_flg] => 0
+            [create_date] => 2020-06-17 22:44:14
+            [update_date] => 2020-06-17 22:44:25
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => ゴルフ用品
+            [delete_flg] => 0
+            [create_date] => 2020-06-17 22:44:28
+            [update_date] => 2020-06-17 22:44:42
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => フィットネス用品
+            [delete_flg] => 0
+            [create_date] => 2020-06-17 22:44:45
+            [update_date] => 2020-06-17 22:45:04
+        )
+
+)
+
+[21-Jun-2020 02:19:22 UTC] デバッグ:POST送信があります
+[21-Jun-2020 02:19:22 UTC] デバッグ:POST情報:Array
+(
+    [name] => aaa
+    [category_id] => 1
+    [comment] => 
+    [price] => 4000
+    [MAX_FILE_SIZE] => 3145728
+)
+
+[21-Jun-2020 02:19:22 UTC] デバッグ:FILE情報：Array
+(
+    [pic1] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+    [pic2] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+    [pic3] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[21-Jun-2020 02:19:22 UTC] デバッグ:バリデーションOKです。
+[21-Jun-2020 02:19:22 UTC] デバッグ:DB新規登録です。
+[21-Jun-2020 02:19:22 UTC] デバッグ:SQL:INSERT INTO product (name, category, price, comment, pic1, pic2, pic3, user_id, create_date) VALUES (:name, :category, :price, :comment, :pic1, :pic2, :pic3, :u_id, :date)
+[21-Jun-2020 02:19:22 UTC] デバッグ:流し込みデータ：Array
+(
+    [:name] => aaa
+    [:category] => 1
+    [:price] => 4000
+    [:comment] => 
+    [:pic1] => 
+    [pic2] => 
+    [:pic3] => 
+    [:u_id] => 18
+    [:date] => 2020-06-21 02:19:22
+)
+
+[21-Jun-2020 02:19:22 UTC] デバッグ:クエリに失敗しました。
+[21-Jun-2020 02:19:22 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => INSERT INTO product (name, category, price, comment, pic1, pic2, pic3, user_id, create_date) VALUES (:name, :category, :price, :comment, :pic1, :pic2, :pic3, :u_id, :date)
+)
+
+[21-Jun-2020 02:19:22 UTC] デバッグ:画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 02:57:11 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 02:57:11 UTC] デバッグ:「　テスト　
+[21-Jun-2020 02:57:11 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 02:57:11 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 02:57:11 UTC] デバッグ:セッションID：qnj8oko5vcmi9dnfgo7avj3kil
+[21-Jun-2020 02:57:11 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592705962
+    [login_limit] => 2592000
+    [user_id] => 18
+)
+
+[21-Jun-2020 02:57:11 UTC] デバッグ:現在日時タイムスタンプ：1592708231
+[21-Jun-2020 02:57:11 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595297962
+[21-Jun-2020 02:57:11 UTC] デバッグ:========================1回目のループ処理==================
+[21-Jun-2020 02:57:11 UTC] デバッグ:$key：pic1
+[21-Jun-2020 02:57:11 UTC] デバッグ:$val：Array
+(
+    [name] => abc
+    [type] => png
+    [tmp_name] => 
+    [error] => 4
+    [size] => 0
+)
+
+[21-Jun-2020 02:57:11 UTC] デバッグ:========================2回目のループ処理==================
+[21-Jun-2020 02:57:11 UTC] デバッグ:$key：pic2
+[21-Jun-2020 02:57:11 UTC] デバッグ:$val：Array
+(
+    [name] => efg
+    [type] => jpeg
+    [tmp_name] => 
+    [error] => 4
+    [size] => 0
+)
+
+[21-Jun-2020 02:57:11 UTC] デバッグ:========================3回目のループ処理==================
+[21-Jun-2020 02:57:11 UTC] デバッグ:$key：pic3
+[21-Jun-2020 02:57:11 UTC] デバッグ:$val：Array
+(
+    [name] => hij
+    [type] => 
+    [tmp_name] => 
+    [error] => 4
+    [size] => 0
+)
+
+[21-Jun-2020 02:57:11 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 02:57:11 UTC] デバッグ:「　商品出品登録ページ　
+[21-Jun-2020 02:57:11 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 02:57:11 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 02:57:11 UTC] デバッグ:セッションID：qnj8oko5vcmi9dnfgo7avj3kil
+[21-Jun-2020 02:57:11 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592705962
+    [login_limit] => 2592000
+    [user_id] => 18
+)
+
+[21-Jun-2020 02:57:11 UTC] デバッグ:現在日時タイムスタンプ：1592708231
+[21-Jun-2020 02:57:11 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595297962
+[21-Jun-2020 02:57:11 UTC] デバッグ:ログイン済みユーザーです。
+[21-Jun-2020 02:57:11 UTC] デバッグ:ログイン有効期限以内です。
+[21-Jun-2020 02:57:11 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 02:57:11 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 02:57:11 UTC] デバッグ:商品ID：
+[21-Jun-2020 02:57:11 UTC] デバッグ:フォーム用DBデータ：
+[21-Jun-2020 02:57:11 UTC] デバッグ:カテゴリーデータ:Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => スマホ
+            [delete_flg] => 0
+            [create_date] => 2020-06-17 22:42:48
+            [update_date] => 2020-06-17 22:43:41
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => パソコン
+            [delete_flg] => 0
+            [create_date] => 2020-06-17 22:43:52
+            [update_date] => 2020-06-17 22:44:07
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => 自転車
+            [delete_flg] => 0
+            [create_date] => 2020-06-17 22:44:14
+            [update_date] => 2020-06-17 22:44:25
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => ゴルフ用品
+            [delete_flg] => 0
+            [create_date] => 2020-06-17 22:44:28
+            [update_date] => 2020-06-17 22:44:42
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => フィットネス用品
+            [delete_flg] => 0
+            [create_date] => 2020-06-17 22:44:45
+            [update_date] => 2020-06-17 22:45:04
+        )
+
+)
+
+[21-Jun-2020 02:57:11 UTC] デバッグ:POST送信があります
+[21-Jun-2020 02:57:11 UTC] デバッグ:POST情報:Array
+(
+    [name] => aaa
+    [category_id] => 1
+    [comment] => 
+    [price] => 4000
+    [MAX_FILE_SIZE] => 3145728
+)
+
+[21-Jun-2020 02:57:11 UTC] デバッグ:FILE情報：Array
+(
+    [pic1] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+    [pic2] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+    [pic3] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[21-Jun-2020 02:57:11 UTC] デバッグ:バリデーションOKです。
+[21-Jun-2020 02:57:11 UTC] デバッグ:DB新規登録です。
+[21-Jun-2020 02:57:11 UTC] デバッグ:SQL:INSERT INTO product (name, category, price, comment, pic1, pic2, pic3, user_id, create_date) VALUES (:name, :category, :price, :comment, :pic1, :pic2, :pic3, :u_id, :date)
+[21-Jun-2020 02:57:11 UTC] デバッグ:流し込みデータ：Array
+(
+    [:name] => aaa
+    [:category] => 1
+    [:price] => 4000
+    [:comment] => 
+    [:pic1] => 
+    [:pic2] => 
+    [:pic3] => 
+    [:u_id] => 18
+    [:date] => 2020-06-21 02:57:11
+)
+
+[21-Jun-2020 02:57:11 UTC] デバッグ:クエリに失敗しました。
+[21-Jun-2020 02:57:11 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => INSERT INTO product (name, category, price, comment, pic1, pic2, pic3, user_id, create_date) VALUES (:name, :category, :price, :comment, :pic1, :pic2, :pic3, :u_id, :date)
+)
+
+[21-Jun-2020 02:57:11 UTC] デバッグ:画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 02:57:18 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 02:57:18 UTC] デバッグ:「　テスト　
+[21-Jun-2020 02:57:18 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 02:57:18 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 02:57:18 UTC] デバッグ:セッションID：dqh2v9vaejmlnqdbvqr78h3tea
+[21-Jun-2020 02:57:18 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708231
+    [login_limit] => 2592000
+    [user_id] => 18
+)
+
+[21-Jun-2020 02:57:18 UTC] デバッグ:現在日時タイムスタンプ：1592708238
+[21-Jun-2020 02:57:18 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300231
+[21-Jun-2020 02:57:18 UTC] デバッグ:========================1回目のループ処理==================
+[21-Jun-2020 02:57:18 UTC] デバッグ:$key：pic1
+[21-Jun-2020 02:57:18 UTC] デバッグ:$val：Array
+(
+    [name] => abc
+    [type] => png
+    [tmp_name] => 
+    [error] => 4
+    [size] => 0
+)
+
+[21-Jun-2020 02:57:18 UTC] デバッグ:========================2回目のループ処理==================
+[21-Jun-2020 02:57:18 UTC] デバッグ:$key：pic2
+[21-Jun-2020 02:57:18 UTC] デバッグ:$val：Array
+(
+    [name] => efg
+    [type] => jpeg
+    [tmp_name] => 
+    [error] => 4
+    [size] => 0
+)
+
+[21-Jun-2020 02:57:18 UTC] デバッグ:========================3回目のループ処理==================
+[21-Jun-2020 02:57:18 UTC] デバッグ:$key：pic3
+[21-Jun-2020 02:57:18 UTC] デバッグ:$val：Array
+(
+    [name] => hij
+    [type] => 
+    [tmp_name] => 
+    [error] => 4
+    [size] => 0
+)
+
+[21-Jun-2020 02:57:18 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 02:57:18 UTC] デバッグ:「　商品出品登録ページ　
+[21-Jun-2020 02:57:18 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 02:57:18 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 02:57:18 UTC] デバッグ:セッションID：dqh2v9vaejmlnqdbvqr78h3tea
+[21-Jun-2020 02:57:18 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708231
+    [login_limit] => 2592000
+    [user_id] => 18
+)
+
+[21-Jun-2020 02:57:18 UTC] デバッグ:現在日時タイムスタンプ：1592708238
+[21-Jun-2020 02:57:18 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300231
+[21-Jun-2020 02:57:18 UTC] デバッグ:ログイン済みユーザーです。
+[21-Jun-2020 02:57:18 UTC] デバッグ:ログイン有効期限以内です。
+[21-Jun-2020 02:57:18 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 02:57:18 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 02:57:18 UTC] デバッグ:商品ID：
+[21-Jun-2020 02:57:18 UTC] デバッグ:フォーム用DBデータ：
+[21-Jun-2020 02:57:18 UTC] デバッグ:カテゴリーデータ:Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => スマホ
+            [delete_flg] => 0
+            [create_date] => 2020-06-17 22:42:48
+            [update_date] => 2020-06-17 22:43:41
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => パソコン
+            [delete_flg] => 0
+            [create_date] => 2020-06-17 22:43:52
+            [update_date] => 2020-06-17 22:44:07
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => 自転車
+            [delete_flg] => 0
+            [create_date] => 2020-06-17 22:44:14
+            [update_date] => 2020-06-17 22:44:25
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => ゴルフ用品
+            [delete_flg] => 0
+            [create_date] => 2020-06-17 22:44:28
+            [update_date] => 2020-06-17 22:44:42
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => フィットネス用品
+            [delete_flg] => 0
+            [create_date] => 2020-06-17 22:44:45
+            [update_date] => 2020-06-17 22:45:04
+        )
+
+)
+
+[21-Jun-2020 02:57:18 UTC] デバッグ:POST送信があります
+[21-Jun-2020 02:57:18 UTC] デバッグ:POST情報:Array
+(
+    [name] => aaa
+    [category_id] => 1
+    [comment] => 
+    [price] => 4000
+    [MAX_FILE_SIZE] => 3145728
+)
+
+[21-Jun-2020 02:57:18 UTC] デバッグ:FILE情報：Array
+(
+    [pic1] => Array
+        (
+            [name] => 58cda573d0a3d52677007fbfec9f9b9d_m.jpg
+            [type] => image/jpeg
+            [tmp_name] => /Applications/MAMP/tmp/php/phpNbaQ6Q
+            [error] => 0
+            [size] => 846479
+        )
+
+    [pic2] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+    [pic3] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[21-Jun-2020 02:57:18 UTC] デバッグ:画像アップロード処理開始
+[21-Jun-2020 02:57:18 UTC] デバッグ:FILE情報：Array
+(
+    [name] => 58cda573d0a3d52677007fbfec9f9b9d_m.jpg
+    [type] => image/jpeg
+    [tmp_name] => /Applications/MAMP/tmp/php/phpNbaQ6Q
+    [error] => 0
+    [size] => 846479
+)
+
+[21-Jun-2020 02:57:18 UTC] デバッグ:ファイルは正常にアップロードされました
+[21-Jun-2020 02:57:18 UTC] デバッグ:ファイルパス：uploads/4b09d249fbec4600de9455834ad2a59c5c38c371.jpeg
+[21-Jun-2020 02:57:18 UTC] デバッグ:バリデーションOKです。
+[21-Jun-2020 02:57:18 UTC] デバッグ:DB新規登録です。
+[21-Jun-2020 02:57:18 UTC] デバッグ:SQL:INSERT INTO product (name, category, price, comment, pic1, pic2, pic3, user_id, create_date) VALUES (:name, :category, :price, :comment, :pic1, :pic2, :pic3, :u_id, :date)
+[21-Jun-2020 02:57:18 UTC] デバッグ:流し込みデータ：Array
+(
+    [:name] => aaa
+    [:category] => 1
+    [:price] => 4000
+    [:comment] => 
+    [:pic1] => uploads/4b09d249fbec4600de9455834ad2a59c5c38c371.jpeg
+    [:pic2] => 
+    [:pic3] => 
+    [:u_id] => 18
+    [:date] => 2020-06-21 02:57:18
+)
+
+[21-Jun-2020 02:57:18 UTC] デバッグ:クエリに失敗しました。
+[21-Jun-2020 02:57:18 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => INSERT INTO product (name, category, price, comment, pic1, pic2, pic3, user_id, create_date) VALUES (:name, :category, :price, :comment, :pic1, :pic2, :pic3, :u_id, :date)
+)
+
+[21-Jun-2020 02:57:18 UTC] デバッグ:画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 02:59:11 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 02:59:11 UTC] デバッグ:「　テスト　
+[21-Jun-2020 02:59:11 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 02:59:11 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 02:59:11 UTC] デバッグ:セッションID：vhr4ms59v9n23pm83nk0n95n85
+[21-Jun-2020 02:59:11 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708238
+    [login_limit] => 2592000
+    [user_id] => 18
+)
+
+[21-Jun-2020 02:59:11 UTC] デバッグ:現在日時タイムスタンプ：1592708351
+[21-Jun-2020 02:59:11 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300238
+[21-Jun-2020 02:59:11 UTC] デバッグ:========================1回目のループ処理==================
+[21-Jun-2020 02:59:11 UTC] デバッグ:$key：pic1
+[21-Jun-2020 02:59:11 UTC] デバッグ:$val：Array
+(
+    [name] => abc
+    [type] => png
+    [tmp_name] => 
+    [error] => 4
+    [size] => 0
+)
+
+[21-Jun-2020 02:59:11 UTC] デバッグ:========================2回目のループ処理==================
+[21-Jun-2020 02:59:11 UTC] デバッグ:$key：pic2
+[21-Jun-2020 02:59:11 UTC] デバッグ:$val：Array
+(
+    [name] => efg
+    [type] => jpeg
+    [tmp_name] => 
+    [error] => 4
+    [size] => 0
+)
+
+[21-Jun-2020 02:59:11 UTC] デバッグ:========================3回目のループ処理==================
+[21-Jun-2020 02:59:11 UTC] デバッグ:$key：pic3
+[21-Jun-2020 02:59:11 UTC] デバッグ:$val：Array
+(
+    [name] => hij
+    [type] => 
+    [tmp_name] => 
+    [error] => 4
+    [size] => 0
+)
+
+[21-Jun-2020 02:59:11 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 02:59:11 UTC] デバッグ:「　商品出品登録ページ　
+[21-Jun-2020 02:59:11 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 02:59:11 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 02:59:11 UTC] デバッグ:セッションID：vhr4ms59v9n23pm83nk0n95n85
+[21-Jun-2020 02:59:11 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708238
+    [login_limit] => 2592000
+    [user_id] => 18
+)
+
+[21-Jun-2020 02:59:11 UTC] デバッグ:現在日時タイムスタンプ：1592708351
+[21-Jun-2020 02:59:11 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300238
+[21-Jun-2020 02:59:11 UTC] デバッグ:ログイン済みユーザーです。
+[21-Jun-2020 02:59:11 UTC] デバッグ:ログイン有効期限以内です。
+[21-Jun-2020 02:59:11 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 02:59:11 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 02:59:11 UTC] デバッグ:商品ID：
+[21-Jun-2020 02:59:11 UTC] デバッグ:フォーム用DBデータ：
+[21-Jun-2020 02:59:11 UTC] デバッグ:カテゴリーデータ:Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => スマホ
+            [delete_flg] => 0
+            [create_date] => 2020-06-17 22:42:48
+            [update_date] => 2020-06-17 22:43:41
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => パソコン
+            [delete_flg] => 0
+            [create_date] => 2020-06-17 22:43:52
+            [update_date] => 2020-06-17 22:44:07
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => 自転車
+            [delete_flg] => 0
+            [create_date] => 2020-06-17 22:44:14
+            [update_date] => 2020-06-17 22:44:25
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => ゴルフ用品
+            [delete_flg] => 0
+            [create_date] => 2020-06-17 22:44:28
+            [update_date] => 2020-06-17 22:44:42
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => フィットネス用品
+            [delete_flg] => 0
+            [create_date] => 2020-06-17 22:44:45
+            [update_date] => 2020-06-17 22:45:04
+        )
+
+)
+
+[21-Jun-2020 02:59:11 UTC] デバッグ:POST送信があります
+[21-Jun-2020 02:59:11 UTC] デバッグ:POST情報:Array
+(
+    [name] => aaa
+    [category_id] => 1
+    [comment] => 
+    [price] => 4000
+    [MAX_FILE_SIZE] => 3145728
+)
+
+[21-Jun-2020 02:59:11 UTC] デバッグ:FILE情報：Array
+(
+    [pic1] => Array
+        (
+            [name] => 58cda573d0a3d52677007fbfec9f9b9d_m.jpg
+            [type] => image/jpeg
+            [tmp_name] => /Applications/MAMP/tmp/php/phpe0Q3Ok
+            [error] => 0
+            [size] => 846479
+        )
+
+    [pic2] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+    [pic3] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[21-Jun-2020 02:59:11 UTC] デバッグ:画像アップロード処理開始
+[21-Jun-2020 02:59:11 UTC] デバッグ:FILE情報：Array
+(
+    [name] => 58cda573d0a3d52677007fbfec9f9b9d_m.jpg
+    [type] => image/jpeg
+    [tmp_name] => /Applications/MAMP/tmp/php/phpe0Q3Ok
+    [error] => 0
+    [size] => 846479
+)
+
+[21-Jun-2020 02:59:11 UTC] デバッグ:ファイルは正常にアップロードされました
+[21-Jun-2020 02:59:11 UTC] デバッグ:ファイルパス：uploads/4b09d249fbec4600de9455834ad2a59c5c38c371.jpeg
+[21-Jun-2020 02:59:11 UTC] デバッグ:バリデーションOKです。
+[21-Jun-2020 02:59:11 UTC] デバッグ:DB新規登録です。
+[21-Jun-2020 02:59:11 UTC] デバッグ:SQL:INSERT INTO product (name, category_id, price, comment, pic1, pic2, pic3, user_id, create_date) VALUES (:name, :category, :price, :comment, :pic1, :pic2, :pic3, :u_id, :date)
+[21-Jun-2020 02:59:11 UTC] デバッグ:流し込みデータ：Array
+(
+    [:name] => aaa
+    [:category] => 1
+    [:price] => 4000
+    [:comment] => 
+    [:pic1] => uploads/4b09d249fbec4600de9455834ad2a59c5c38c371.jpeg
+    [:pic2] => 
+    [:pic3] => 
+    [:u_id] => 18
+    [:date] => 2020-06-21 02:59:11
+)
+
+[21-Jun-2020 02:59:11 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 02:59:11 UTC] デバッグ:マイページへ遷移します。
+[21-Jun-2020 02:59:11 UTC] デバッグ:画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 02:59:11 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 02:59:11 UTC] デバッグ:「　マイページ　
+[21-Jun-2020 02:59:11 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 02:59:11 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 02:59:11 UTC] デバッグ:セッションID：ndaa8oeo0mks0h664930so7jt4
+[21-Jun-2020 02:59:11 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708351
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 登録しました。
+)
+
+[21-Jun-2020 02:59:11 UTC] デバッグ:現在日時タイムスタンプ：1592708351
+[21-Jun-2020 02:59:11 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300351
+[21-Jun-2020 02:59:11 UTC] デバッグ:ログイン済みユーザーです。
+[21-Jun-2020 02:59:11 UTC] デバッグ:ログイン有効期限以内です。
+[21-Jun-2020 02:59:36 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 02:59:36 UTC] デバッグ:「　マイページ　
+[21-Jun-2020 02:59:36 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 02:59:36 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 02:59:36 UTC] デバッグ:セッションID：1kgddtmj80nfv61329uvr89u9r
+[21-Jun-2020 02:59:36 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708351
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 02:59:36 UTC] デバッグ:現在日時タイムスタンプ：1592708376
+[21-Jun-2020 02:59:36 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300351
+[21-Jun-2020 02:59:36 UTC] デバッグ:ログイン済みユーザーです。
+[21-Jun-2020 02:59:36 UTC] デバッグ:ログイン有効期限以内です。
+[21-Jun-2020 02:59:39 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 02:59:39 UTC] デバッグ:「　マイページ　
+[21-Jun-2020 02:59:39 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 02:59:39 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 02:59:39 UTC] デバッグ:セッションID：4h6hdvo3prlhtnocbeaqo45ccv
+[21-Jun-2020 02:59:39 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708376
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 02:59:39 UTC] デバッグ:現在日時タイムスタンプ：1592708379
+[21-Jun-2020 02:59:39 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300376
+[21-Jun-2020 02:59:39 UTC] デバッグ:ログイン済みユーザーです。
+[21-Jun-2020 02:59:39 UTC] デバッグ:ログイン有効期限以内です。
+[21-Jun-2020 02:59:41 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 02:59:41 UTC] デバッグ:「　マイページ　
+[21-Jun-2020 02:59:41 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 02:59:41 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 02:59:41 UTC] デバッグ:セッションID：7ndkrul9rll669bbpbj6rd6cv6
+[21-Jun-2020 02:59:41 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708379
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 02:59:41 UTC] デバッグ:現在日時タイムスタンプ：1592708381
+[21-Jun-2020 02:59:41 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300379
+[21-Jun-2020 02:59:41 UTC] デバッグ:ログイン済みユーザーです。
+[21-Jun-2020 02:59:41 UTC] デバッグ:ログイン有効期限以内です。
+[21-Jun-2020 02:59:41 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 02:59:41 UTC] デバッグ:「　マイページ　
+[21-Jun-2020 02:59:41 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 02:59:41 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 02:59:41 UTC] デバッグ:セッションID：ding2kqb2cd1eq97tbvf4ch8jb
+[21-Jun-2020 02:59:41 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708381
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 02:59:41 UTC] デバッグ:現在日時タイムスタンプ：1592708381
+[21-Jun-2020 02:59:41 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300381
+[21-Jun-2020 02:59:41 UTC] デバッグ:ログイン済みユーザーです。
+[21-Jun-2020 02:59:41 UTC] デバッグ:ログイン有効期限以内です。
+[21-Jun-2020 03:00:02 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 03:00:02 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 03:00:02 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 03:00:02 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 03:00:02 UTC] デバッグ:セッションID：v8jj9dqgapvfija8kl2n4s5q0f
+[21-Jun-2020 03:00:02 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708381
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 03:00:02 UTC] デバッグ:現在日時タイムスタンプ：1592708402
+[21-Jun-2020 03:00:02 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300381
+[21-Jun-2020 03:00:02 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 03:00:02 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 03:00:02 UTC] デバッグ:クエリに失敗しました。
+[21-Jun-2020 03:00:02 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => LIMIT20OFFSET0
+)
+
+[21-Jun-2020 03:00:02 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 03:00:02 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 03:00:02 UTC] デバッグ:現在のページ：1
+[21-Jun-2020 03:00:02 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 03:00:02 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 91
+[21-Jun-2020 03:00:02 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 94
+[21-Jun-2020 03:00:02 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 99
+[21-Jun-2020 03:00:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 99
+[21-Jun-2020 03:00:02 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 117
+[21-Jun-2020 03:00:02 UTC] PHP Notice:  Undefined variable: totlaPageNum in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 131
+[21-Jun-2020 03:00:05 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 03:00:05 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 03:00:05 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 03:00:05 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 03:00:05 UTC] デバッグ:セッションID：s83nfot5dvqvc5fhltbej8pqmi
+[21-Jun-2020 03:00:05 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708381
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 03:00:05 UTC] デバッグ:現在日時タイムスタンプ：1592708405
+[21-Jun-2020 03:00:05 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300381
+[21-Jun-2020 03:00:05 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 03:00:05 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 03:00:05 UTC] デバッグ:クエリに失敗しました。
+[21-Jun-2020 03:00:05 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => LIMIT20OFFSET0
+)
+
+[21-Jun-2020 03:00:05 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 03:00:05 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 03:00:05 UTC] デバッグ:現在のページ：1
+[21-Jun-2020 03:00:05 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 03:00:05 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 91
+[21-Jun-2020 03:00:05 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 94
+[21-Jun-2020 03:00:05 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 99
+[21-Jun-2020 03:00:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 99
+[21-Jun-2020 03:00:05 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 117
+[21-Jun-2020 03:00:05 UTC] PHP Notice:  Undefined variable: totlaPageNum in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 131
+[21-Jun-2020 03:00:06 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 03:00:06 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 03:00:06 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 03:00:06 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 03:00:06 UTC] デバッグ:セッションID：1q7a78gvt696ioo5po1sbve2aj
+[21-Jun-2020 03:00:06 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708381
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 03:00:06 UTC] デバッグ:現在日時タイムスタンプ：1592708406
+[21-Jun-2020 03:00:06 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300381
+[21-Jun-2020 03:00:06 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 03:00:06 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 03:00:06 UTC] デバッグ:クエリに失敗しました。
+[21-Jun-2020 03:00:06 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => LIMIT20OFFSET0
+)
+
+[21-Jun-2020 03:00:06 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 03:00:06 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 03:00:06 UTC] デバッグ:現在のページ：1
+[21-Jun-2020 03:00:06 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 03:00:06 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 91
+[21-Jun-2020 03:00:06 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 94
+[21-Jun-2020 03:00:06 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 99
+[21-Jun-2020 03:00:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 99
+[21-Jun-2020 03:00:06 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 117
+[21-Jun-2020 03:00:06 UTC] PHP Notice:  Undefined variable: totlaPageNum in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 131
+[21-Jun-2020 03:00:21 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 03:00:21 UTC] デバッグ:「　マイページ　
+[21-Jun-2020 03:00:21 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 03:00:21 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 03:00:21 UTC] デバッグ:セッションID：r5m1mn720td7au7ecl6jh0p6dh
+[21-Jun-2020 03:00:21 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708381
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 03:00:21 UTC] デバッグ:現在日時タイムスタンプ：1592708421
+[21-Jun-2020 03:00:21 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300381
+[21-Jun-2020 03:00:21 UTC] デバッグ:ログイン済みユーザーです。
+[21-Jun-2020 03:00:21 UTC] デバッグ:ログイン有効期限以内です。
+[21-Jun-2020 03:00:22 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 03:00:22 UTC] デバッグ:「　テスト　
+[21-Jun-2020 03:00:22 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 03:00:22 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 03:00:22 UTC] デバッグ:セッションID：0o1vefd2ilnv61klnrpl61n7km
+[21-Jun-2020 03:00:22 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708421
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 03:00:22 UTC] デバッグ:現在日時タイムスタンプ：1592708422
+[21-Jun-2020 03:00:22 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300421
+[21-Jun-2020 03:00:22 UTC] デバッグ:========================1回目のループ処理==================
+[21-Jun-2020 03:00:22 UTC] デバッグ:$key：pic1
+[21-Jun-2020 03:00:22 UTC] デバッグ:$val：Array
+(
+    [name] => abc
+    [type] => png
+    [tmp_name] => 
+    [error] => 4
+    [size] => 0
+)
+
+[21-Jun-2020 03:00:22 UTC] デバッグ:========================2回目のループ処理==================
+[21-Jun-2020 03:00:22 UTC] デバッグ:$key：pic2
+[21-Jun-2020 03:00:22 UTC] デバッグ:$val：Array
+(
+    [name] => efg
+    [type] => jpeg
+    [tmp_name] => 
+    [error] => 4
+    [size] => 0
+)
+
+[21-Jun-2020 03:00:22 UTC] デバッグ:========================3回目のループ処理==================
+[21-Jun-2020 03:00:22 UTC] デバッグ:$key：pic3
+[21-Jun-2020 03:00:22 UTC] デバッグ:$val：Array
+(
+    [name] => hij
+    [type] => 
+    [tmp_name] => 
+    [error] => 4
+    [size] => 0
+)
+
+[21-Jun-2020 03:00:22 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 03:00:22 UTC] デバッグ:「　商品出品登録ページ　
+[21-Jun-2020 03:00:22 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 03:00:22 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 03:00:22 UTC] デバッグ:セッションID：0o1vefd2ilnv61klnrpl61n7km
+[21-Jun-2020 03:00:22 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708421
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 03:00:22 UTC] デバッグ:現在日時タイムスタンプ：1592708422
+[21-Jun-2020 03:00:22 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300421
+[21-Jun-2020 03:00:22 UTC] デバッグ:ログイン済みユーザーです。
+[21-Jun-2020 03:00:22 UTC] デバッグ:ログイン有効期限以内です。
+[21-Jun-2020 03:00:22 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 03:00:22 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 03:00:22 UTC] デバッグ:商品ID：
+[21-Jun-2020 03:00:22 UTC] デバッグ:フォーム用DBデータ：
+[21-Jun-2020 03:00:22 UTC] デバッグ:カテゴリーデータ:Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => スマホ
+            [delete_flg] => 0
+            [create_date] => 2020-06-17 22:42:48
+            [update_date] => 2020-06-17 22:43:41
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => パソコン
+            [delete_flg] => 0
+            [create_date] => 2020-06-17 22:43:52
+            [update_date] => 2020-06-17 22:44:07
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => 自転車
+            [delete_flg] => 0
+            [create_date] => 2020-06-17 22:44:14
+            [update_date] => 2020-06-17 22:44:25
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => ゴルフ用品
+            [delete_flg] => 0
+            [create_date] => 2020-06-17 22:44:28
+            [update_date] => 2020-06-17 22:44:42
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => フィットネス用品
+            [delete_flg] => 0
+            [create_date] => 2020-06-17 22:44:45
+            [update_date] => 2020-06-17 22:45:04
+        )
+
+)
+
+[21-Jun-2020 03:00:22 UTC] デバッグ:画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 03:00:38 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 03:00:38 UTC] デバッグ:「　テスト　
+[21-Jun-2020 03:00:38 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 03:00:38 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 03:00:38 UTC] デバッグ:セッションID：otl4ov72nqbslkoijvpluc72ru
+[21-Jun-2020 03:00:38 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708422
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 03:00:38 UTC] デバッグ:現在日時タイムスタンプ：1592708438
+[21-Jun-2020 03:00:38 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300422
+[21-Jun-2020 03:00:38 UTC] デバッグ:========================1回目のループ処理==================
+[21-Jun-2020 03:00:38 UTC] デバッグ:$key：pic1
+[21-Jun-2020 03:00:38 UTC] デバッグ:$val：Array
+(
+    [name] => abc
+    [type] => png
+    [tmp_name] => 
+    [error] => 4
+    [size] => 0
+)
+
+[21-Jun-2020 03:00:38 UTC] デバッグ:========================2回目のループ処理==================
+[21-Jun-2020 03:00:38 UTC] デバッグ:$key：pic2
+[21-Jun-2020 03:00:38 UTC] デバッグ:$val：Array
+(
+    [name] => efg
+    [type] => jpeg
+    [tmp_name] => 
+    [error] => 4
+    [size] => 0
+)
+
+[21-Jun-2020 03:00:38 UTC] デバッグ:========================3回目のループ処理==================
+[21-Jun-2020 03:00:38 UTC] デバッグ:$key：pic3
+[21-Jun-2020 03:00:38 UTC] デバッグ:$val：Array
+(
+    [name] => hij
+    [type] => 
+    [tmp_name] => 
+    [error] => 4
+    [size] => 0
+)
+
+[21-Jun-2020 03:00:38 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 03:00:38 UTC] デバッグ:「　商品出品登録ページ　
+[21-Jun-2020 03:00:38 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 03:00:38 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 03:00:38 UTC] デバッグ:セッションID：otl4ov72nqbslkoijvpluc72ru
+[21-Jun-2020 03:00:38 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708422
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 03:00:38 UTC] デバッグ:現在日時タイムスタンプ：1592708438
+[21-Jun-2020 03:00:38 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300422
+[21-Jun-2020 03:00:38 UTC] デバッグ:ログイン済みユーザーです。
+[21-Jun-2020 03:00:38 UTC] デバッグ:ログイン有効期限以内です。
+[21-Jun-2020 03:00:38 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 03:00:38 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 03:00:38 UTC] デバッグ:商品ID：
+[21-Jun-2020 03:00:38 UTC] デバッグ:フォーム用DBデータ：
+[21-Jun-2020 03:00:38 UTC] デバッグ:カテゴリーデータ:Array
+(
+    [0] => Array
+        (
+            [id] => 1
+            [name] => スマホ
+            [delete_flg] => 0
+            [create_date] => 2020-06-17 22:42:48
+            [update_date] => 2020-06-17 22:43:41
+        )
+
+    [1] => Array
+        (
+            [id] => 2
+            [name] => パソコン
+            [delete_flg] => 0
+            [create_date] => 2020-06-17 22:43:52
+            [update_date] => 2020-06-17 22:44:07
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => 自転車
+            [delete_flg] => 0
+            [create_date] => 2020-06-17 22:44:14
+            [update_date] => 2020-06-17 22:44:25
+        )
+
+    [3] => Array
+        (
+            [id] => 4
+            [name] => ゴルフ用品
+            [delete_flg] => 0
+            [create_date] => 2020-06-17 22:44:28
+            [update_date] => 2020-06-17 22:44:42
+        )
+
+    [4] => Array
+        (
+            [id] => 5
+            [name] => フィットネス用品
+            [delete_flg] => 0
+            [create_date] => 2020-06-17 22:44:45
+            [update_date] => 2020-06-17 22:45:04
+        )
+
+)
+
+[21-Jun-2020 03:00:38 UTC] デバッグ:POST送信があります
+[21-Jun-2020 03:00:38 UTC] デバッグ:POST情報:Array
+(
+    [name] => aa
+    [category_id] => 1
+    [comment] => aaaaaaaaaaaaaaaaa
+    [price] => 2000
+    [MAX_FILE_SIZE] => 3145728
+)
+
+[21-Jun-2020 03:00:38 UTC] デバッグ:FILE情報：Array
+(
+    [pic1] => Array
+        (
+            [name] => 76FF339A-60E2-4AB0-89AD-A6B65991ADC9-11408-000009601F64AB15.JPG
+            [type] => image/jpeg
+            [tmp_name] => /Applications/MAMP/tmp/php/phphYPSE2
+            [error] => 0
+            [size] => 74110
+        )
+
+    [pic2] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+    [pic3] => Array
+        (
+            [name] => 
+            [type] => 
+            [tmp_name] => 
+            [error] => 4
+            [size] => 0
+        )
+
+)
+
+[21-Jun-2020 03:00:38 UTC] デバッグ:画像アップロード処理開始
+[21-Jun-2020 03:00:38 UTC] デバッグ:FILE情報：Array
+(
+    [name] => 76FF339A-60E2-4AB0-89AD-A6B65991ADC9-11408-000009601F64AB15.JPG
+    [type] => image/jpeg
+    [tmp_name] => /Applications/MAMP/tmp/php/phphYPSE2
+    [error] => 0
+    [size] => 74110
+)
+
+[21-Jun-2020 03:00:38 UTC] デバッグ:ファイルは正常にアップロードされました
+[21-Jun-2020 03:00:38 UTC] デバッグ:ファイルパス：uploads/0fcabf45455211a82ffe59d0a4c446043702f559.jpeg
+[21-Jun-2020 03:00:38 UTC] デバッグ:バリデーションOKです。
+[21-Jun-2020 03:00:38 UTC] デバッグ:DB新規登録です。
+[21-Jun-2020 03:00:38 UTC] デバッグ:SQL:INSERT INTO product (name, category_id, price, comment, pic1, pic2, pic3, user_id, create_date) VALUES (:name, :category, :price, :comment, :pic1, :pic2, :pic3, :u_id, :date)
+[21-Jun-2020 03:00:38 UTC] デバッグ:流し込みデータ：Array
+(
+    [:name] => aa
+    [:category] => 1
+    [:price] => 2000
+    [:comment] => aaaaaaaaaaaaaaaaa
+    [:pic1] => uploads/0fcabf45455211a82ffe59d0a4c446043702f559.jpeg
+    [:pic2] => 
+    [:pic3] => 
+    [:u_id] => 18
+    [:date] => 2020-06-21 03:00:38
+)
+
+[21-Jun-2020 03:00:38 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 03:00:38 UTC] デバッグ:マイページへ遷移します。
+[21-Jun-2020 03:00:38 UTC] デバッグ:画面処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 03:00:38 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 03:00:38 UTC] デバッグ:「　マイページ　
+[21-Jun-2020 03:00:38 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 03:00:38 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 03:00:38 UTC] デバッグ:セッションID：hjnb8g1gt62c8boh2io0eh8frd
+[21-Jun-2020 03:00:38 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 登録しました。
+)
+
+[21-Jun-2020 03:00:38 UTC] デバッグ:現在日時タイムスタンプ：1592708438
+[21-Jun-2020 03:00:38 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 03:00:38 UTC] デバッグ:ログイン済みユーザーです。
+[21-Jun-2020 03:00:38 UTC] デバッグ:ログイン有効期限以内です。
+[21-Jun-2020 03:04:27 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 03:04:27 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 03:04:27 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 03:04:27 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 03:04:27 UTC] デバッグ:セッションID：85981acql3ekubkkjef6p7mjrh
+[21-Jun-2020 03:04:27 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 03:04:27 UTC] デバッグ:現在日時タイムスタンプ：1592708667
+[21-Jun-2020 03:04:27 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 03:04:27 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 03:04:27 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 03:04:27 UTC] デバッグ:クエリに失敗しました。
+[21-Jun-2020 03:04:27 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => LIMIT20OFFSET0
+)
+
+[21-Jun-2020 03:04:27 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 03:04:27 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 03:04:27 UTC] デバッグ:現在のページ：1
+[21-Jun-2020 03:04:27 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 03:04:27 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 91
+[21-Jun-2020 03:04:27 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 94
+[21-Jun-2020 03:04:27 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 99
+[21-Jun-2020 03:04:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 99
+[21-Jun-2020 03:04:27 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 117
+[21-Jun-2020 03:04:27 UTC] PHP Notice:  Undefined variable: totlaPageNum in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 131
+[21-Jun-2020 03:08:43 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 03:08:43 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 03:08:43 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 03:08:43 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 03:08:43 UTC] デバッグ:セッションID：bjmjpn8e955li2ha0mrumsm0rs
+[21-Jun-2020 03:08:43 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 03:08:43 UTC] デバッグ:現在日時タイムスタンプ：1592708923
+[21-Jun-2020 03:08:43 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 03:08:43 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 03:08:43 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 03:08:43 UTC] デバッグ:クエリに失敗しました。
+[21-Jun-2020 03:08:43 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => LIMIT20OFFSET0
+)
+
+[21-Jun-2020 03:08:43 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 03:08:43 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 03:08:43 UTC] デバッグ:現在のページ：1
+[21-Jun-2020 03:08:43 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 03:08:43 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 91
+[21-Jun-2020 03:08:43 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 94
+[21-Jun-2020 03:08:43 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 99
+[21-Jun-2020 03:08:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 99
+[21-Jun-2020 03:08:43 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 117
+[21-Jun-2020 03:08:43 UTC] PHP Notice:  Undefined variable: totlaPageNum in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 131
+[21-Jun-2020 03:25:38 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 03:25:38 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 03:25:38 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 03:25:38 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 03:25:38 UTC] デバッグ:セッションID：6b03uqothf19rvau8blp1p456e
+[21-Jun-2020 03:25:38 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 03:25:38 UTC] デバッグ:現在日時タイムスタンプ：1592709938
+[21-Jun-2020 03:25:38 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 03:25:38 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 03:25:38 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 03:25:38 UTC] デバッグ:クエリに失敗しました。
+[21-Jun-2020 03:25:38 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => LIMIT20OFFSET0
+)
+
+[21-Jun-2020 03:25:38 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 03:25:38 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 03:25:38 UTC] デバッグ:現在のページ：1
+[21-Jun-2020 03:25:38 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 03:25:38 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 91
+[21-Jun-2020 03:25:38 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 94
+[21-Jun-2020 03:25:38 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 99
+[21-Jun-2020 03:25:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 99
+[21-Jun-2020 03:25:38 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 117
+[21-Jun-2020 09:06:17 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 09:06:17 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 09:06:17 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 09:06:17 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 09:06:17 UTC] デバッグ:セッションID：k22h0eno97oko4ftf5r92hi2oe
+[21-Jun-2020 09:06:17 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 09:06:17 UTC] デバッグ:現在日時タイムスタンプ：1592730377
+[21-Jun-2020 09:06:17 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 09:06:17 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 09:06:17 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 09:06:17 UTC] デバッグ:クエリに失敗しました。
+[21-Jun-2020 09:06:17 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => LIMIT20OFFSET0
+)
+
+[21-Jun-2020 09:06:17 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 09:06:17 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 09:06:17 UTC] デバッグ:現在のページ：1
+[21-Jun-2020 09:06:17 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 09:06:17 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 91
+[21-Jun-2020 09:06:17 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 94
+[21-Jun-2020 09:06:17 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 99
+[21-Jun-2020 09:06:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 99
+[21-Jun-2020 09:06:17 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 117
+[21-Jun-2020 09:27:42 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 09:27:42 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 09:27:42 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 09:27:42 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 09:27:42 UTC] デバッグ:セッションID：72smhs8mc2pao3506kh918gikl
+[21-Jun-2020 09:27:42 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 09:27:42 UTC] デバッグ:現在日時タイムスタンプ：1592731662
+[21-Jun-2020 09:27:42 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 09:27:42 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 09:27:42 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 09:27:42 UTC] デバッグ:クエリに失敗しました。
+[21-Jun-2020 09:27:42 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => LIMIT20OFFSET0
+)
+
+[21-Jun-2020 09:27:42 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 38
+[21-Jun-2020 09:27:42 UTC] デバッグ:$dbProductDataのなかみ
+[21-Jun-2020 09:27:42 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 09:27:42 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 09:27:42 UTC] デバッグ:現在のページ：1
+[21-Jun-2020 09:27:42 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 09:27:42 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 92
+[21-Jun-2020 09:27:42 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 95
+[21-Jun-2020 09:27:42 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 100
+[21-Jun-2020 09:27:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 100
+[21-Jun-2020 09:27:42 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 120
+[21-Jun-2020 09:28:06 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 09:28:06 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 09:28:06 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 09:28:06 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 09:28:06 UTC] デバッグ:セッションID：5b7tiju3cj4ov6n44b00qspg1i
+[21-Jun-2020 09:28:06 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 09:28:06 UTC] デバッグ:現在日時タイムスタンプ：1592731686
+[21-Jun-2020 09:28:06 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 09:28:06 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 09:28:06 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 09:28:06 UTC] デバッグ:クエリに失敗しました。
+[21-Jun-2020 09:28:06 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => LIMIT20OFFSET0
+)
+
+[21-Jun-2020 09:28:06 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 38
+[21-Jun-2020 09:28:06 UTC] デバッグ:$dbProductDataのなかみ
+[21-Jun-2020 09:28:06 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 09:28:06 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 09:28:06 UTC] デバッグ:現在のページ：1
+[21-Jun-2020 09:28:06 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 09:28:06 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 92
+[21-Jun-2020 09:28:06 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 95
+[21-Jun-2020 09:28:06 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 100
+[21-Jun-2020 09:28:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 100
+[21-Jun-2020 09:28:06 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 120
+[21-Jun-2020 09:28:25 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 09:28:25 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 09:28:25 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 09:28:25 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 09:28:25 UTC] デバッグ:セッションID：pjcj8697cit9t63mmf2p9dcepb
+[21-Jun-2020 09:28:25 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 09:28:25 UTC] デバッグ:現在日時タイムスタンプ：1592731705
+[21-Jun-2020 09:28:25 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 09:28:25 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 09:28:25 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 09:28:25 UTC] デバッグ:クエリに失敗しました。
+[21-Jun-2020 09:28:25 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => LIMIT20OFFSET0
+)
+
+[21-Jun-2020 09:28:25 UTC] デバッグ:$dbProductDataのなかみ
+[21-Jun-2020 09:28:25 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 09:28:25 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 09:28:25 UTC] デバッグ:現在のページ：1
+[21-Jun-2020 09:28:25 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 09:28:25 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 92
+[21-Jun-2020 09:28:25 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 95
+[21-Jun-2020 09:28:25 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 100
+[21-Jun-2020 09:28:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 100
+[21-Jun-2020 09:28:25 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 120
+[21-Jun-2020 09:29:51 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 09:29:51 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 09:29:51 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 09:29:51 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 09:29:51 UTC] デバッグ:セッションID：34dds53c938j55ttl6eugmuo6n
+[21-Jun-2020 09:29:51 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 09:29:51 UTC] デバッグ:現在日時タイムスタンプ：1592731791
+[21-Jun-2020 09:29:51 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 09:29:51 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 09:29:51 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 09:29:51 UTC] デバッグ:クエリに失敗しました。
+[21-Jun-2020 09:29:51 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => LIMIT20OFFSET0
+)
+
+[21-Jun-2020 09:29:51 UTC] デバッグ:$dbProductDataのなかみ1
+[21-Jun-2020 09:29:51 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 09:29:51 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 09:29:51 UTC] デバッグ:現在のページ：1
+[21-Jun-2020 09:29:51 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 09:29:51 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 92
+[21-Jun-2020 09:29:51 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 95
+[21-Jun-2020 09:29:51 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 100
+[21-Jun-2020 09:29:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 100
+[21-Jun-2020 09:29:51 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 120
+[21-Jun-2020 09:30:14 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 09:30:14 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 09:30:14 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 09:30:14 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 09:30:14 UTC] デバッグ:セッションID：h3n64udgcuch4ikgth5vvsmqpd
+[21-Jun-2020 09:30:14 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 09:30:14 UTC] デバッグ:現在日時タイムスタンプ：1592731814
+[21-Jun-2020 09:30:14 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 09:30:14 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 09:30:14 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 09:30:14 UTC] デバッグ:クエリに失敗しました。
+[21-Jun-2020 09:30:14 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => LIMIT20OFFSET0
+)
+
+[21-Jun-2020 09:30:14 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 38
+[21-Jun-2020 09:30:14 UTC] デバッグ:$dbProductDataのなかみ1
+[21-Jun-2020 09:30:14 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 09:30:14 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 09:30:14 UTC] デバッグ:現在のページ：1
+[21-Jun-2020 09:30:14 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 09:30:14 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 92
+[21-Jun-2020 09:30:14 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 95
+[21-Jun-2020 09:30:14 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 100
+[21-Jun-2020 09:30:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 100
+[21-Jun-2020 09:30:14 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 120
+[21-Jun-2020 09:30:56 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 09:30:56 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 09:30:56 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 09:30:56 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 09:30:56 UTC] デバッグ:セッションID：isodmpc8c6cu7qa3lis52jgb0f
+[21-Jun-2020 09:30:56 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 09:30:56 UTC] デバッグ:現在日時タイムスタンプ：1592731856
+[21-Jun-2020 09:30:56 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 09:30:56 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 09:30:56 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 09:30:56 UTC] デバッグ:クエリに失敗しました。
+[21-Jun-2020 09:30:56 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => LIMIT20OFFSET0
+)
+
+[21-Jun-2020 09:30:56 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 09:30:56 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 09:30:56 UTC] デバッグ:現在のページ：1
+[21-Jun-2020 09:30:56 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 09:30:56 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 92
+[21-Jun-2020 09:30:56 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 95
+[21-Jun-2020 09:30:56 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 100
+[21-Jun-2020 09:30:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 100
+[21-Jun-2020 09:30:56 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 120
+[21-Jun-2020 09:31:13 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 09:31:13 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 09:31:13 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 09:31:13 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 09:31:13 UTC] デバッグ:セッションID：9ub9dp3sdjsemo0hvl17jrks6t
+[21-Jun-2020 09:31:13 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 09:31:13 UTC] デバッグ:現在日時タイムスタンプ：1592731873
+[21-Jun-2020 09:31:13 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 09:31:13 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 09:31:13 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 09:31:13 UTC] デバッグ:クエリに失敗しました。
+[21-Jun-2020 09:31:13 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => LIMIT20OFFSET0
+)
+
+[21-Jun-2020 09:31:13 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 38
+[21-Jun-2020 09:31:13 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 09:31:13 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 09:31:13 UTC] デバッグ:現在のページ：1
+[21-Jun-2020 09:31:13 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 09:31:13 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 92
+[21-Jun-2020 09:31:13 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 95
+[21-Jun-2020 09:31:13 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 100
+[21-Jun-2020 09:31:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 100
+[21-Jun-2020 09:31:13 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 120
+[21-Jun-2020 09:31:23 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 09:31:23 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 09:31:23 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 09:31:23 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 09:31:23 UTC] デバッグ:セッションID：i3ekrfltem844dc5iqhiihostp
+[21-Jun-2020 09:31:23 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 09:31:23 UTC] デバッグ:現在日時タイムスタンプ：1592731883
+[21-Jun-2020 09:31:23 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 09:31:23 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 09:31:23 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 09:31:23 UTC] デバッグ:クエリに失敗しました。
+[21-Jun-2020 09:31:23 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => LIMIT20OFFSET0
+)
+
+[21-Jun-2020 09:31:23 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 38
+[21-Jun-2020 09:31:23 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 09:31:23 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 09:31:23 UTC] デバッグ:現在のページ：1
+[21-Jun-2020 09:31:23 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 09:31:23 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 92
+[21-Jun-2020 09:31:23 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 95
+[21-Jun-2020 09:31:23 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 100
+[21-Jun-2020 09:31:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 100
+[21-Jun-2020 09:31:23 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 120
+[21-Jun-2020 09:31:33 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 09:31:33 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 09:31:33 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 09:31:33 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 09:31:33 UTC] デバッグ:セッションID：p57n7ogtgsm1ffd74u9nlpco4f
+[21-Jun-2020 09:31:33 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 09:31:33 UTC] デバッグ:現在日時タイムスタンプ：1592731893
+[21-Jun-2020 09:31:33 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 09:31:33 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 09:31:33 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 09:31:33 UTC] デバッグ:クエリに失敗しました。
+[21-Jun-2020 09:31:33 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => LIMIT20OFFSET0
+)
+
+[21-Jun-2020 09:31:33 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 38
+[21-Jun-2020 09:31:33 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 09:31:33 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 09:31:33 UTC] デバッグ:現在のページ：1
+[21-Jun-2020 09:31:33 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 09:31:33 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 92
+[21-Jun-2020 09:31:33 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 95
+[21-Jun-2020 09:31:33 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 100
+[21-Jun-2020 09:31:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 100
+[21-Jun-2020 09:31:33 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 120
+[21-Jun-2020 09:36:23 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 09:36:23 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 09:36:23 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 09:36:23 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 09:36:23 UTC] デバッグ:セッションID：cnifldmngku93kudf28pm585se
+[21-Jun-2020 09:36:23 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 09:36:23 UTC] デバッグ:現在日時タイムスタンプ：1592732183
+[21-Jun-2020 09:36:23 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 09:36:23 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 09:36:23 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 09:36:23 UTC] デバッグ:クエリに失敗しました。
+[21-Jun-2020 09:36:23 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => LIMIT20OFFSET0
+)
+
+[21-Jun-2020 09:36:23 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 09:36:23 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 09:36:23 UTC] デバッグ:現在のページ：1
+[21-Jun-2020 09:36:23 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 09:36:23 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 91
+[21-Jun-2020 09:36:23 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 94
+[21-Jun-2020 09:36:23 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 99
+[21-Jun-2020 09:36:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 99
+[21-Jun-2020 09:36:23 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 119
+[21-Jun-2020 09:43:16 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 09:43:16 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 09:43:16 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 09:43:16 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 09:43:16 UTC] デバッグ:セッションID：8lneae9la6pb8bqjfg5d6k9dno
+[21-Jun-2020 09:43:16 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 09:43:16 UTC] デバッグ:現在日時タイムスタンプ：1592732596
+[21-Jun-2020 09:43:16 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 09:43:16 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 09:43:16 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 09:43:16 UTC] デバッグ:クエリに失敗しました。
+[21-Jun-2020 09:43:16 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => LIMIT20OFFSET0
+)
+
+[21-Jun-2020 09:43:16 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 09:43:16 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 09:43:16 UTC] デバッグ:現在のページ：1
+[21-Jun-2020 09:43:16 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 09:43:16 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 91
+[21-Jun-2020 09:43:16 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 94
+[21-Jun-2020 09:43:16 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 99
+[21-Jun-2020 09:43:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 99
+[21-Jun-2020 09:43:16 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 119
+[21-Jun-2020 09:47:11 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 09:47:11 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 09:47:11 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 09:47:11 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 09:47:11 UTC] デバッグ:セッションID：gp1g604p4m3rihf6r8vqjmqqsu
+[21-Jun-2020 09:47:11 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 09:47:11 UTC] デバッグ:現在日時タイムスタンプ：1592732831
+[21-Jun-2020 09:47:11 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 09:47:11 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 09:47:11 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 09:47:11 UTC] デバッグ:クエリに失敗しました。
+[21-Jun-2020 09:47:11 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => LIMIT20OFFSET0
+)
+
+[21-Jun-2020 09:47:11 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 09:47:11 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 09:47:11 UTC] デバッグ:現在のページ：1
+[21-Jun-2020 09:47:11 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 09:47:11 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 91
+[21-Jun-2020 09:47:11 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 94
+[21-Jun-2020 09:47:11 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 99
+[21-Jun-2020 09:47:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 99
+[21-Jun-2020 09:47:11 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 117
+[21-Jun-2020 09:47:12 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 09:47:12 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 09:47:12 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 09:47:12 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 09:47:12 UTC] デバッグ:セッションID：kclhrqqhtvpleks9u8jvt6kevg
+[21-Jun-2020 09:47:12 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 09:47:12 UTC] デバッグ:現在日時タイムスタンプ：1592732832
+[21-Jun-2020 09:47:12 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 09:47:12 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 09:47:12 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 09:47:12 UTC] デバッグ:クエリに失敗しました。
+[21-Jun-2020 09:47:12 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => LIMIT20OFFSET0
+)
+
+[21-Jun-2020 09:47:12 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 09:47:12 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 09:47:12 UTC] デバッグ:現在のページ：1
+[21-Jun-2020 09:47:12 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 09:47:12 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 91
+[21-Jun-2020 09:47:12 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 94
+[21-Jun-2020 09:47:12 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 99
+[21-Jun-2020 09:47:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 99
+[21-Jun-2020 09:47:12 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 117
+[21-Jun-2020 09:48:14 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 09:48:14 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 09:48:14 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 09:48:14 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 09:48:14 UTC] デバッグ:セッションID：f12o3h4jtq3nrcb4via1u1tsmf
+[21-Jun-2020 09:48:14 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 09:48:14 UTC] デバッグ:現在日時タイムスタンプ：1592732894
+[21-Jun-2020 09:48:14 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 09:48:14 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 09:48:14 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 09:48:14 UTC] デバッグ:クエリに失敗しました。
+[21-Jun-2020 09:48:14 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => LIMIT20OFFSET0
+)
+
+[21-Jun-2020 09:48:14 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 09:48:14 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 09:48:14 UTC] デバッグ:現在のページ：1
+[21-Jun-2020 09:48:14 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 09:48:14 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 91
+[21-Jun-2020 09:48:14 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 94
+[21-Jun-2020 09:48:14 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 99
+[21-Jun-2020 09:48:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 99
+[21-Jun-2020 09:48:14 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 117
+[21-Jun-2020 09:48:15 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 09:48:15 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 09:48:15 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 09:48:15 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 09:48:15 UTC] デバッグ:セッションID：b801t1jqre9ch3b94vbh0n56mm
+[21-Jun-2020 09:48:15 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 09:48:15 UTC] デバッグ:現在日時タイムスタンプ：1592732895
+[21-Jun-2020 09:48:15 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 09:48:15 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 09:48:15 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 09:48:15 UTC] デバッグ:クエリに失敗しました。
+[21-Jun-2020 09:48:15 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => LIMIT20OFFSET0
+)
+
+[21-Jun-2020 09:48:15 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 09:48:15 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 09:48:15 UTC] デバッグ:現在のページ：1
+[21-Jun-2020 09:48:15 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 09:48:15 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 91
+[21-Jun-2020 09:48:15 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 94
+[21-Jun-2020 09:48:15 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 99
+[21-Jun-2020 09:48:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 99
+[21-Jun-2020 09:48:15 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 117
+[21-Jun-2020 09:49:26 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 09:49:26 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 09:49:26 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 09:49:26 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 09:49:26 UTC] デバッグ:セッションID：bct18dc1qd3or22lj8i334t27s
+[21-Jun-2020 09:49:26 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 09:49:26 UTC] デバッグ:現在日時タイムスタンプ：1592732966
+[21-Jun-2020 09:49:26 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 09:49:26 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 09:49:26 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 09:49:26 UTC] デバッグ:クエリに失敗しました。
+[21-Jun-2020 09:49:26 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => LIMIT20OFFSET0
+)
+
+[21-Jun-2020 09:49:26 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 09:49:26 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 09:49:26 UTC] デバッグ:現在のページ：1
+[21-Jun-2020 09:49:26 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 09:49:26 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 91
+[21-Jun-2020 09:49:26 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 94
+[21-Jun-2020 09:49:26 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 99
+[21-Jun-2020 09:49:26 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 117
+[21-Jun-2020 10:00:43 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:00:43 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 10:00:43 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:00:43 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 10:00:43 UTC] デバッグ:セッションID：fv105kbmp48n0kpv6i64k25ens
+[21-Jun-2020 10:00:43 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 10:00:43 UTC] デバッグ:現在日時タイムスタンプ：1592733643
+[21-Jun-2020 10:00:43 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 10:00:43 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 10:00:43 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:00:43 UTC] デバッグ:SQL：SELECT * FROM productLIMIT20OFFSET0
+[21-Jun-2020 10:00:43 UTC] デバッグ:クエリに失敗しました。
+[21-Jun-2020 10:00:43 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => SELECT * FROM productLIMIT20OFFSET0
+)
+
+[21-Jun-2020 10:00:43 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 10:00:43 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:00:43 UTC] デバッグ:現在のページ：1
+[21-Jun-2020 10:00:43 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 10:00:43 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 91
+[21-Jun-2020 10:00:43 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 94
+[21-Jun-2020 10:00:43 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 99
+[21-Jun-2020 10:00:43 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 117
+[21-Jun-2020 10:00:44 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:00:44 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 10:00:44 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:00:44 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 10:00:44 UTC] デバッグ:セッションID：u2mooa6ap5qjrllvd6fs1otf3j
+[21-Jun-2020 10:00:44 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 10:00:44 UTC] デバッグ:現在日時タイムスタンプ：1592733644
+[21-Jun-2020 10:00:44 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 10:00:44 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 10:00:44 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:00:44 UTC] デバッグ:SQL：SELECT * FROM productLIMIT20OFFSET0
+[21-Jun-2020 10:00:44 UTC] デバッグ:クエリに失敗しました。
+[21-Jun-2020 10:00:44 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => SELECT * FROM productLIMIT20OFFSET0
+)
+
+[21-Jun-2020 10:00:44 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 10:00:44 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:00:44 UTC] デバッグ:現在のページ：1
+[21-Jun-2020 10:00:44 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 10:00:44 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 91
+[21-Jun-2020 10:00:44 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 94
+[21-Jun-2020 10:00:44 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 99
+[21-Jun-2020 10:00:44 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 117
+[21-Jun-2020 10:08:49 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:08:49 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 10:08:49 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:08:49 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 10:08:49 UTC] デバッグ:セッションID：u181tnkir21084dro9p068pm54
+[21-Jun-2020 10:08:49 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 10:08:49 UTC] デバッグ:現在日時タイムスタンプ：1592734129
+[21-Jun-2020 10:08:49 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 10:08:49 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 10:08:49 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:08:49 UTC] デバッグ:SQL：SELECT * FROM productLIMIT20OFFSET0
+[21-Jun-2020 10:08:49 UTC] デバッグ:クエリに失敗しました。
+[21-Jun-2020 10:08:49 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => SELECT * FROM productLIMIT20OFFSET0
+)
+
+[21-Jun-2020 10:08:49 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 10:08:49 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:08:49 UTC] デバッグ:現在のページ：1
+[21-Jun-2020 10:08:49 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 10:08:49 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 91
+[21-Jun-2020 10:08:49 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 94
+[21-Jun-2020 10:08:49 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 99
+[21-Jun-2020 10:08:49 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 117
+[21-Jun-2020 10:13:42 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:13:42 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 10:13:42 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:13:42 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 10:13:42 UTC] デバッグ:セッションID：49ghgcrm8iprjgsk69iavpa8io
+[21-Jun-2020 10:13:42 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 10:13:42 UTC] デバッグ:現在日時タイムスタンプ：1592734422
+[21-Jun-2020 10:13:42 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 10:13:42 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 10:13:42 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:13:42 UTC] デバッグ:SQL：SELECT * FROM product
+[21-Jun-2020 10:13:42 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:13:42 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 10:13:42 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:13:42 UTC] デバッグ:現在のページ：1
+[21-Jun-2020 10:13:42 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 10:15:55 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:15:55 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 10:15:55 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:15:55 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 10:15:55 UTC] デバッグ:セッションID：cttre03am9pp8vhjt7f2cducer
+[21-Jun-2020 10:15:55 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 10:15:55 UTC] デバッグ:現在日時タイムスタンプ：1592734555
+[21-Jun-2020 10:15:55 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 10:15:55 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 10:15:55 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:15:55 UTC] デバッグ:SQL：SELECT * FROM product
+[21-Jun-2020 10:15:55 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:15:55 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 10:15:55 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:15:55 UTC] デバッグ:現在のページ：1
+[21-Jun-2020 10:15:55 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 10:16:20 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:16:20 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 10:16:20 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:16:20 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 10:16:20 UTC] デバッグ:セッションID：hou9td1pajqq37f743j9i31831
+[21-Jun-2020 10:16:20 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 10:16:20 UTC] デバッグ:現在日時タイムスタンプ：1592734580
+[21-Jun-2020 10:16:20 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 10:16:20 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 10:16:20 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:16:20 UTC] デバッグ:SQL：SELECT * FROM product
+[21-Jun-2020 10:16:20 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:16:20 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 10:16:20 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:16:20 UTC] デバッグ:現在のページ：1
+[21-Jun-2020 10:16:20 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 10:16:31 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:16:31 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 10:16:31 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:16:31 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 10:16:31 UTC] デバッグ:セッションID：ttese4suuor77gravfg8q57etl
+[21-Jun-2020 10:16:31 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 10:16:31 UTC] デバッグ:現在日時タイムスタンプ：1592734591
+[21-Jun-2020 10:16:31 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 10:16:31 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 10:16:31 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:16:31 UTC] デバッグ:SQL：SELECT * FROM product
+[21-Jun-2020 10:16:31 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:16:31 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 10:16:31 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:16:31 UTC] デバッグ:現在のページ：1
+[21-Jun-2020 10:16:31 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 10:17:02 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:17:02 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 10:17:02 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:17:02 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 10:17:02 UTC] デバッグ:セッションID：5urg8klmbrg8o20umsda4le6d0
+[21-Jun-2020 10:17:02 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 10:17:02 UTC] デバッグ:現在日時タイムスタンプ：1592734622
+[21-Jun-2020 10:17:02 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 10:17:02 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 10:17:02 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:17:02 UTC] デバッグ:SQL：SELECT * FROM product
+[21-Jun-2020 10:17:02 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:17:02 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 10:17:02 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:17:02 UTC] デバッグ:現在のページ：1
+[21-Jun-2020 10:17:02 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 10:21:35 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:21:35 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 10:21:35 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:21:35 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 10:21:35 UTC] デバッグ:セッションID：tuem34ngo4aqhj03rq6o6qfmb6
+[21-Jun-2020 10:21:35 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 10:21:35 UTC] デバッグ:現在日時タイムスタンプ：1592734895
+[21-Jun-2020 10:21:35 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 10:21:35 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 10:21:35 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:21:35 UTC] デバッグ:SQL：SELECT * FROM product
+[21-Jun-2020 10:21:35 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:21:35 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 10:21:35 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:21:35 UTC] デバッグ:現在のページ：1
+[21-Jun-2020 10:21:35 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 10:21:40 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:21:40 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 10:21:40 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:21:40 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 10:21:40 UTC] デバッグ:セッションID：b38n39bs4m5iu637ljngoch4lt
+[21-Jun-2020 10:21:40 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 10:21:40 UTC] デバッグ:現在日時タイムスタンプ：1592734900
+[21-Jun-2020 10:21:40 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 10:21:40 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 10:21:40 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:21:40 UTC] デバッグ:SQL：SELECT * FROM product
+[21-Jun-2020 10:21:40 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:21:40 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 10:21:40 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:21:40 UTC] デバッグ:現在のページ：2
+[21-Jun-2020 10:21:40 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 10:21:43 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:21:43 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 10:21:43 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:21:43 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 10:21:43 UTC] デバッグ:セッションID：a8c98o113puv24c38mtcit3t74
+[21-Jun-2020 10:21:43 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 10:21:43 UTC] デバッグ:現在日時タイムスタンプ：1592734903
+[21-Jun-2020 10:21:43 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 10:21:43 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 10:21:43 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:21:43 UTC] デバッグ:SQL：SELECT * FROM product
+[21-Jun-2020 10:21:43 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:21:43 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 10:21:43 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:21:43 UTC] デバッグ:現在のページ：3
+[21-Jun-2020 10:21:43 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 10:21:46 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:21:46 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 10:21:46 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:21:46 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 10:21:46 UTC] デバッグ:セッションID：9cji5e4cd8sgfnbun83ua8m16u
+[21-Jun-2020 10:21:46 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 10:21:46 UTC] デバッグ:現在日時タイムスタンプ：1592734906
+[21-Jun-2020 10:21:46 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 10:21:46 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 10:21:46 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:21:46 UTC] デバッグ:SQL：SELECT * FROM product
+[21-Jun-2020 10:21:46 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:21:46 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 10:21:46 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:21:46 UTC] デバッグ:現在のページ：4
+[21-Jun-2020 10:21:46 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 10:21:50 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:21:50 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 10:21:50 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:21:50 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 10:21:50 UTC] デバッグ:セッションID：bt3urrfmhg4dnq1hi9hb1cfgae
+[21-Jun-2020 10:21:50 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 10:21:50 UTC] デバッグ:現在日時タイムスタンプ：1592734910
+[21-Jun-2020 10:21:50 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 10:21:50 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 10:21:50 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:21:50 UTC] デバッグ:SQL：SELECT * FROM product
+[21-Jun-2020 10:21:50 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:21:50 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 10:21:50 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:21:50 UTC] デバッグ:現在のページ：1
+[21-Jun-2020 10:21:50 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 10:23:03 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:23:03 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 10:23:03 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:23:03 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 10:23:03 UTC] デバッグ:セッションID：54qkflur74st57siu657qj3u3c
+[21-Jun-2020 10:23:03 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 10:23:03 UTC] デバッグ:現在日時タイムスタンプ：1592734983
+[21-Jun-2020 10:23:03 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 10:23:03 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 10:23:03 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:23:03 UTC] デバッグ:SQL：SELECT * FROM product
+[21-Jun-2020 10:23:03 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:23:03 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 10:23:03 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:23:03 UTC] デバッグ:現在のページ：1
+[21-Jun-2020 10:23:03 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 10:23:10 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:23:10 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 10:23:10 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:23:10 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 10:23:10 UTC] デバッグ:セッションID：e8cdjbvgt069rglio2gotmjvvn
+[21-Jun-2020 10:23:10 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 10:23:10 UTC] デバッグ:現在日時タイムスタンプ：1592734990
+[21-Jun-2020 10:23:10 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 10:23:10 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 10:23:10 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:23:10 UTC] デバッグ:SQL：SELECT * FROM product
+[21-Jun-2020 10:23:10 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:23:10 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 10:23:10 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:23:10 UTC] デバッグ:現在のページ：5
+[21-Jun-2020 10:23:10 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 10:23:14 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:23:14 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 10:23:14 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:23:14 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 10:23:14 UTC] デバッグ:セッションID：5a92f0ud3pv9fciielhej9tpgv
+[21-Jun-2020 10:23:14 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 10:23:14 UTC] デバッグ:現在日時タイムスタンプ：1592734994
+[21-Jun-2020 10:23:14 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 10:23:14 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 10:23:14 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:23:14 UTC] デバッグ:SQL：SELECT * FROM product
+[21-Jun-2020 10:23:14 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:23:14 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 10:23:14 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:23:14 UTC] デバッグ:現在のページ：7
+[21-Jun-2020 10:23:14 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 10:23:17 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:23:17 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 10:23:17 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:23:17 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 10:23:17 UTC] デバッグ:セッションID：898c41ad2s4uqnhjhmtoo7ruqp
+[21-Jun-2020 10:23:17 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 10:23:17 UTC] デバッグ:現在日時タイムスタンプ：1592734997
+[21-Jun-2020 10:23:17 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 10:23:17 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 10:23:17 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:23:17 UTC] デバッグ:SQL：SELECT * FROM product
+[21-Jun-2020 10:23:17 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:23:17 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 10:23:17 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:23:17 UTC] デバッグ:現在のページ：8
+[21-Jun-2020 10:23:17 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 10:23:21 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:23:21 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 10:23:21 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:23:21 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 10:23:21 UTC] デバッグ:セッションID：2qlrgk4mnfaclt009e3fsb0gb6
+[21-Jun-2020 10:23:21 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 10:23:21 UTC] デバッグ:現在日時タイムスタンプ：1592735001
+[21-Jun-2020 10:23:21 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 10:23:21 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 10:23:21 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:23:21 UTC] デバッグ:SQL：SELECT * FROM product
+[21-Jun-2020 10:23:21 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:23:21 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 10:23:21 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:23:21 UTC] デバッグ:現在のページ：1
+[21-Jun-2020 10:23:21 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 10:23:28 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:23:28 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 10:23:28 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:23:28 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 10:23:28 UTC] デバッグ:セッションID：4j01r045n3hht7aqgbrtjb4u8s
+[21-Jun-2020 10:23:28 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 10:23:28 UTC] デバッグ:現在日時タイムスタンプ：1592735008
+[21-Jun-2020 10:23:28 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 10:23:28 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 10:23:28 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:23:28 UTC] デバッグ:SQL：SELECT * FROM product
+[21-Jun-2020 10:23:28 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:23:28 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 10:23:28 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:23:28 UTC] デバッグ:現在のページ：5
+[21-Jun-2020 10:23:28 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 10:23:33 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:23:33 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 10:23:33 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:23:33 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 10:23:33 UTC] デバッグ:セッションID：kmai2rgrk498469ud4bbujs8d6
+[21-Jun-2020 10:23:33 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 10:23:33 UTC] デバッグ:現在日時タイムスタンプ：1592735013
+[21-Jun-2020 10:23:33 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 10:23:33 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 10:23:33 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:23:33 UTC] デバッグ:SQL：SELECT * FROM product
+[21-Jun-2020 10:23:33 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:23:33 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 10:23:33 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:23:33 UTC] デバッグ:現在のページ：1
+[21-Jun-2020 10:23:33 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 10:25:59 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:25:59 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 10:25:59 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:25:59 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 10:25:59 UTC] デバッグ:セッションID：4ulooivm2kohaea8csmqd2hcsi
+[21-Jun-2020 10:25:59 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 10:25:59 UTC] デバッグ:現在日時タイムスタンプ：1592735159
+[21-Jun-2020 10:25:59 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 10:25:59 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 10:25:59 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:25:59 UTC] デバッグ:SQL：SELECT * FROM product
+[21-Jun-2020 10:25:59 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:25:59 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 10:25:59 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:25:59 UTC] デバッグ:現在のページ：1
+[21-Jun-2020 10:25:59 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 10:26:03 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:26:03 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 10:26:03 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:26:03 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 10:26:03 UTC] デバッグ:セッションID：467h7ukvrsmr6lsnab2meiiprk
+[21-Jun-2020 10:26:03 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 10:26:03 UTC] デバッグ:現在日時タイムスタンプ：1592735163
+[21-Jun-2020 10:26:03 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 10:26:03 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 10:26:03 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:26:03 UTC] デバッグ:SQL：SELECT * FROM product
+[21-Jun-2020 10:26:03 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:26:03 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 10:26:03 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:26:03 UTC] デバッグ:現在のページ：1
+[21-Jun-2020 10:26:03 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 10:31:45 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:31:45 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 10:31:45 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:31:45 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 10:31:45 UTC] デバッグ:セッションID：oi3klsusacrbsip2umbt0iujbc
+[21-Jun-2020 10:31:45 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 10:31:45 UTC] デバッグ:現在日時タイムスタンプ：1592735505
+[21-Jun-2020 10:31:45 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 10:31:45 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 10:31:45 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:31:45 UTC] デバッグ:SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[21-Jun-2020 10:31:45 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:31:45 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 10:31:45 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:31:45 UTC] デバッグ:現在のページ：1
+[21-Jun-2020 10:31:45 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 10:31:57 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:31:57 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 10:31:57 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:31:57 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 10:31:57 UTC] デバッグ:セッションID：g3gko7c6i9b357nbjoge912cf7
+[21-Jun-2020 10:31:57 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 10:31:57 UTC] デバッグ:現在日時タイムスタンプ：1592735517
+[21-Jun-2020 10:31:57 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 10:31:57 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 10:31:57 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:31:57 UTC] デバッグ:SQL：SELECT * FROM productLIMIT20OFFSET0
+[21-Jun-2020 10:31:57 UTC] デバッグ:クエリに失敗しました。
+[21-Jun-2020 10:31:57 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => SELECT * FROM productLIMIT20OFFSET0
+)
+
+[21-Jun-2020 10:31:57 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 10:31:57 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:31:57 UTC] デバッグ:現在のページ：1
+[21-Jun-2020 10:31:57 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 10:31:57 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 91
+[21-Jun-2020 10:31:57 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 94
+[21-Jun-2020 10:31:57 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 99
+[21-Jun-2020 10:31:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 99
+[21-Jun-2020 10:31:57 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 117
+[21-Jun-2020 10:32:09 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:32:09 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 10:32:09 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:32:09 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 10:32:09 UTC] デバッグ:セッションID：md96h0lo6pj9dmepeegkclcdub
+[21-Jun-2020 10:32:09 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 10:32:09 UTC] デバッグ:現在日時タイムスタンプ：1592735529
+[21-Jun-2020 10:32:09 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 10:32:09 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 10:32:09 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:32:09 UTC] デバッグ:SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[21-Jun-2020 10:32:09 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:32:09 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 10:32:09 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:32:09 UTC] デバッグ:現在のページ：1
+[21-Jun-2020 10:32:09 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 10:32:35 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:32:35 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 10:32:35 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:32:35 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 10:32:35 UTC] デバッグ:セッションID：nb4smp0goavbnajc9i5ltv5oie
+[21-Jun-2020 10:32:35 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 10:32:35 UTC] デバッグ:現在日時タイムスタンプ：1592735555
+[21-Jun-2020 10:32:35 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 10:32:35 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 10:32:35 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:32:35 UTC] デバッグ:SQL：SELECT * FROM productLIMIT 20OFFSET 0
+[21-Jun-2020 10:32:35 UTC] デバッグ:クエリに失敗しました。
+[21-Jun-2020 10:32:35 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => SELECT * FROM productLIMIT 20OFFSET 0
+)
+
+[21-Jun-2020 10:32:35 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 10:32:35 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:32:35 UTC] デバッグ:現在のページ：1
+[21-Jun-2020 10:32:35 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 10:32:35 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 91
+[21-Jun-2020 10:32:35 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 94
+[21-Jun-2020 10:32:35 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 99
+[21-Jun-2020 10:32:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 99
+[21-Jun-2020 10:32:35 UTC] PHP Notice:  Trying to access array offset on value of type bool in /Applications/MAMP/htdocs/webservice_lesson1/index.php on line 117
+[21-Jun-2020 10:32:42 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:32:42 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 10:32:42 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:32:42 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 10:32:42 UTC] デバッグ:セッションID：009b0ddlrvmlp0hcl05f9sm1jm
+[21-Jun-2020 10:32:42 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 10:32:42 UTC] デバッグ:現在日時タイムスタンプ：1592735562
+[21-Jun-2020 10:32:42 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 10:32:42 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 10:32:42 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:32:42 UTC] デバッグ:SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[21-Jun-2020 10:32:42 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:32:42 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 10:32:42 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:32:42 UTC] デバッグ:現在のページ：1
+[21-Jun-2020 10:32:42 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 10:33:49 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:33:49 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 10:33:49 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:33:49 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 10:33:49 UTC] デバッグ:セッションID：hnlt7humqui06f7aqdobv2ih19
+[21-Jun-2020 10:33:49 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 10:33:49 UTC] デバッグ:現在日時タイムスタンプ：1592735629
+[21-Jun-2020 10:33:49 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 10:33:49 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 10:33:49 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:33:49 UTC] デバッグ:SQL：SELECT * FROM product LIMIT 20 OFFSET 20
+[21-Jun-2020 10:33:49 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:33:49 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 10:33:49 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:33:49 UTC] デバッグ:現在のページ：2
+[21-Jun-2020 10:33:49 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 10:33:51 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:33:51 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 10:33:51 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:33:51 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 10:33:51 UTC] デバッグ:セッションID：875jp1arpglvh2afb1nd03e90t
+[21-Jun-2020 10:33:51 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 10:33:51 UTC] デバッグ:現在日時タイムスタンプ：1592735631
+[21-Jun-2020 10:33:51 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 10:33:51 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 10:33:51 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:33:51 UTC] デバッグ:SQL：SELECT * FROM product LIMIT 20 OFFSET 40
+[21-Jun-2020 10:33:51 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:33:51 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 10:33:51 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:33:51 UTC] デバッグ:現在のページ：3
+[21-Jun-2020 10:33:51 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 10:33:52 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:33:52 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 10:33:52 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:33:52 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 10:33:52 UTC] デバッグ:セッションID：rfduheu4nikru2khntqprdr9gf
+[21-Jun-2020 10:33:52 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 10:33:52 UTC] デバッグ:現在日時タイムスタンプ：1592735632
+[21-Jun-2020 10:33:52 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 10:33:52 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 10:33:52 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:33:52 UTC] デバッグ:SQL：SELECT * FROM product LIMIT 20 OFFSET 60
+[21-Jun-2020 10:33:52 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:33:52 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 10:33:52 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:33:52 UTC] デバッグ:現在のページ：4
+[21-Jun-2020 10:33:52 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 10:33:54 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:33:54 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 10:33:54 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:33:54 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 10:33:54 UTC] デバッグ:セッションID：5nkh1bd1uj92k9d3eb42vhp4eu
+[21-Jun-2020 10:33:54 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 10:33:54 UTC] デバッグ:現在日時タイムスタンプ：1592735634
+[21-Jun-2020 10:33:54 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 10:33:54 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 10:33:54 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:33:54 UTC] デバッグ:SQL：SELECT * FROM product LIMIT 20 OFFSET 80
+[21-Jun-2020 10:33:54 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:33:54 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 10:33:54 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:33:54 UTC] デバッグ:現在のページ：5
+[21-Jun-2020 10:33:54 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 10:33:56 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:33:56 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 10:33:56 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:33:56 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 10:33:56 UTC] デバッグ:セッションID：r76paqkgst7p966hf6a1rhduv7
+[21-Jun-2020 10:33:56 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 10:33:56 UTC] デバッグ:現在日時タイムスタンプ：1592735636
+[21-Jun-2020 10:33:56 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 10:33:56 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 10:33:56 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:33:56 UTC] デバッグ:SQL：SELECT * FROM product LIMIT 20 OFFSET 100
+[21-Jun-2020 10:33:56 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:33:56 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 10:33:56 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:33:56 UTC] デバッグ:現在のページ：6
+[21-Jun-2020 10:33:56 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 10:33:57 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:33:57 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 10:33:57 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:33:57 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 10:33:57 UTC] デバッグ:セッションID：rffb2mlj5hmtgbmv69l140kfta
+[21-Jun-2020 10:33:57 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 10:33:57 UTC] デバッグ:現在日時タイムスタンプ：1592735637
+[21-Jun-2020 10:33:57 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 10:33:57 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 10:33:57 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:33:57 UTC] デバッグ:SQL：SELECT * FROM product LIMIT 20 OFFSET 120
+[21-Jun-2020 10:33:57 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:33:57 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 10:33:57 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:33:57 UTC] デバッグ:現在のページ：7
+[21-Jun-2020 10:33:57 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 10:33:58 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:33:58 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 10:33:58 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:33:58 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 10:33:58 UTC] デバッグ:セッションID：3g9hb6da9fg8rh5862v9id569l
+[21-Jun-2020 10:33:58 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 10:33:58 UTC] デバッグ:現在日時タイムスタンプ：1592735638
+[21-Jun-2020 10:33:58 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 10:33:58 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 10:33:58 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:33:58 UTC] デバッグ:SQL：SELECT * FROM product LIMIT 20 OFFSET 140
+[21-Jun-2020 10:33:58 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:33:58 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 10:33:58 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:33:58 UTC] デバッグ:現在のページ：8
+[21-Jun-2020 10:33:58 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 10:34:00 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:34:00 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 10:34:00 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:34:00 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 10:34:00 UTC] デバッグ:セッションID：9tabjl0q1sksn17ajkt1ih0qp6
+[21-Jun-2020 10:34:00 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 10:34:00 UTC] デバッグ:現在日時タイムスタンプ：1592735640
+[21-Jun-2020 10:34:00 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 10:34:00 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 10:34:00 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:34:00 UTC] デバッグ:SQL：SELECT * FROM product LIMIT 20 OFFSET 100
+[21-Jun-2020 10:34:00 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:34:00 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 10:34:00 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:34:00 UTC] デバッグ:現在のページ：6
+[21-Jun-2020 10:34:00 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 10:34:01 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:34:01 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 10:34:01 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:34:01 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 10:34:01 UTC] デバッグ:セッションID：541tjot4msnqaceh827gton1hc
+[21-Jun-2020 10:34:01 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 10:34:01 UTC] デバッグ:現在日時タイムスタンプ：1592735641
+[21-Jun-2020 10:34:01 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 10:34:01 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 10:34:01 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:34:01 UTC] デバッグ:SQL：SELECT * FROM product LIMIT 20 OFFSET 140
+[21-Jun-2020 10:34:01 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:34:01 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 10:34:01 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:34:01 UTC] デバッグ:現在のページ：8
+[21-Jun-2020 10:34:01 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 10:34:05 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:34:05 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 10:34:05 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:34:05 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 10:34:05 UTC] デバッグ:セッションID：uemksggabbn028p950r3bcnhh4
+[21-Jun-2020 10:34:05 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 10:34:05 UTC] デバッグ:現在日時タイムスタンプ：1592735645
+[21-Jun-2020 10:34:05 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 10:34:05 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 10:34:05 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:34:05 UTC] デバッグ:SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[21-Jun-2020 10:34:05 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:34:05 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 10:34:05 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:34:05 UTC] デバッグ:現在のページ：1
+[21-Jun-2020 10:34:05 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 10:37:48 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:37:48 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 10:37:48 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:37:48 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 10:37:48 UTC] デバッグ:セッションID：caj450jjrhh46aag6ld37lmtpt
+[21-Jun-2020 10:37:48 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 10:37:48 UTC] デバッグ:現在日時タイムスタンプ：1592735868
+[21-Jun-2020 10:37:48 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 10:37:48 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 10:37:48 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:37:48 UTC] デバッグ:SQL：SELECT * FROM product LIMIT20OFFSET0
+[21-Jun-2020 10:37:48 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:37:48 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 10:37:48 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:37:48 UTC] デバッグ:現在のページ：1
+[21-Jun-2020 10:37:48 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 10:39:11 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:39:11 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 10:39:11 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:39:11 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 10:39:11 UTC] デバッグ:セッションID：re8e2pb9hb5b5dbshqocqe21tm
+[21-Jun-2020 10:39:11 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 10:39:11 UTC] デバッグ:現在日時タイムスタンプ：1592735951
+[21-Jun-2020 10:39:11 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 10:39:11 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 10:39:11 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:39:11 UTC] デバッグ:SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[21-Jun-2020 10:39:11 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:39:11 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 10:39:11 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:39:11 UTC] デバッグ:現在のページ：1
+[21-Jun-2020 10:39:11 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 10:39:14 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:39:14 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 10:39:14 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:39:14 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 10:39:14 UTC] デバッグ:セッションID：8ovqqurcupg0pocomvnakov30e
+[21-Jun-2020 10:39:14 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 10:39:14 UTC] デバッグ:現在日時タイムスタンプ：1592735954
+[21-Jun-2020 10:39:14 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 10:39:14 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 10:39:14 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:39:14 UTC] デバッグ:SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[21-Jun-2020 10:39:14 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:39:14 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 10:39:14 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:39:14 UTC] デバッグ:現在のページ：1
+[21-Jun-2020 10:39:14 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[21-Jun-2020 10:39:29 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:39:29 UTC] デバッグ:「　トップページ　
+[21-Jun-2020 10:39:29 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[21-Jun-2020 10:39:29 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[21-Jun-2020 10:39:29 UTC] デバッグ:セッションID：4onbenah6u37rcp1f80g0q8urr
+[21-Jun-2020 10:39:29 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1592708438
+    [login_limit] => 2592000
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[21-Jun-2020 10:39:29 UTC] デバッグ:現在日時タイムスタンプ：1592735969
+[21-Jun-2020 10:39:29 UTC] デバッグ:ログイン期限日時タイムスタンプ：1595300438
+[21-Jun-2020 10:39:29 UTC] デバッグ:商品情報を取得します。
+[21-Jun-2020 10:39:29 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:39:29 UTC] デバッグ:SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[21-Jun-2020 10:39:29 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:39:29 UTC] デバッグ:カテゴリー情報を取得します。
+[21-Jun-2020 10:39:29 UTC] デバッグ:クエリ成功。
+[21-Jun-2020 10:39:29 UTC] デバッグ:現在のページ：1
+[21-Jun-2020 10:39:29 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<

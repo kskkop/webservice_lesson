@@ -23,7 +23,7 @@ function debug($str){
 // セッション準備・セッション有効期限を延ばす
 //================================
 //セッションファイルの置き場を変更する（/var/tmp/以下に置くと30日は削除されない）
-session_save_path("/var/tmp");
+session_save_path("/var/tmp/");
 //ガーベージコレクションが削除するセッションの有効期限を設定（30日以上経っているものに対してだけ１００分の１の確率で削除）
 ini_set('session.gc_maxlifetime', 60*60*24*30);
 //ブラウザを閉じても削除されないようにクッキー自体の有効期限を延ばす
@@ -72,6 +72,7 @@ define('SUC01','パスワードを変更しました');
 define('SUC02','プロフィールを変更しました');
 define('SUC03','メールを送信しました');
 define('SUC04','登録しました。');
+define('SUC05','購入しました！相手と連絡をとりましょう！');
 //================================
 // グローバル変数
 //================================
@@ -321,8 +322,9 @@ function getProductList($currentMinNum = 1,$span = 20){
     }
     //ページング用のSQL文作成
     $sql = 'SELECT * FROM product';
-    $sql = 'LIMIT'.$span.'OFFSET'.$currentMinNum;
+    $sql .= ' LIMIT '.$span.' OFFSET '.$currentMinNum;//20件まで表示する
     $data = array();
+    debug('SQL：'.$sql);
     //クエリ実行
     $stmt = queryPost($dbh,$sql,$data);
 
@@ -336,6 +338,31 @@ function getProductList($currentMinNum = 1,$span = 20){
 
   }catch (Exception $e){
     error_log('エラー発生：'.$e->getMessage());
+  }
+}
+
+function getProductOne($p_id){
+  debug('商品情報を取得します。');
+  debug('商品ID：'.$p_id);
+  //例外処理
+  try{
+    //DBへ接続
+    $dbh = dbConnext();
+    //SQL文作成
+    $sql = 'SELECT p.id , p.name , p.comment, p.price, p.pic1, p.pic2, p.pic3, p.user_id, p.create_date, p.update_date, c.name AS category
+            FROM product AS p LEFT JOIN category AS c ON p.category_id = c.id WHERE p.id = :p_id AND p.delete_flg = 0 AND c.delete_flg = 0';
+    $data = array(':p_id' => $p_id);
+    //クエリ実行
+    $stmt = queryPost($dbh,$sql,$data);
+
+    if($stmt){
+      //クエリ結果のデータを１レコード返却
+      return $stmt->fetch(PDO::FETCH_ASSOC);
+    }else{
+      return false;
+    }
+  }catch(Exception $e){
+    error_log('エラー発生'.$e->getMessage());
   }
 }
 function getCategory(){

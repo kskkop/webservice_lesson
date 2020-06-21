@@ -32,7 +32,7 @@ if (!is_int((int)$currentPageNum)) {
 //表示件数 1ページの商品数
 $listSpan = 20;
 //現在の表示レコード先頭を算出
-$currentMinNum = (($currentPageNum-1)*$listSpan); //1ページ目なら(1-1)*20 = 0、2ページ目なら(2-1)*20 = 20
+$currentMinNum = (($currentPageNum - 1)*$listSpan); //1ページ目なら(1-1)*20 = 0、2ページ目なら(2-1)*20 = 20
 //DBから商品データを取得
 $dbProductData = getProductList($currentMinNum);
 //DBからカテゴリーデータを取得
@@ -116,7 +116,7 @@ require('head.php');
           $pageColNum = 5;
           $totalPageNum = $dbProductData['total_page'];
           //現在のページが総ページ数を同じかつそうページ数が表示項目数以上なら左にリンクを４個出す
-          if ($currentPageNum == $totalPageNum && $totalPageNum >= $pageColNum) {
+          if($currentPageNum == $totalPageNum && $totalPageNum >= $pageColNum) {
             $minPageNum = $currentPageNum - 4;
             $maxPageNum = $currentPageNum;
             //現在のページが、総ページの１ページ前なら、左にリンク３個、右に一個出す
@@ -128,7 +128,7 @@ require('head.php');
             $minPageNum = $currentPageNum - 1;
             $maxPageNum = $currentPageNum + 3;
             //現ページが１の場合は左に何も出さない。右に５個出す。
-          } elseif ($currentPageNum == 1 && $totlaPageNum >= $pageColNum) {
+          } elseif ($currentPageNum == 1 && $totalPageNum >= $pageColNum) {
             $minPageNum = $currentPageNum;
             $maxPageNum = 5;
             //総ページ数が表示項目数より少ない場合は、総ページ数をループのMax、ループのMinを１に設定
@@ -141,17 +141,17 @@ require('head.php');
             $maxPageNum = $currentPageNum + 2;
           }
           ?>
-          <?php if ($currentPageNum != 1) : ?>
+          <?php if($currentPageNum != 1): ?>
             <li class="list-item"><a href="?p=1">&lt;</a></li>
           <?php endif; ?>
           <?php
-          for ($i = $minPageNum; $i <= $maxPageNum; $i++) :
+          for($i = $minPageNum; $i <= $maxPageNum; $i++):
           ?>
-            <li class="list-item <?php if ($currentPageNum == $i) echo 'active'; ?>"><a href="?p=<?php echo $i; ?>"><?php echo $i; ?></a></li>
+            <li class="list-item <?php if($currentPageNum == $i ) echo 'active'; ?>"><a href="?p=<?php echo $i; ?>"><?php echo $i; ?></a></li>
           <?php
           endfor;
           ?>
-          <?php if ($currentPageNum != $maxPageNum) : ?>
+          <?php if($currentPageNum != $maxPageNum): ?>
             <li class="list-item"><a href="?p=<?php echo $maxPageNum; ?>">&gt;</a></li>
           <?php endif; ?>
         </ul>
