@@ -349,7 +349,11 @@ function getProductOne($p_id){
     //DBへ接続
     $dbh = dbConnect();
     //SQL文作成
-    $sql = 'SELECT p.id , p.name , p.comment, p.price, p.pic1, p.pic2, p.pic3, p.user_id, p.create_date, p.update_date, c.name AS category
+    //p. productテーブル product AS p
+    //JOIN テーブル同士をくっつけて一度にDBを検索する
+    //INNER JOIN 内部結合
+    //LEFT JOIN RIGHT JOIN 外部結合
+        $sql = 'SELECT p.id , p.name , p.comment, p.price, p.pic1, p.pic2, p.pic3, p.user_id, p.create_date, p.update_date, c.name AS category
             FROM product AS p LEFT JOIN category AS c ON p.category_id = c.id WHERE p.id = :p_id AND p.delete_flg = 0 AND c.delete_flg = 0';
     $data = array(':p_id' => $p_id);
     //クエリ実行
