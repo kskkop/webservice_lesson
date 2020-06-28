@@ -61,6 +61,13 @@
         $countUp.on('keyup',function(e){
             $countView.html($(this).val().length);
         });
+
+        //画像切替
+        var $switchImgSubs = $('.js-switch-img-sub'),
+            $switchImgMain = $('#js-switch-img-main');
+        $switchImgSubs.on('click',function(e){
+            $switchImgMain.attr('src',$(this).attr('src'));//クリックされたものをメインにする
+        });
     });
 </script>
 </body>

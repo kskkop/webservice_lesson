@@ -118,7 +118,7 @@ function validEmailDup($email){
       $err_msg['email'] = MSG08;
     }
   }catch (Exception $e){
-    error_log('エラー発生' . $e->getMessage());
+    error_log('エラー発生:' . $e->getMessage());
     $err_msg['common'] = MSG07;
   }
 }
@@ -304,7 +304,7 @@ function getProduct($u_id,$p_id){
     error_log('エラー発生:'.$e->getMessage());
   }
 }
-function getProductList($currentMinNum = 1,$span = 20){
+function getProductList($currentMinNum = 1,$category,$sort,$span = 20){
   debug('商品情報を取得します。');
   //例外処理
   try{
@@ -312,6 +312,17 @@ function getProductList($currentMinNum = 1,$span = 20){
     $dbh = dbConnect();
     //件数用のSQL文作成
     $sql = 'SELECT id FROM product';
+    if(!empty($category)) $sql .= ' WHERE category_id = '.$category;//$categoryのパラメータがある場合
+    if(!empty($sort)){
+      switch($sort){
+        case 1:
+          $sql .= ' ORDER BY price ASC';//昇順 ASC
+        break;
+        case 2:
+          $sql .= ' ORDER BY price DESC';//降順 DESC
+        break;
+      }
+    }
     $data = array();
     //クエリ実行
     $stmt = queryPost($dbh,$sql,$data);
@@ -322,6 +333,17 @@ function getProductList($currentMinNum = 1,$span = 20){
     }
     //ページング用のSQL文作成
     $sql = 'SELECT * FROM product';
+    if(!empty($category)) $sql .= ' WHERE category_id = '.$category;//$categoryのパラメータがある場合
+    if(!empty($sort)){
+      switch($sort){
+        case 1:
+          $sql .= ' ORDER BY price ASC';//昇順 ASC
+        break;
+        case 2:
+          $sql .= ' ORDER BY price DESC';//降順 DESC
+        break;
+      }
+    }
     $sql .= ' LIMIT '.$span.' OFFSET '.$currentMinNum;//20件まで表示する
     $data = array();
     debug('SQL：'.$sql);
@@ -351,8 +373,8 @@ function getProductOne($p_id){
     //SQL文作成
     //p. productテーブル product AS p
     //JOIN テーブル同士をくっつけて一度にDBを検索する
-    //INNER JOIN 内部結合
-    //LEFT JOIN RIGHT JOIN 外部結合
+    //INNER JOIN 内部結合 product AS p INNER JOIN category AS c ON p.category_id = c.id 両方NOテーブルとマッチするものだけを表にする
+    //LEFT JOIN RIGHT JOIN 外部結合 右(左)に指定したテーブルを全て表示し、マッチする左（右）テーブルのものだけを付け加えて表にする どっちをメインにするか
         $sql = 'SELECT p.id , p.name , p.comment, p.price, p.pic1, p.pic2, p.pic3, p.user_id, p.create_date, p.update_date, c.name AS category
             FROM product AS p LEFT JOIN category AS c ON p.category_id = c.id WHERE p.id = :p_id AND p.delete_flg = 0 AND c.delete_flg = 0';
     $data = array(':p_id' => $p_id);
@@ -367,6 +389,29 @@ function getProductOne($p_id){
     }
   }catch(Exception $e){
     error_log('エラー発生'.$e->getMessage());
+  }
+}
+function getMsgsAndBord($id){
+  debug('msg情報を取得します。');
+  debug('掲示板ID：'.$id);
+  //例外処理
+  try{
+    //DBへ接続
+    $dbh = dbConnect();
+    //SQL文作成
+    $sql = 'SELECT m.id AS m_id, product, bord_id, send_date, to_user,from_user,sale_user,buy_user,msg,b.create_date FROM message AS m RIGHT JOIN bord AS b ON b.id = :id AND m.delete_flg = 0 ORDER BY send_date ASC';
+    $data = array(':id' => $id);
+    //クエリ実行
+    $stmt = queryPost($dbh,$sql,$data);
+
+    if($stmt){
+      //クエリ結果の全データを返却
+      return $stmt->fetchAll();
+    }else{
+      return false;
+    }
+  }catch(Exception $e){
+    error_log('エラー発生:'. $e->getMessage());
   }
 }
 function getCategory(){
@@ -416,30 +461,35 @@ function sanitize($str){
   return htmlspecialchars($str,ENT_QUOTES);
 }
 //フォーム入力保持
-function getFormData($str){
+function getFormData($str,$flg = false){
+  if($flg){
+    $method = $_GET;
+}else{
+  $method = $_POST;
+}
   global $dbFormData;
   //ユーザーデータがある場合
   if(!empty($dbFormData)){
     //フォームのエラーがある場合
     if(!empty($err_msg[$str])){
       //POSTにデータがある場合
-      if(isset($_POST[$str])){//金額や郵便番号などのフォームで数字や数値の0が入っている場合もあるのでissetを使うこと
-       return sanitize($_POST[$str]);
+      if(isset($method[$str])){//金額や郵便番号などのフォームで数字や数値の0が入っている場合もあるのでissetを使うこと
+       return sanitize($method[$str]);
       }else{
         //ない場合(フォームにエラーがある＝POSTされているはずなので,まずあり得ないが)DBの情報を表示
        return sanitize($dbFormData[$str]);
       }
     }else{
       //POSTにデータがあり、DBの情報と違う場合(このフォームも変更していてエラーはないが他のフォームで引っかかっている状態)
-      if(isset($_POST[$str]) && $_POST[$str] !== $dbFormData[$str]){
-       return sanitize($_POST[$str]);
+      if(isset($method[$str]) && $method[$str] !== $dbFormData[$str]){
+       return sanitize($method[$str]);
       }else{//そもそも変更していない
        return sanitize($dbFormData[$str]);
       }
     }
   }else{//ユーザーデータがない場合
-    if(isset($_POST[$str])){//issetは0が入っているとtrue空の配列もtrue
-     return sanitize($_POST[$str]);
+    if(isset($method[$str])){//issetは0が入っているとtrue空の配列もtrue
+     return sanitize($method[$str]);
     }
   }
 }
@@ -524,22 +574,22 @@ function uploadImg($file,$key){
 //$pageColNum : ページネーション表示数
 function pagination($currentPageNum,$totalPageNum,$link = '',$pageColNum = 5){
     // 現在のページが、総ページ数と同じ　かつ　総ページ数が表示項目数以上なら、左にリンク４個出す
-    if($currentPageNum == $totalPageNum && $totalPageNum >= $pageColNum){
-      $minPageNum = $currentPageNum -4;
+    if( $currentPageNum == $totalPageNum && $totalPageNum > $pageColNum){
+      $minPageNum = $currentPageNum - 4;
       $maxPageNum = $currentPageNum;
       
       //現在のページが、総ページ数の１ページ前なら、左にリンク３個、右に１個出す
-    }elseif($currentPageNum == ($totalPageNum-1) && $totalPageNum >= $pageColNum){
-      $minPageNum = $currentPageNum -3;
-      $maxPageNum = $currentPageNum +1;
+    }elseif($currentPageNum == ($totalPageNum-1) && $totalPageNum > $pageColNum){
+      $minPageNum = $currentPageNum - 3;
+      $maxPageNum = $currentPageNum + 1;
 
       //現ページが２の場合は左にリンク１個、右にリンク３個出す。
-    }elseif($currentPageNum == 2 && $totalPageNum >= $pageColNum){
-      $minPageNum = $currentPageNum -1;
-      $maxPageNum = $currentPageNum +3;
+    }elseif($currentPageNum == 2 && $totalPageNum > $pageColNum){
+      $minPageNum = $currentPageNum - 1;
+      $maxPageNum = $currentPageNum + 3;
 
       //現ページが１の場合は左に何も出さない。右に５個出す。
-    }elseif($currentPageNum == 1 && $totalPageNum >= $pageColNum){
+    }elseif($currentPageNum == 1 && $totalPageNum > $pageColNum){
       $minPageNum = $currentPageNum;
       $maxPageNum = 5;
 
@@ -550,46 +600,47 @@ function pagination($currentPageNum,$totalPageNum,$link = '',$pageColNum = 5){
 
       //それ以外は左に２個出す。
     }else{
-      $minPageNum = $currentPageNum -2;
-      $maxPageNum = $currentPageNum +2;
+      $minPageNum = $currentPageNum - 2;
+      $maxPageNum = $currentPageNum + 2;
     }
 
-    echo '<div class="pagination>';
-      echo '<ul class="pagination-list>';
+    echo '<div class="pagination">';
+      echo '<ul class="pagination-list">';
         if($currentPageNum != 1){
-          echo '<li class="list-item"><a href=""?</li>';
+          echo '<li class="list-item"><a href="?p=1'.$link.'">&lt;</a></li>';
         }
         for($i = $minPageNum; $i <= $maxPageNum; $i++){
           echo '<li class="list-item ';
           if($currentPageNum == $i){echo 'active';}
           echo '"><a href="?p='.$i.$link.'">'.$i.'</a></li>';
         }
-        if($currentPageNum != $maxPageNum){
+        if($currentPageNum != $maxPageNum && $maxPageNum > 1){
           echo '<li class="list-item"><a href="?p='.$maxPageNum.$link.'">&gt;</a></li>';
         }
       echo '</ul>';
-    echo '<div>';
+    echo '</div>';
 }
 
 //画像表示用関数
-function shoImg($path){
+function showImg($path){
   if(empty($path)){
-    return 'img/sample-img.png';
+    return 'img/sample-img.png';//画像がない場合のサンプル画像
   }else{
     return $path;
   }
 }
 //GETパラメータ付与
 //$del _key : 付与から取り除きたいGETパラメータのキー
-function appendGetParam($arr_del_key){
+function appendGetParam($arr_del_key = array()){
   if(!empty($_GET)){
     $str = '?';
     foreach($_GET as $key => $val){
-      if(!in_array($key,$arr_del_key,true)){//取り除きたいパラメータじゃない場合にurlにくっつけるパラメータを生成
+      if(!in_array($key,$arr_del_key,true)){ //取り除きたいパラメータじゃない場合にurlにくっつけるパラメータを生成
+      $str .= $key.'='.$val.'&';
       }
     }
     $str = mb_substr($str, 0,-1, "UTF-8");
-    echo $str;
+    return $str;
   }
 }
 ?>

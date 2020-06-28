@@ -36,16 +36,19 @@ if(!empty($_POST['submit'])){
         //DBへ接続
         $dbh = dbConnect();
         //SQL文作成
-        $sql = 'INSERT INTO bord(sale_user,buy_user,product_id,create_date) VALUE(:s_uid,:b_uid,:p_id,:date)';
-        $data = array('s:id' => $viewData['user_id'],':b_uid' => $_SESSION['user_id'],':p_id' => $p_id,':date' => date('Y-m-d H:i:s'));
+        debug('$viewData'.$viewData['user_id'],true);
+        debug('$_SESSION'.$_SESSION['user_id'],true);
+    
+        $sql = 'INSERT INTO bord(sale_user,buy_user,product_id,create_date) VALUES(:s_uid,:b_uid,:p_id,:date)';
+        $data = array(':s_uid' => $viewData['user_id'],':b_uid' => $_SESSION['user_id'],':p_id' => $p_id,':date' => date('Y-m-d H:i:s'));
         //クエリ実行
         $stmt = queryPost($dbh,$sql,$data);
 
         //クエリ成功の場合
         if($stmt){
-            $_SESSION['msg-success'] = SUC05;
+            $_SESSION['msg_success'] = SUC05;
             debug('連絡掲示板へ遷移します。');
-            header("Location:msg.php?m_id=".$dbh->lastInsertId());//連絡掲示板へ
+            header("Location:msg.php?m_id=".$dbh->lastInsertID());//連絡掲示板へ
         }
     }catch(Exception $e){
         error_log('エラー発生:'.$e->getMessage());
@@ -165,7 +168,8 @@ require('head.php');
       </div>
       <div class="product-buy">
         <div class="item-left">
-            <a href="index.php<?php appendGetParam(array('p_id')); ?>">&lt; 商品一覧に戻る</a>
+            <!--URL生成-->
+            <a href="index.php<?php echo appendGetParam(array('p_id')); ?>">&lt; 商品一覧に戻る</a>
         </div>
         <form action="" method="post"><!--formタグを追加しボタンをinputに変更し、style追加-->
             <div class="item-right">
