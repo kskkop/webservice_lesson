@@ -38,6 +38,7 @@ if(!empty($_POST['submit'])){
         //SQL文作成
         debug('$viewData'.$viewData['user_id'],true);
         debug('$_SESSION'.$_SESSION['user_id'],true);
+        debug('p:id'.$p_id);
     
         $sql = 'INSERT INTO bord(sale_user,buy_user,product_id,create_date) VALUES(:s_uid,:b_uid,:p_id,:date)';
         $data = array(':s_uid' => $viewData['user_id'],':b_uid' => $_SESSION['user_id'],':p_id' => $p_id,':date' => date('Y-m-d H:i:s'));
@@ -55,7 +56,7 @@ if(!empty($_POST['submit'])){
         $err_msg['common'] = MSG07;
     }
 }
-debug('画面表示処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<')
+debug('画面表示処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<');
 ?>
 <?php 
 $siteTitle = '商品詳細';

@@ -25,7 +25,7 @@ $currentPageNum = (!empty($_GET['p'])) ? $_GET['p'] : 1;
 };*/
 
 //カレントページ
-$currentPageNum = (!empty($_GETj['p'])) ? $_GET['p'] : 1;//デフォルトは１ページ目
+$currentPageNum = (!empty($_GET['p'])) ? $_GET['p'] : 1;//デフォルトは１ページ目
 //カテゴリー
 $category = (!empty($_GET['c_id'])) ? $_GET['c_id'] : '';
 //ソート順
@@ -48,7 +48,6 @@ debug('現在のページ：'.$currentPageNum);
 //debug('カテゴリデータ：'.print_r($dbCategoryData,true));
 
 debug('画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<');
-
 ?>
 
 <?php

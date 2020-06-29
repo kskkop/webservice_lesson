@@ -54,7 +54,7 @@ if (isset($partnerUserId)) {
 //相手のユーザー情報が取れたかチェック
 if (empty($partnerUserInfo)) {
     error_log('エラー発生：相手のユーザー情報が取得できませんでした');
-    header("Location.mypage.php"); //マイページへ
+    header("Location:mypage.php"); //マイページへ
 }
 //DBから自分のユーザー情報を取得
 $myUserInfo = getUser($_SESSION['user_id']);
@@ -87,7 +87,7 @@ if (!empty($_POST)) {
             $dbh = dbConnect();
             //SQL文作成
             $sql = 'INSERT INTO message (bord_id,send_date,to_user,from_user,msg,create_date)VALUES (:b_id,:send_date,:to_user,:from_user,:msg,:date)';
-            $data = array('b_id' => $m_id, ':send_date' => date('Y-m-d H:i:s'), ':to_user' => $partnerUserId, ':from_user' => $_SESSION['user_id'], 'msg' => $msg, 'date' => date('Y-m-d H:i:s'));
+            $data = array(':b_id' => $m_id, ':send_date' => date('Y-m-d H:i:s'), ':to_user' => $partnerUserId, ':from_user' => $_SESSION['user_id'], ':msg' => $msg, ':date' => date('Y-m-d H:i:s'));
             //クエリ実行
             $stmt = queryPost($dbh, $sql, $data);
 
@@ -95,7 +95,7 @@ if (!empty($_POST)) {
             if ($stmt) {
                 $_POST = array(); //POST をクリア
                 debug('連絡掲示板へ遷移します。');
-                header("Location:" . $_SERVER['PHP_SELF'] . 'm_id=' . $m_id); //自分自身に遷移する
+                header("Location: " . $_SERVER['PHP_SELF'] .'?m_id='.$m_id); //自分自身に遷移する
             }
         } catch (Exception $e) {
             error_log('エラー発生：' . $e->getMessage());
@@ -269,7 +269,7 @@ require('head.php');
         <section id="main">
             <div class="msg-info">
                 <div class="avatar-img">
-                    <img src="<?php echo showImg(sanitize($partnerUserInfo['pic1'])); ?>" alt="">
+                    <img src="<?php echo showImg(sanitize($partnerUserInfo['pic'])); ?>" alt="" class="avatar"><br>
                 </div>
                 <div class="avatar-info">
                     <?php echo sanitize($partnerUserInfo['username']) . ' ' . sanitize($partnerUserInfo['age']) . '歳' ?><br>
