@@ -399,7 +399,7 @@ function getMsgsAndBord($id){
     //DBへ接続
     $dbh = dbConnect();
     //SQL文作成
-    $sql = 'SELECT m.id AS m_id, product_id, bord_id, send_date, to_user,from_user,sale_user,buy_user,msg,b.create_date FROM message AS m RIGHT JOIN bord AS b ON b.id = m.bord_id WHERE b.id = :id ORDER BY send_date ASC';
+    $sql = 'SELECT m_id AS m, product_id, bord_id, send_date, to_user,from_user,sale_user,buy_user,msg,b.create_date FROM message AS m RIGHT JOIN bord AS b ON b.id = m.bord_id WHERE b.id = :id ORDER BY send_date ASC';
     $data = array(':id' => $id);
     //クエリ実行
     $stmt = queryPost($dbh,$sql,$data);
