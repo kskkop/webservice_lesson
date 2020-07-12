@@ -8,4 +8,6 @@
     <title><?php echo $siteTitle;?> | WEBUKATU MARKET</title>
     <link rel="stylesheet" href="style.css">
     <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <!--フォントアイコン-->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>

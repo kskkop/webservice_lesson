@@ -68,6 +68,29 @@
         $switchImgSubs.on('click',function(e){
             $switchImgMain.attr('src',$(this).attr('src'));//クリックされたものをメインにする
         });
+
+        //お気に入り登録・削除
+        let $like,
+            likeProductId;
+        $like = $('.js-click-like') || null;//nullというのはnull値という値で、「変数の中身は空ですよ」と明示する為に使う値
+        likeProductId = $like.data('productid') || null;
+        //数値の0はfalseと判定されてしまう。product_idが0の場合もあり得るので、0もtrueとする場合にはundefinedとnullを判定する
+        if(likeProductId !== undefined && likeProductId !== null){
+            $like.on('click',function(){
+                let $this = $(this);
+                $.ajax({
+                    type:"POST",
+                    url:"ajaxLike.php",
+                    data:{productId : likeProductId}
+                }).done(function(data){
+                    console.log('Ajax Success');
+                    //クラス属性をtoggleでつけ外しする
+                    $this.toggleClass('active');
+                }).fail(function(msg){
+                    console.log('Ajax Error');
+                });
+            });
+        }
     });
 </script>
 </body>

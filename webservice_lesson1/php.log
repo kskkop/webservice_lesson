@@ -33142,3 +33142,779 @@ Stack trace:
 [01-Jul-2020 13:11:50 UTC] デバッグ:ログイン済みユーザーです。
 [01-Jul-2020 13:11:50 UTC] デバッグ:ログイン有効期限以内です。
 [01-Jul-2020 13:11:50 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[12-Jul-2020 06:57:00 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 06:57:00 UTC] デバッグ:「ログインページ
+[12-Jul-2020 06:57:00 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 06:57:00 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2020 06:57:00 UTC] デバッグ:セッションID：it5v085kv4rabrr4kdn02gueo9
+[12-Jul-2020 06:57:00 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1593609110
+    [login_limit] => 3600
+    [user_id] => 18
+    [msg_success] => 
+)
+
+[12-Jul-2020 06:57:00 UTC] デバッグ:現在日時タイムスタンプ：1594537020
+[12-Jul-2020 06:57:00 UTC] デバッグ:ログイン期限日時タイムスタンプ：1593612710
+[12-Jul-2020 06:57:00 UTC] デバッグ:ログイン済みユーザーです。
+[12-Jul-2020 06:57:00 UTC] デバッグ:ログイン有効期限オーバーです。
+[12-Jul-2020 06:57:00 UTC] デバッグ:画面表示処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[12-Jul-2020 06:57:00 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 06:57:00 UTC] デバッグ:「ログインページ
+[12-Jul-2020 06:57:00 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 06:57:00 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2020 06:57:00 UTC] デバッグ:セッションID：2vmoef2aqebgl5l4jrkj58l4qg
+[12-Jul-2020 06:57:00 UTC] デバッグ:セッション変数の中身：Array
+(
+)
+
+[12-Jul-2020 06:57:00 UTC] デバッグ:現在日時タイムスタンプ：1594537020
+[12-Jul-2020 06:57:00 UTC] デバッグ:未ログインユーザーです。
+[12-Jul-2020 06:57:00 UTC] デバッグ:画面表示処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[12-Jul-2020 06:57:15 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 06:57:15 UTC] デバッグ:「ログインページ
+[12-Jul-2020 06:57:15 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 06:57:15 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2020 06:57:15 UTC] デバッグ:セッションID：8tak1iuaaffhejj9vt3mqqt35l
+[12-Jul-2020 06:57:15 UTC] デバッグ:セッション変数の中身：Array
+(
+)
+
+[12-Jul-2020 06:57:15 UTC] デバッグ:現在日時タイムスタンプ：1594537035
+[12-Jul-2020 06:57:15 UTC] デバッグ:未ログインユーザーです。
+[12-Jul-2020 06:57:15 UTC] デバッグ:POST送信があります。
+[12-Jul-2020 06:57:15 UTC] デバッグ:バリデーションOKです。
+[12-Jul-2020 06:57:15 UTC] デバッグ:クエリ成功。
+[12-Jul-2020 06:57:15 UTC] デバッグ:$stmtのなかみPDOStatement Object
+(
+    [queryString] => SELECT password,id FROM users WHERE email = :email AND delete_flg = 0
+)
+
+[12-Jul-2020 06:57:15 UTC] デバッグ:クエリ結果の中身:Array
+(
+    [password] => $2y$10$bm7y2JZ/xADmQ9Pe6NuRIe7On3kyNt/ELamwOhMDEhSv5z0KghnVS
+    [id] => 18
+)
+
+[12-Jul-2020 06:57:15 UTC] デバッグ:パスワードがマッチしました
+[12-Jul-2020 06:57:15 UTC] デバッグ:ログイン保持にチェックがあります。
+[12-Jul-2020 06:57:15 UTC] デバッグ:セッション変数の中身1
+[12-Jul-2020 06:57:15 UTC] デバッグ:マイページへ遷移します.
+[12-Jul-2020 06:57:15 UTC] デバッグ:画面表示処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[12-Jul-2020 06:57:15 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 06:57:15 UTC] デバッグ:「　マイページ　
+[12-Jul-2020 06:57:15 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 06:57:15 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2020 06:57:15 UTC] デバッグ:セッションID：5q1pad7tb6fmflfe8h7d6b12lq
+[12-Jul-2020 06:57:15 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1594537035
+    [login_limit] => 2592000
+    [user_id] => 18
+)
+
+[12-Jul-2020 06:57:15 UTC] デバッグ:現在日時タイムスタンプ：1594537035
+[12-Jul-2020 06:57:15 UTC] デバッグ:ログイン期限日時タイムスタンプ：1597129035
+[12-Jul-2020 06:57:15 UTC] デバッグ:ログイン済みユーザーです。
+[12-Jul-2020 06:57:15 UTC] デバッグ:ログイン有効期限以内です。
+[12-Jul-2020 06:57:20 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 06:57:20 UTC] デバッグ:「　マイページ　
+[12-Jul-2020 06:57:20 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 06:57:20 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2020 06:57:20 UTC] デバッグ:セッションID：1kb39e4eil7bbc9gmbk184qoak
+[12-Jul-2020 06:57:20 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1594537035
+    [login_limit] => 2592000
+    [user_id] => 18
+)
+
+[12-Jul-2020 06:57:20 UTC] デバッグ:現在日時タイムスタンプ：1594537040
+[12-Jul-2020 06:57:20 UTC] デバッグ:ログイン期限日時タイムスタンプ：1597129035
+[12-Jul-2020 06:57:20 UTC] デバッグ:ログイン済みユーザーです。
+[12-Jul-2020 06:57:20 UTC] デバッグ:ログイン有効期限以内です。
+[12-Jul-2020 06:57:25 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 06:57:25 UTC] デバッグ:「　トップページ　
+[12-Jul-2020 06:57:25 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 06:57:25 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2020 06:57:25 UTC] デバッグ:セッションID：q3fbstebdsc0b6fdjnordfanj6
+[12-Jul-2020 06:57:25 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1594537040
+    [login_limit] => 2592000
+    [user_id] => 18
+)
+
+[12-Jul-2020 06:57:25 UTC] デバッグ:現在日時タイムスタンプ：1594537045
+[12-Jul-2020 06:57:25 UTC] デバッグ:ログイン期限日時タイムスタンプ：1597129040
+[12-Jul-2020 06:57:25 UTC] デバッグ:商品情報を取得します。
+[12-Jul-2020 06:57:25 UTC] デバッグ:クエリ成功。
+[12-Jul-2020 06:57:25 UTC] デバッグ:SQL：SELECT * FROM product LIMIT 20 OFFSET 0
+[12-Jul-2020 06:57:25 UTC] デバッグ:クエリ成功。
+[12-Jul-2020 06:57:25 UTC] デバッグ:カテゴリー情報を取得します。
+[12-Jul-2020 06:57:25 UTC] デバッグ:クエリ成功。
+[12-Jul-2020 06:57:25 UTC] デバッグ:現在のページ：1
+[12-Jul-2020 06:57:25 UTC] デバッグ:画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[12-Jul-2020 06:57:27 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 06:57:27 UTC] デバッグ:「　商品詳細ページ　
+[12-Jul-2020 06:57:27 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 06:57:27 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2020 06:57:27 UTC] デバッグ:セッションID：4dj27i07pn8feeijp48cm17vqj
+[12-Jul-2020 06:57:27 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1594537040
+    [login_limit] => 2592000
+    [user_id] => 18
+)
+
+[12-Jul-2020 06:57:27 UTC] デバッグ:現在日時タイムスタンプ：1594537047
+[12-Jul-2020 06:57:27 UTC] デバッグ:ログイン期限日時タイムスタンプ：1597129040
+[12-Jul-2020 06:57:27 UTC] デバッグ:商品情報を取得します。
+[12-Jul-2020 06:57:27 UTC] デバッグ:商品ID：1
+[12-Jul-2020 06:57:27 UTC] デバッグ:クエリ成功。
+[12-Jul-2020 06:57:27 UTC] デバッグ:取得したDBデータ：Array
+(
+    [id] => 1
+    [name] => aaa
+    [comment] => 
+    [price] => 4000
+    [pic1] => uploads/4b09d249fbec4600de9455834ad2a59c5c38c371.jpeg
+    [pic2] => 
+    [pic3] => 
+    [user_id] => 18
+    [create_date] => 2020-06-21 02:59:11
+    [update_date] => 2020-06-21 11:59:11
+    [category] => スマホ
+)
+
+[12-Jul-2020 06:57:27 UTC] デバッグ:画面表示処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[12-Jul-2020 06:57:27 UTC] デバッグ:お気に入り情報があるか確認します。
+[12-Jul-2020 06:57:27 UTC] デバッグ:ユーザーID：18
+[12-Jul-2020 06:57:27 UTC] デバッグ:商品ID：1
+[12-Jul-2020 06:57:27 UTC] デバッグ:クエリ成功。
+[12-Jul-2020 06:57:27 UTC] デバッグ:特に気に入ってません
+[12-Jul-2020 06:59:25 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 06:59:25 UTC] デバッグ:「　商品詳細ページ　
+[12-Jul-2020 06:59:25 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 06:59:25 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2020 06:59:25 UTC] デバッグ:セッションID：bqbj0np2gajilhra4u3ltu9vhv
+[12-Jul-2020 06:59:25 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1594537040
+    [login_limit] => 2592000
+    [user_id] => 18
+)
+
+[12-Jul-2020 06:59:25 UTC] デバッグ:現在日時タイムスタンプ：1594537165
+[12-Jul-2020 06:59:25 UTC] デバッグ:ログイン期限日時タイムスタンプ：1597129040
+[12-Jul-2020 06:59:25 UTC] デバッグ:商品情報を取得します。
+[12-Jul-2020 06:59:25 UTC] デバッグ:商品ID：1
+[12-Jul-2020 06:59:25 UTC] デバッグ:クエリ成功。
+[12-Jul-2020 06:59:25 UTC] デバッグ:取得したDBデータ：Array
+(
+    [id] => 1
+    [name] => aaa
+    [comment] => 
+    [price] => 4000
+    [pic1] => uploads/4b09d249fbec4600de9455834ad2a59c5c38c371.jpeg
+    [pic2] => 
+    [pic3] => 
+    [user_id] => 18
+    [create_date] => 2020-06-21 02:59:11
+    [update_date] => 2020-06-21 11:59:11
+    [category] => スマホ
+)
+
+[12-Jul-2020 06:59:25 UTC] デバッグ:画面表示処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[12-Jul-2020 06:59:25 UTC] デバッグ:お気に入り情報があるか確認します。
+[12-Jul-2020 06:59:25 UTC] デバッグ:ユーザーID：18
+[12-Jul-2020 06:59:25 UTC] デバッグ:商品ID：1
+[12-Jul-2020 06:59:25 UTC] デバッグ:クエリ成功。
+[12-Jul-2020 06:59:25 UTC] デバッグ:特に気に入ってません
+[12-Jul-2020 06:59:27 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 06:59:27 UTC] デバッグ:「　Ajax　
+[12-Jul-2020 06:59:27 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 06:59:27 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2020 06:59:27 UTC] デバッグ:セッションID：0gbe4i5896ftlc0vfadamikn0a
+[12-Jul-2020 06:59:27 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1594537040
+    [login_limit] => 2592000
+    [user_id] => 18
+)
+
+[12-Jul-2020 06:59:27 UTC] デバッグ:現在日時タイムスタンプ：1594537167
+[12-Jul-2020 06:59:27 UTC] デバッグ:ログイン期限日時タイムスタンプ：1597129040
+[12-Jul-2020 06:59:27 UTC] デバッグ:ログイン済ユーザーです。
+[12-Jul-2020 06:59:27 UTC] デバッグ:ログイン有効期限以内です。
+[12-Jul-2020 06:59:27 UTC] デバッグ:POST送信があります。
+[12-Jul-2020 06:59:27 UTC] デバッグ:商品ID：1
+[12-Jul-2020 06:59:27 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /Applications/MAMP/htdocs/webservice_lesson1/function.php on line 270
+[12-Jul-2020 06:59:27 UTC] デバッグ:クエリに失敗しました。
+[12-Jul-2020 06:59:27 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => SELECT * FROM `like` WHERE product_id = p:id AND user_id = :u_id;
+)
+
+[12-Jul-2020 06:59:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on int in /Applications/MAMP/htdocs/webservice_lesson1/ajaxLike.php:29
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/webservice_lesson1/ajaxLike.php on line 29
+[12-Jul-2020 06:59:35 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 06:59:35 UTC] デバッグ:「　Ajax　
+[12-Jul-2020 06:59:35 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 06:59:35 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2020 06:59:35 UTC] デバッグ:セッションID：64j754fpsl5nfe3d9boqkbqkge
+[12-Jul-2020 06:59:35 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1594537040
+    [login_limit] => 2592000
+    [user_id] => 18
+)
+
+[12-Jul-2020 06:59:35 UTC] デバッグ:現在日時タイムスタンプ：1594537175
+[12-Jul-2020 06:59:35 UTC] デバッグ:ログイン期限日時タイムスタンプ：1597129040
+[12-Jul-2020 06:59:35 UTC] デバッグ:ログイン済ユーザーです。
+[12-Jul-2020 06:59:35 UTC] デバッグ:ログイン有効期限以内です。
+[12-Jul-2020 06:59:35 UTC] デバッグ:POST送信があります。
+[12-Jul-2020 06:59:35 UTC] デバッグ:商品ID：1
+[12-Jul-2020 06:59:35 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /Applications/MAMP/htdocs/webservice_lesson1/function.php on line 270
+[12-Jul-2020 06:59:35 UTC] デバッグ:クエリに失敗しました。
+[12-Jul-2020 06:59:35 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => SELECT * FROM `like` WHERE product_id = p:id AND user_id = :u_id;
+)
+
+[12-Jul-2020 06:59:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on int in /Applications/MAMP/htdocs/webservice_lesson1/ajaxLike.php:29
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/webservice_lesson1/ajaxLike.php on line 29
+[12-Jul-2020 06:59:36 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 06:59:36 UTC] デバッグ:「　Ajax　
+[12-Jul-2020 06:59:36 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 06:59:36 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2020 06:59:36 UTC] デバッグ:セッションID：brdfkuuas4o1cu38q65tvcue88
+[12-Jul-2020 06:59:36 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1594537040
+    [login_limit] => 2592000
+    [user_id] => 18
+)
+
+[12-Jul-2020 06:59:36 UTC] デバッグ:現在日時タイムスタンプ：1594537176
+[12-Jul-2020 06:59:36 UTC] デバッグ:ログイン期限日時タイムスタンプ：1597129040
+[12-Jul-2020 06:59:36 UTC] デバッグ:ログイン済ユーザーです。
+[12-Jul-2020 06:59:36 UTC] デバッグ:ログイン有効期限以内です。
+[12-Jul-2020 06:59:36 UTC] デバッグ:POST送信があります。
+[12-Jul-2020 06:59:36 UTC] デバッグ:商品ID：1
+[12-Jul-2020 06:59:36 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /Applications/MAMP/htdocs/webservice_lesson1/function.php on line 270
+[12-Jul-2020 06:59:36 UTC] デバッグ:クエリに失敗しました。
+[12-Jul-2020 06:59:36 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => SELECT * FROM `like` WHERE product_id = p:id AND user_id = :u_id;
+)
+
+[12-Jul-2020 06:59:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on int in /Applications/MAMP/htdocs/webservice_lesson1/ajaxLike.php:29
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/webservice_lesson1/ajaxLike.php on line 29
+[12-Jul-2020 06:59:37 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 06:59:37 UTC] デバッグ:「　Ajax　
+[12-Jul-2020 06:59:37 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 06:59:37 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2020 06:59:37 UTC] デバッグ:セッションID：rgsl49a7js8k72g2bfrealbnpu
+[12-Jul-2020 06:59:37 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1594537040
+    [login_limit] => 2592000
+    [user_id] => 18
+)
+
+[12-Jul-2020 06:59:37 UTC] デバッグ:現在日時タイムスタンプ：1594537177
+[12-Jul-2020 06:59:37 UTC] デバッグ:ログイン期限日時タイムスタンプ：1597129040
+[12-Jul-2020 06:59:37 UTC] デバッグ:ログイン済ユーザーです。
+[12-Jul-2020 06:59:37 UTC] デバッグ:ログイン有効期限以内です。
+[12-Jul-2020 06:59:37 UTC] デバッグ:POST送信があります。
+[12-Jul-2020 06:59:37 UTC] デバッグ:商品ID：1
+[12-Jul-2020 06:59:37 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /Applications/MAMP/htdocs/webservice_lesson1/function.php on line 270
+[12-Jul-2020 06:59:37 UTC] デバッグ:クエリに失敗しました。
+[12-Jul-2020 06:59:37 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => SELECT * FROM `like` WHERE product_id = p:id AND user_id = :u_id;
+)
+
+[12-Jul-2020 06:59:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on int in /Applications/MAMP/htdocs/webservice_lesson1/ajaxLike.php:29
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/webservice_lesson1/ajaxLike.php on line 29
+[12-Jul-2020 07:00:06 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 07:00:06 UTC] デバッグ:「　Ajax　
+[12-Jul-2020 07:00:06 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 07:00:06 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2020 07:00:06 UTC] デバッグ:セッションID：t0dtec99m347n1vupmimdc3et1
+[12-Jul-2020 07:00:06 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1594537040
+    [login_limit] => 2592000
+    [user_id] => 18
+)
+
+[12-Jul-2020 07:00:06 UTC] デバッグ:現在日時タイムスタンプ：1594537206
+[12-Jul-2020 07:00:06 UTC] デバッグ:ログイン期限日時タイムスタンプ：1597129040
+[12-Jul-2020 07:00:06 UTC] デバッグ:ログイン済ユーザーです。
+[12-Jul-2020 07:00:06 UTC] デバッグ:ログイン有効期限以内です。
+[12-Jul-2020 07:00:06 UTC] デバッグ:POST送信があります。
+[12-Jul-2020 07:00:06 UTC] デバッグ:商品ID：1
+[12-Jul-2020 07:00:06 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /Applications/MAMP/htdocs/webservice_lesson1/function.php on line 270
+[12-Jul-2020 07:00:06 UTC] デバッグ:クエリに失敗しました。
+[12-Jul-2020 07:00:06 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => SELECT * FROM `like` WHERE product_id = p:id AND user_id = :u_id;
+)
+
+[12-Jul-2020 07:00:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on int in /Applications/MAMP/htdocs/webservice_lesson1/ajaxLike.php:29
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/webservice_lesson1/ajaxLike.php on line 29
+[12-Jul-2020 07:00:43 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 07:00:43 UTC] デバッグ:「　Ajax　
+[12-Jul-2020 07:00:43 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 07:00:43 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2020 07:00:43 UTC] デバッグ:セッションID：bn9208bmcuqkmhirkrekslhsnh
+[12-Jul-2020 07:00:43 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1594537040
+    [login_limit] => 2592000
+    [user_id] => 18
+)
+
+[12-Jul-2020 07:00:43 UTC] デバッグ:現在日時タイムスタンプ：1594537243
+[12-Jul-2020 07:00:43 UTC] デバッグ:ログイン期限日時タイムスタンプ：1597129040
+[12-Jul-2020 07:00:43 UTC] デバッグ:ログイン済ユーザーです。
+[12-Jul-2020 07:00:43 UTC] デバッグ:ログイン有効期限以内です。
+[12-Jul-2020 07:00:43 UTC] デバッグ:POST送信があります。
+[12-Jul-2020 07:00:43 UTC] デバッグ:商品ID：1
+[12-Jul-2020 07:00:43 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /Applications/MAMP/htdocs/webservice_lesson1/function.php on line 270
+[12-Jul-2020 07:00:43 UTC] デバッグ:クエリに失敗しました。
+[12-Jul-2020 07:00:43 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => SELECT * FROM `like` WHERE product_id = p:id AND user_id = :u_id;
+)
+
+[12-Jul-2020 07:00:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on int in /Applications/MAMP/htdocs/webservice_lesson1/ajaxLike.php:29
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/webservice_lesson1/ajaxLike.php on line 29
+[12-Jul-2020 07:08:55 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 07:08:55 UTC] デバッグ:「　Ajax　
+[12-Jul-2020 07:08:55 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 07:08:55 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2020 07:08:55 UTC] デバッグ:セッションID：2bndi7m5qu2p1r6pge8sfindfm
+[12-Jul-2020 07:08:55 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1594537040
+    [login_limit] => 2592000
+    [user_id] => 18
+)
+
+[12-Jul-2020 07:08:55 UTC] デバッグ:現在日時タイムスタンプ：1594537735
+[12-Jul-2020 07:08:55 UTC] デバッグ:ログイン期限日時タイムスタンプ：1597129040
+[12-Jul-2020 07:08:55 UTC] デバッグ:ログイン済ユーザーです。
+[12-Jul-2020 07:08:55 UTC] デバッグ:ログイン有効期限以内です。
+[12-Jul-2020 07:08:55 UTC] デバッグ:POST送信があります。
+[12-Jul-2020 07:08:55 UTC] デバッグ:商品ID：1
+[12-Jul-2020 07:08:55 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /Applications/MAMP/htdocs/webservice_lesson1/function.php on line 270
+[12-Jul-2020 07:08:55 UTC] デバッグ:クエリに失敗しました。
+[12-Jul-2020 07:08:55 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => SELECT * FROM `like` WHERE product_id = p:id AND user_id = :u_id
+)
+
+[12-Jul-2020 07:08:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on int in /Applications/MAMP/htdocs/webservice_lesson1/ajaxLike.php:29
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/webservice_lesson1/ajaxLike.php on line 29
+[12-Jul-2020 07:09:05 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 07:09:05 UTC] デバッグ:「　Ajax　
+[12-Jul-2020 07:09:05 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 07:09:05 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2020 07:09:05 UTC] デバッグ:セッションID：acmcrmvt2b6s07u3e619jel5q6
+[12-Jul-2020 07:09:05 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1594537040
+    [login_limit] => 2592000
+    [user_id] => 18
+)
+
+[12-Jul-2020 07:09:05 UTC] デバッグ:現在日時タイムスタンプ：1594537745
+[12-Jul-2020 07:09:05 UTC] デバッグ:ログイン期限日時タイムスタンプ：1597129040
+[12-Jul-2020 07:09:05 UTC] デバッグ:ログイン済ユーザーです。
+[12-Jul-2020 07:09:05 UTC] デバッグ:ログイン有効期限以内です。
+[12-Jul-2020 07:09:05 UTC] デバッグ:POST送信があります。
+[12-Jul-2020 07:09:05 UTC] デバッグ:商品ID：1
+[12-Jul-2020 07:09:05 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /Applications/MAMP/htdocs/webservice_lesson1/function.php on line 270
+[12-Jul-2020 07:09:05 UTC] デバッグ:クエリに失敗しました。
+[12-Jul-2020 07:09:05 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => SELECT * FROM `like` WHERE product_id = p:id AND user_id = :u_id
+)
+
+[12-Jul-2020 07:09:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on int in /Applications/MAMP/htdocs/webservice_lesson1/ajaxLike.php:29
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/webservice_lesson1/ajaxLike.php on line 29
+[12-Jul-2020 07:09:05 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 07:09:05 UTC] デバッグ:「　Ajax　
+[12-Jul-2020 07:09:05 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 07:09:05 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2020 07:09:05 UTC] デバッグ:セッションID：53og4irip0edbm8hpek0p0147k
+[12-Jul-2020 07:09:05 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1594537040
+    [login_limit] => 2592000
+    [user_id] => 18
+)
+
+[12-Jul-2020 07:09:05 UTC] デバッグ:現在日時タイムスタンプ：1594537745
+[12-Jul-2020 07:09:05 UTC] デバッグ:ログイン期限日時タイムスタンプ：1597129040
+[12-Jul-2020 07:09:05 UTC] デバッグ:ログイン済ユーザーです。
+[12-Jul-2020 07:09:05 UTC] デバッグ:ログイン有効期限以内です。
+[12-Jul-2020 07:09:05 UTC] デバッグ:POST送信があります。
+[12-Jul-2020 07:09:05 UTC] デバッグ:商品ID：1
+[12-Jul-2020 07:09:05 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /Applications/MAMP/htdocs/webservice_lesson1/function.php on line 270
+[12-Jul-2020 07:09:05 UTC] デバッグ:クエリに失敗しました。
+[12-Jul-2020 07:09:05 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => SELECT * FROM `like` WHERE product_id = p:id AND user_id = :u_id
+)
+
+[12-Jul-2020 07:09:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on int in /Applications/MAMP/htdocs/webservice_lesson1/ajaxLike.php:29
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/webservice_lesson1/ajaxLike.php on line 29
+[12-Jul-2020 07:09:06 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 07:09:06 UTC] デバッグ:「　Ajax　
+[12-Jul-2020 07:09:06 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 07:09:06 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2020 07:09:06 UTC] デバッグ:セッションID：ogbffc6u2a153eoo6qolaokdu2
+[12-Jul-2020 07:09:06 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1594537040
+    [login_limit] => 2592000
+    [user_id] => 18
+)
+
+[12-Jul-2020 07:09:06 UTC] デバッグ:現在日時タイムスタンプ：1594537746
+[12-Jul-2020 07:09:06 UTC] デバッグ:ログイン期限日時タイムスタンプ：1597129040
+[12-Jul-2020 07:09:06 UTC] デバッグ:ログイン済ユーザーです。
+[12-Jul-2020 07:09:06 UTC] デバッグ:ログイン有効期限以内です。
+[12-Jul-2020 07:09:06 UTC] デバッグ:POST送信があります。
+[12-Jul-2020 07:09:06 UTC] デバッグ:商品ID：1
+[12-Jul-2020 07:09:06 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /Applications/MAMP/htdocs/webservice_lesson1/function.php on line 270
+[12-Jul-2020 07:09:06 UTC] デバッグ:クエリに失敗しました。
+[12-Jul-2020 07:09:06 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => SELECT * FROM `like` WHERE product_id = p:id AND user_id = :u_id
+)
+
+[12-Jul-2020 07:09:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on int in /Applications/MAMP/htdocs/webservice_lesson1/ajaxLike.php:29
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/webservice_lesson1/ajaxLike.php on line 29
+[12-Jul-2020 07:09:55 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 07:09:55 UTC] デバッグ:「　商品詳細ページ　
+[12-Jul-2020 07:09:55 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 07:09:55 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2020 07:09:55 UTC] デバッグ:セッションID：a7vrm0ehv7j04eb6449kgkmic0
+[12-Jul-2020 07:09:55 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1594537040
+    [login_limit] => 2592000
+    [user_id] => 18
+)
+
+[12-Jul-2020 07:09:55 UTC] デバッグ:現在日時タイムスタンプ：1594537795
+[12-Jul-2020 07:09:55 UTC] デバッグ:ログイン期限日時タイムスタンプ：1597129040
+[12-Jul-2020 07:09:55 UTC] デバッグ:商品情報を取得します。
+[12-Jul-2020 07:09:55 UTC] デバッグ:商品ID：1
+[12-Jul-2020 07:09:55 UTC] デバッグ:クエリ成功。
+[12-Jul-2020 07:09:55 UTC] デバッグ:取得したDBデータ：Array
+(
+    [id] => 1
+    [name] => aaa
+    [comment] => 
+    [price] => 4000
+    [pic1] => uploads/4b09d249fbec4600de9455834ad2a59c5c38c371.jpeg
+    [pic2] => 
+    [pic3] => 
+    [user_id] => 18
+    [create_date] => 2020-06-21 02:59:11
+    [update_date] => 2020-06-21 11:59:11
+    [category] => スマホ
+)
+
+[12-Jul-2020 07:09:55 UTC] デバッグ:画面表示処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[12-Jul-2020 07:09:55 UTC] デバッグ:お気に入り情報があるか確認します。
+[12-Jul-2020 07:09:55 UTC] デバッグ:ユーザーID：18
+[12-Jul-2020 07:09:55 UTC] デバッグ:商品ID：1
+[12-Jul-2020 07:09:55 UTC] デバッグ:クエリ成功。
+[12-Jul-2020 07:09:55 UTC] デバッグ:特に気に入ってません
+[12-Jul-2020 07:10:06 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 07:10:06 UTC] デバッグ:「　Ajax　
+[12-Jul-2020 07:10:06 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 07:10:06 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2020 07:10:06 UTC] デバッグ:セッションID：8udbscp8pr80c45cekud89l2bd
+[12-Jul-2020 07:10:06 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1594537040
+    [login_limit] => 2592000
+    [user_id] => 18
+)
+
+[12-Jul-2020 07:10:06 UTC] デバッグ:現在日時タイムスタンプ：1594537806
+[12-Jul-2020 07:10:06 UTC] デバッグ:ログイン期限日時タイムスタンプ：1597129040
+[12-Jul-2020 07:10:06 UTC] デバッグ:ログイン済ユーザーです。
+[12-Jul-2020 07:10:06 UTC] デバッグ:ログイン有効期限以内です。
+[12-Jul-2020 07:10:06 UTC] デバッグ:POST送信があります。
+[12-Jul-2020 07:10:06 UTC] デバッグ:商品ID：1
+[12-Jul-2020 07:10:06 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /Applications/MAMP/htdocs/webservice_lesson1/function.php on line 270
+[12-Jul-2020 07:10:06 UTC] デバッグ:クエリに失敗しました。
+[12-Jul-2020 07:10:06 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => SELECT * FROM `like` WHERE product_id = p:id AND user_id = :u_id
+)
+
+[12-Jul-2020 07:10:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function rowCount() on int in /Applications/MAMP/htdocs/webservice_lesson1/ajaxLike.php:29
+Stack trace:
+#0 {main}
+  thrown in /Applications/MAMP/htdocs/webservice_lesson1/ajaxLike.php on line 29
+[12-Jul-2020 07:10:59 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 07:10:59 UTC] デバッグ:「　商品詳細ページ　
+[12-Jul-2020 07:10:59 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 07:10:59 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2020 07:10:59 UTC] デバッグ:セッションID：6mrkp32b9hvfh1v3fsmjot18ef
+[12-Jul-2020 07:10:59 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1594537040
+    [login_limit] => 2592000
+    [user_id] => 18
+)
+
+[12-Jul-2020 07:10:59 UTC] デバッグ:現在日時タイムスタンプ：1594537859
+[12-Jul-2020 07:10:59 UTC] デバッグ:ログイン期限日時タイムスタンプ：1597129040
+[12-Jul-2020 07:10:59 UTC] デバッグ:商品情報を取得します。
+[12-Jul-2020 07:10:59 UTC] デバッグ:商品ID：1
+[12-Jul-2020 07:10:59 UTC] デバッグ:クエリ成功。
+[12-Jul-2020 07:10:59 UTC] デバッグ:取得したDBデータ：Array
+(
+    [id] => 1
+    [name] => aaa
+    [comment] => 
+    [price] => 4000
+    [pic1] => uploads/4b09d249fbec4600de9455834ad2a59c5c38c371.jpeg
+    [pic2] => 
+    [pic3] => 
+    [user_id] => 18
+    [create_date] => 2020-06-21 02:59:11
+    [update_date] => 2020-06-21 11:59:11
+    [category] => スマホ
+)
+
+[12-Jul-2020 07:10:59 UTC] デバッグ:画面表示処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[12-Jul-2020 07:10:59 UTC] デバッグ:お気に入り情報があるか確認します。
+[12-Jul-2020 07:10:59 UTC] デバッグ:ユーザーID：18
+[12-Jul-2020 07:10:59 UTC] デバッグ:商品ID：1
+[12-Jul-2020 07:10:59 UTC] デバッグ:クエリ成功。
+[12-Jul-2020 07:10:59 UTC] デバッグ:特に気に入ってません
+[12-Jul-2020 07:11:07 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 07:11:07 UTC] デバッグ:「　Ajax　
+[12-Jul-2020 07:11:07 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 07:11:07 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2020 07:11:07 UTC] デバッグ:セッションID：4mdnpmejsk7t4dgeuen8lr5goe
+[12-Jul-2020 07:11:07 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1594537040
+    [login_limit] => 2592000
+    [user_id] => 18
+)
+
+[12-Jul-2020 07:11:07 UTC] デバッグ:現在日時タイムスタンプ：1594537867
+[12-Jul-2020 07:11:07 UTC] デバッグ:ログイン期限日時タイムスタンプ：1597129040
+[12-Jul-2020 07:11:07 UTC] デバッグ:ログイン済ユーザーです。
+[12-Jul-2020 07:11:07 UTC] デバッグ:ログイン有効期限以内です。
+[12-Jul-2020 07:11:07 UTC] デバッグ:POST送信があります。
+[12-Jul-2020 07:11:07 UTC] デバッグ:商品ID：1
+[12-Jul-2020 07:11:07 UTC] デバッグ:クエリ成功。
+[12-Jul-2020 07:11:07 UTC] デバッグ:0
+[12-Jul-2020 07:11:07 UTC] PHP Warning:  PDOStatement::execute(): SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /Applications/MAMP/htdocs/webservice_lesson1/function.php on line 270
+[12-Jul-2020 07:11:07 UTC] デバッグ:クエリに失敗しました。
+[12-Jul-2020 07:11:07 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => INSERT INTO `like` (product_id,user_id,create_date) VALUES (:p_id,u_id,:date)
+)
+
+[12-Jul-2020 07:11:07 UTC] デバッグ:Ajax処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[12-Jul-2020 07:12:16 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 07:12:16 UTC] デバッグ:「　商品詳細ページ　
+[12-Jul-2020 07:12:16 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 07:12:16 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2020 07:12:16 UTC] デバッグ:セッションID：5uoamcs8pj124a8gd50j00fbgq
+[12-Jul-2020 07:12:16 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1594537040
+    [login_limit] => 2592000
+    [user_id] => 18
+)
+
+[12-Jul-2020 07:12:16 UTC] デバッグ:現在日時タイムスタンプ：1594537936
+[12-Jul-2020 07:12:16 UTC] デバッグ:ログイン期限日時タイムスタンプ：1597129040
+[12-Jul-2020 07:12:16 UTC] デバッグ:商品情報を取得します。
+[12-Jul-2020 07:12:16 UTC] デバッグ:商品ID：1
+[12-Jul-2020 07:12:16 UTC] デバッグ:クエリ成功。
+[12-Jul-2020 07:12:16 UTC] デバッグ:取得したDBデータ：Array
+(
+    [id] => 1
+    [name] => aaa
+    [comment] => 
+    [price] => 4000
+    [pic1] => uploads/4b09d249fbec4600de9455834ad2a59c5c38c371.jpeg
+    [pic2] => 
+    [pic3] => 
+    [user_id] => 18
+    [create_date] => 2020-06-21 02:59:11
+    [update_date] => 2020-06-21 11:59:11
+    [category] => スマホ
+)
+
+[12-Jul-2020 07:12:16 UTC] デバッグ:画面表示処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[12-Jul-2020 07:12:16 UTC] デバッグ:お気に入り情報があるか確認します。
+[12-Jul-2020 07:12:16 UTC] デバッグ:ユーザーID：18
+[12-Jul-2020 07:12:16 UTC] デバッグ:商品ID：1
+[12-Jul-2020 07:12:16 UTC] デバッグ:クエリ成功。
+[12-Jul-2020 07:12:16 UTC] デバッグ:特に気に入ってません
+[12-Jul-2020 07:12:21 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 07:12:21 UTC] デバッグ:「　Ajax　
+[12-Jul-2020 07:12:21 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 07:12:21 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2020 07:12:21 UTC] デバッグ:セッションID：94r2j3258jdlr044kgadeb8msq
+[12-Jul-2020 07:12:21 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1594537040
+    [login_limit] => 2592000
+    [user_id] => 18
+)
+
+[12-Jul-2020 07:12:21 UTC] デバッグ:現在日時タイムスタンプ：1594537941
+[12-Jul-2020 07:12:21 UTC] デバッグ:ログイン期限日時タイムスタンプ：1597129040
+[12-Jul-2020 07:12:21 UTC] デバッグ:ログイン済ユーザーです。
+[12-Jul-2020 07:12:21 UTC] デバッグ:ログイン有効期限以内です。
+[12-Jul-2020 07:12:21 UTC] デバッグ:POST送信があります。
+[12-Jul-2020 07:12:21 UTC] デバッグ:商品ID：1
+[12-Jul-2020 07:12:21 UTC] デバッグ:クエリ成功。
+[12-Jul-2020 07:12:21 UTC] デバッグ:0
+[12-Jul-2020 07:12:21 UTC] デバッグ:クエリに失敗しました。
+[12-Jul-2020 07:12:21 UTC] デバッグ:失敗したSQL：PDOStatement Object
+(
+    [queryString] => INSERT INTO `like` (product_id,user_id,create_date) VALUES (:p_id,:u_id,:date)
+)
+
+[12-Jul-2020 07:12:21 UTC] デバッグ:Ajax処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[12-Jul-2020 07:15:52 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 07:15:52 UTC] デバッグ:「　商品詳細ページ　
+[12-Jul-2020 07:15:52 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 07:15:52 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2020 07:15:52 UTC] デバッグ:セッションID：90uunetquv2lemlq44hu52jcv6
+[12-Jul-2020 07:15:52 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1594537040
+    [login_limit] => 2592000
+    [user_id] => 18
+)
+
+[12-Jul-2020 07:15:52 UTC] デバッグ:現在日時タイムスタンプ：1594538152
+[12-Jul-2020 07:15:52 UTC] デバッグ:ログイン期限日時タイムスタンプ：1597129040
+[12-Jul-2020 07:15:52 UTC] デバッグ:商品情報を取得します。
+[12-Jul-2020 07:15:52 UTC] デバッグ:商品ID：1
+[12-Jul-2020 07:15:52 UTC] デバッグ:クエリ成功。
+[12-Jul-2020 07:15:52 UTC] デバッグ:取得したDBデータ：Array
+(
+    [id] => 1
+    [name] => aaa
+    [comment] => 
+    [price] => 4000
+    [pic1] => uploads/4b09d249fbec4600de9455834ad2a59c5c38c371.jpeg
+    [pic2] => 
+    [pic3] => 
+    [user_id] => 18
+    [create_date] => 2020-06-21 02:59:11
+    [update_date] => 2020-06-21 11:59:11
+    [category] => スマホ
+)
+
+[12-Jul-2020 07:15:52 UTC] デバッグ:画面表示処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[12-Jul-2020 07:15:52 UTC] デバッグ:お気に入り情報があるか確認します。
+[12-Jul-2020 07:15:52 UTC] デバッグ:ユーザーID：18
+[12-Jul-2020 07:15:52 UTC] デバッグ:商品ID：1
+[12-Jul-2020 07:15:52 UTC] デバッグ:クエリ成功。
+[12-Jul-2020 07:15:52 UTC] デバッグ:特に気に入ってません
+[12-Jul-2020 07:15:56 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 07:15:56 UTC] デバッグ:「　Ajax　
+[12-Jul-2020 07:15:56 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 07:15:56 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2020 07:15:56 UTC] デバッグ:セッションID：l60mb6q7j00gjsulpntlls1tac
+[12-Jul-2020 07:15:56 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1594537040
+    [login_limit] => 2592000
+    [user_id] => 18
+)
+
+[12-Jul-2020 07:15:56 UTC] デバッグ:現在日時タイムスタンプ：1594538156
+[12-Jul-2020 07:15:56 UTC] デバッグ:ログイン期限日時タイムスタンプ：1597129040
+[12-Jul-2020 07:15:56 UTC] デバッグ:ログイン済ユーザーです。
+[12-Jul-2020 07:15:56 UTC] デバッグ:ログイン有効期限以内です。
+[12-Jul-2020 07:15:56 UTC] デバッグ:POST送信があります。
+[12-Jul-2020 07:15:56 UTC] デバッグ:商品ID：1
+[12-Jul-2020 07:15:56 UTC] デバッグ:クエリ成功。
+[12-Jul-2020 07:15:56 UTC] デバッグ:0
+[12-Jul-2020 07:15:56 UTC] デバッグ:クエリ成功。
+[12-Jul-2020 07:15:56 UTC] デバッグ:Ajax処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[12-Jul-2020 07:16:17 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 07:16:17 UTC] デバッグ:「　Ajax　
+[12-Jul-2020 07:16:17 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 07:16:17 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2020 07:16:17 UTC] デバッグ:セッションID：11v902s0qnpe2k7kv6g1qd8nqd
+[12-Jul-2020 07:16:17 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1594537040
+    [login_limit] => 2592000
+    [user_id] => 18
+)
+
+[12-Jul-2020 07:16:17 UTC] デバッグ:現在日時タイムスタンプ：1594538177
+[12-Jul-2020 07:16:17 UTC] デバッグ:ログイン期限日時タイムスタンプ：1597129040
+[12-Jul-2020 07:16:17 UTC] デバッグ:ログイン済ユーザーです。
+[12-Jul-2020 07:16:17 UTC] デバッグ:ログイン有効期限以内です。
+[12-Jul-2020 07:16:17 UTC] デバッグ:POST送信があります。
+[12-Jul-2020 07:16:17 UTC] デバッグ:商品ID：1
+[12-Jul-2020 07:16:17 UTC] デバッグ:クエリ成功。
+[12-Jul-2020 07:16:17 UTC] デバッグ:1
+[12-Jul-2020 07:16:17 UTC] デバッグ:クエリ成功。
+[12-Jul-2020 07:16:17 UTC] デバッグ:Ajax処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[12-Jul-2020 07:16:41 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 07:16:41 UTC] デバッグ:「　マイページ　
+[12-Jul-2020 07:16:41 UTC] デバッグ:「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[12-Jul-2020 07:16:41 UTC] デバッグ:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[12-Jul-2020 07:16:41 UTC] デバッグ:セッションID：kkmjcqhddgqa2idpk49hfp0ono
+[12-Jul-2020 07:16:41 UTC] デバッグ:セッション変数の中身：Array
+(
+    [login_date] => 1594537040
+    [login_limit] => 2592000
+    [user_id] => 18
+)
+
+[12-Jul-2020 07:16:41 UTC] デバッグ:現在日時タイムスタンプ：1594538201
+[12-Jul-2020 07:16:41 UTC] デバッグ:ログイン期限日時タイムスタンプ：1597129040
+[12-Jul-2020 07:16:41 UTC] デバッグ:ログイン済みユーザーです。
+[12-Jul-2020 07:16:41 UTC] デバッグ:ログイン有効期限以内です。

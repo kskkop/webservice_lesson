@@ -22,14 +22,14 @@ if(isset($_POST['productId']) && isset($_SESSION['user_id']) && isLogin()){
         $dbh = dbConnect();
         //レコードがあるか検索
         //likeという単語はLIKE検索というSQLの命令文で使われているため、そのままでは使えないのでバッククウォートで囲む
-        $sql = 'SELECT * FROM `like` WHERE product_id = p:id AND user_id = :u_id;';
-        $data = array('u:id' => $_SESSION['user_id'], 'p:id' => $p_id);
+        $sql = 'SELECT * FROM `like` WHERE product_id = :p_id AND user_id = :u_id';
+        $data = array(':u_id' => $_SESSION['user_id'], ':p_id' => $p_id);
         //クエリ実行
         $stmt = queryPost($dbh,$sql,$data);
         $resultCount = $stmt->rowCount();
         debug($resultCount);
         //レコードが一件でもある場合
-        if(!emptyU($resultCount)){
+        if(!empty($resultCount)){
             //レコードを削除する
             $sql = 'DELETE FROM `like` WHERE product_id = :p_id AND user_id = :u_id';
             $data = array(':u_id' => $_SESSION['user_id'], ':p_id' => $p_id);
@@ -37,7 +37,7 @@ if(isset($_POST['productId']) && isset($_SESSION['user_id']) && isLogin()){
             $stmt = queryPost($dbh,$sql,$data);
         }else{
             //レコードを挿入する
-            $sql = 'INSERT INTO `like` (product_id,user_id,create_date) VALUES (:p_id,u_id,:date)';
+            $sql = 'INSERT INTO `like` (product_id,user_id,create_date) VALUES (:p_id,:u_id,:date)';
             $data = array(':u_id' => $_SESSION['user_id'], ':p_id' => $p_id, ':date' => date('Y-m-d H:i:s'));
             //クエリ実行
             $stmt = queryPost($dbh,$sql,$data);

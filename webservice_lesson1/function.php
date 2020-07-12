@@ -206,6 +206,32 @@ function getErrMsg($key){
     return $err_msg[$key];
   }
 }
+//================================
+// ログイン認証
+//================================
+function isLogin(){//関数の頭にisをつけるとtrueかfalseで返すという形式にすることが多い
+  //ログインしてなかったとしてもログインページに遷移させたくないための関数
+  //ログインしている場合
+  if(!empty($_SESSION['login_date'])){
+    debug('ログイン済ユーザーです。');
+
+    //現在日時が最終ログイン日時＋有効期限を超えていた場合
+    if(($_SESSION['login_date'] + $_SESSION['login_limit']) < time()){
+      debug('ログイン有効期限オーバーです。');
+
+      //セッションを削除（ ログアウトする）
+      session_destroy();
+      return false;
+    }else{
+      debug('ログイン有効期限以内です。');
+      return true;
+    }
+
+  }else{
+    debug('未ログインユーザーです。');
+    return false;
+  }
+}
 
 //================================
 // データベース
@@ -433,6 +459,32 @@ function getCategory(){
     }
   }catch (Exception $e){
     error_log('エラー発生'.$e->getMessage());
+  }
+}
+function isLike($u_id,$p_id){
+  debug('お気に入り情報があるか確認します。');
+  debug('ユーザーID：'.$u_id);
+  debug('商品ID：'.$p_id);
+  //例外処理
+  try{
+    //DBへ接続
+    $dbh = dbConnect();
+    //SQL文作成
+    $sql = 'SELECT * FROM `like` WHERE product_id = :p_id AND user_id = :u_id';
+    $data = array(':u_id' => $u_id, ':p_id' => $p_id);
+    //クエリ実行
+    $stmt = queryPost($dbh,$sql,$data);
+
+    if($stmt->rowCount()){
+      debug('お気に入りです。');
+      return true;
+    }else{
+      debug('特に気に入ってません');
+      return false;
+    }
+    
+  }catch (Exception $e){
+    error_log('エラー発生：'.$e->getMessage());
   }
 }
 //==================================
