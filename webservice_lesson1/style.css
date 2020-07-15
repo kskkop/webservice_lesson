@@ -343,7 +343,9 @@ a.panel:hover {
 .list-table td {
   padding: 5px;
 }
-
+.list-table th{
+  text-align: left;
+}
 .list-table > .table > tbody td {
   border-right: none;
   background: #f6f5f4;
