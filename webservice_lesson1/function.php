@@ -553,7 +553,7 @@ function getMyLike($u_id){
   try{
     $dbh = dbConnect();
     //DB接続
-    $sql = 'SELECT * FROM `like` AS LEFT JOIN product AS p ON l.product_id WHERE l.user_id = :u_id';
+    $sql = 'SELECT * FROM `like` AS l LEFT JOIN product AS p ON l.product_id = p.id WHERE l.user_id = :u_id';
     $data = array(':u_id' => $u_id);
     //クエリ実行
     $stmt =queryPost($dbh,$sql,$data);

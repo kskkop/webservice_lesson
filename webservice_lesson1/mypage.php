@@ -24,7 +24,7 @@ $likeData = getMyLike($u_id);
 
 //DBからきちんとデータが全て取れているかのチェックは行わず、取れなければ何も表示しないこととする
 
-debug('取得した商品データ:'.print_r($productData,true));
+//debug('取得した商品データ:'.print_r($productData,true));
 debug('取得した連絡掲示板データ'.print_r($bordData,true));
 debug('取得したお気に入りデータ'.print_r($likeData,true));
 
@@ -64,9 +64,15 @@ require('head.php');
            </h2>
            <?php
            if(!empty($productData)):
-            foreach($productData as $key => $val):
+            foreach($productData as $key => $val):                  
+              if($key === 8){
+            break;
+            }
+            if($key > 8){
+              echo 続き;
+            }
            ?>
-           <a href="registProduct.php<?php echo (!empty(appendGetParam())) ? appendGetParam().'&p_id='.$val['id'] : 'p_id='.$val['id']; ?>" class="panel">
+           <a href="registProduct.php?<?php echo (!empty(appendGetParam())) ? appendGetParam().'&p_id='.$val['id'] : 'p_id='.$val['id']; ?>" class="panel">
           <div class="panel-head">
             <img src="<?php echo showImg(sanitize($val['pic1'])); ?>" alt="<?php echo sanitize($val['name']); ?>">
           </div>
@@ -75,6 +81,7 @@ require('head.php');
           </div>
           </a>
           <?php
+          
           endforeach;
         endif;
           ?>
@@ -101,6 +108,9 @@ require('head.php');
               <?php
               if(!empty($bordData)){
                 foreach($bordData as $key => $val){
+                  if($key === 5){
+                  break;
+                  }
                   if(!empty($val['msg'])){
                     $msg = array_shift($val['msg']);
               ?>
@@ -112,9 +122,16 @@ require('head.php');
                   <?php
                   }else{
                   ?>
+                  <tr>
+                    <td>--</td>
+                    <td>○○ ○○</td>
+                    <td><a href="msg.php?m_id=<?php echo sanitize($val['id']); ?>">まだメッセージはありません</a></td>
+                  </tr>
+                  <?php
                 }
               }
-              
+            }
+              ?>
             </tbody>
           </table>
         </section>
@@ -123,54 +140,33 @@ require('head.php');
           <h2 class="title">
             お気に入り一覧
           </h2>
-          <a href="" class="panel">
-            <div class="panel-head">
-              <img src="img/sample01.jpg" alt="商品タイトル">
-            </div>
-            <div class="panel-body">
-              <p class="panel-title">iPhone6s <span class="price">¥89,000</span></p>
-            </div>
-          </a>
-          <a href="" class="panel">
-            <div class="panel-head">
-              <img src="img/sample02.jpg" alt="商品タイトル">
-            </div>
-            <div class="panel-body">
-              <p class="panel-title">ASUS VivoBook E200HA <span class="price">¥75,000</span></p>
-            </div>
-          </a>
-          <a href="" class="panel">
-            <div class="panel-head">
-              <img src="img/sample06.jpg" alt="商品タイトル">
-            </div>
-            <div class="panel-body">
-              <p class="panel-title">MacBook Pro Retina <span class="price">¥89,000</span></p>
-            </div>
-          </a>
-          <a href="" class="panel">
-            <div class="panel-head">
-              <img src="img/sample04.jpg" alt="商品タイトル">
-            </div>
-            <div class="panel-body">
-              <p class="panel-title">ミスノ　クロスバイク <span class="price">¥29,000</span></p>
-            </div>
-          </a>
+          <?php
+          if(!empty($likeData)):
+          foreach($likeData as $key => $val):
+            if($key === 8){
+            break;
+            }
+          ?>
+          <a href="productDetail.php<?php echo (!empty(appendGetParam())) ? appendGetParam().'&p_id='.$val['id'] : '?p_id='.$val['id']; ?>" class="panel">
+        <div class="panel-head">
+          <img src="<?php echo showImg(sanitize($val['pic1'])); ?>" alt="<?php echo sanitize($val['name']); ?>">
+          </div>
+          <div class="panel-body">
+          <p class="panel-title"><?php echo sanitize($val['name']);?><span class="price">￥<?php echo sanitize(number_format($val['price'])); ?></span></p>
+          </div>
+        </a>
+        <?php
+        endforeach;
+      endif;
+        ?>
         </section>
       </section>
       
       <!-- サイドバー -->
-      <section id="sidebar">
-        <a href="registProduct.php">商品を出品する</a>
-        <a href="tranSale.php">販売履歴を見る</a>
-        <a href="profEdit.php">プロフィール編集</a>
-        <a href="passEdit.php">パスワード変更</a>
-        <a href="withdraw.php">退会</a>
-      </section>
+    <?php require('sidebar_mypage.php'); ?>
     </div>
 
     <!-- footer -->
 <?php
 require('footer.php');
 ?>
-  </body>
-</html>
